@@ -10,13 +10,13 @@ imageAlt: VMware Fusion
 ---
 
 
-\### Introduction
+### Introduction
 
 This is my journey in diving into Active Directory and learning about the vast possibilities that this services has to offer.
 
 
 
-\## Virtualization Setup Process 
+## Virtualization Setup Process 
 
 
 
@@ -24,7 +24,7 @@ I believe setting up a virtual machine is the most practical approach for learni
 
 
 
-\### Installing VMware Fusion 13 on Mac
+### Installing VMware Fusion 13 on Mac
 
 
 
@@ -38,7 +38,7 @@ Navigate to the directory where you saved the downloaded installer, and then run
 
 
 
-\### Installing Windows Server 2022 iso file
+### Installing Windows Server 2022 iso file
 
 
 
@@ -138,7 +138,7 @@ Lab processes so far
 
 
 
-\## Potential interview question
+## Potential interview question
 
 
 
@@ -150,7 +150,7 @@ Answer: Active directory users and computers.
 
 
 
-\### How to find a user in an active directory?
+### How to find a user in an active directory?
 
 
 
@@ -164,13 +164,13 @@ You can click on "view" in the navigation bar within active directory users and 
 
 
 
-\## Enable Recycle Bin
+## Enable Recycle Bin
 
 Enabling recycle bin is useful because if you delete something by accident you can retrieve. 
 
 
 
-\#### Steps to enable recycle bin
+#### Steps to enable recycle bin
 
 1. Go to the Windows Start button and search for "windows administrative tools"
 
