@@ -46,7 +46,7 @@ I will be using Windows Server 2022 as my server to control different PCs with o
 
 
 
-!\[[Blog 1 Windows Server 2022 01.png | 500]]
+![[Blog 1 Windows Server 2022 01.png | 500]]
 
 
 
