@@ -20,41 +20,41 @@ I believe setting up a virtual machine is the most practical approach for learni
 
 Navigate to the directory where you saved the downloaded installer, and then run the installer file. 
 
-![[Blog 1 Figure 1.png | 500]]
+![ 500](Blog%201%20Figure%201.png%20)
 
 
 ### Installing Windows Server 2022 iso file
 
 I will be using Windows Server 2022 as my server to control different PCs with other VMs using Active Directory.  Go to https://www.microsoft.com/en-us/evalcenter and click on Windows Server then Windows Server 2022.
 
-![[Blog 1 Windows Server 2022 01.png | 500]]
 
+![Blog 1 Windows Server 2022 01](Blog%201%20Windows%20Server%202022%2001.png)
 
 Click on "Download the ISO".
 
-![[Blog 1 Windows Server 2022 02.png | 500]]
+![ 500](Blog%201%20Windows%20Server%202022%2002.png%20)
 
 File out the registry form to start the free trial.
 
-![[Blog 1 Windows Server 2022 03.png | 500]]
+![ 500](Blog%201%20Windows%20Server%202022%2003.png%20)
 
 
 Open VMware and you will be greeted with an installation method page. For this example I will install from disc or image since I manually download the Windows Server 2022 iso file.
 
 
-![[Blog 1 Installation Method.png | 500]]
+![ 500](Blog%201%20Installation%20Method.png%20)
 
 For this example I will not be using the easy install method. I also decided to fill in the password text field.
 
-![[VMware easy installation method.png | 500]]
+![ 500](VMware%20easy%20installation%20method.png%20)
 
 
 
 
-![[Blog 1 Windows Server 2022 04.png]]
+![Blog 1 Windows Server 2022 04](Blog%201%20Windows%20Server%202022%2004.png)
 
 
-![[Blog 1 Windows Server 2022 05.png]]
+![Blog 1 Windows Server 2022 05](Blog%201%20Windows%20Server%202022%2005.png)
 
 
 
