@@ -10,13 +10,13 @@ imageAlt: VMware Fusion 13
 ---
 
 
-\### Introduction
+### Introduction
 
 This is my journey in diving into Active Directory and learning about the vast possibilities that this services has to offer.
 
 
 
-\## Virtualization Setup Process 
+## Virtualization Setup Process 
 
 
 
@@ -24,7 +24,7 @@ I believe setting up a virtual machine is the most practical approach for learni
 
 
 
-\### Installing VMware Fusion 13 on Mac
+### Installing VMware Fusion 13 on Mac
 
 
 
@@ -32,13 +32,13 @@ Navigate to the directory where you saved the downloaded installer, and then run
 
 
 
-!\[ 500](Blog%201%20Figure%201.png%20)
+![ 500](Blog%201%20Figure%201.png%20)
 
 
 
 
 
-\### Installing Windows Server 2022 iso file
+### Installing Windows Server 2022 iso file
 
 
 
@@ -48,7 +48,7 @@ I will be using Windows Server 2022 as my server to control different PCs with o
 
 
 
-!\[Blog 1 Windows Server 2022 01](Blog%201%20Windows%20Server%202022%2001.png)
+![Blog 1 Windows Server 2022 01](Blog%201%20Windows%20Server%202022%2001.png)
 
 
 
@@ -56,7 +56,7 @@ Click on "Download the ISO".
 
 
 
-!\[ 500](Blog%201%20Windows%20Server%202022%2002.png%20)
+![ 500](Blog%201%20Windows%20Server%202022%2002.png%20)
 
 
 
@@ -64,7 +64,7 @@ File out the registry form to start the free trial.
 
 
 
-!\[ 500](Blog%201%20Windows%20Server%202022%2003.png%20)
+![ 500](Blog%201%20Windows%20Server%202022%2003.png%20)
 
 
 
@@ -76,7 +76,7 @@ Open VMware and you will be greeted with an installation method page. For this e
 
 
 
-!\[ 500](Blog%201%20Installation%20Method.png%20)
+![ 500](Blog%201%20Installation%20Method.png%20)
 
 
 
