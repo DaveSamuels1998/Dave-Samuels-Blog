@@ -5,7 +5,7 @@ author: Dave Samuels
 date: 2024-10-30T19:01:00.000Z
 tags:
   - post
-image: /assets/blog/blog-1-figure-1.png
+image: /assets/blog/blog-1-hero-pic.jpg
 imageAlt: VMware Fusion 13
 ---
 ## Introduction
