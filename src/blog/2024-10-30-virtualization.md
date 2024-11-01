@@ -71,23 +71,23 @@ Lab processes so far
 1. Installed Virtual Machines using Windows 11 and Windows Server 2022.
 2. I installed active directory domain services on Windows Server 2022. This will allow me to add/remove a user on my network, reset the password of a user.
 
-\## Potential interview question
+## Potential interview question
 
-\### What is the feature that someone with a server manager role has that containerizes and maintains users computers and OUs?
+### What is the feature that someone with a server manager role has that containerizes and maintains users computers and OUs?
 
 Answer: Active directory users and computers.
 
-\### How to find a user in an active directory?
+### How to find a user in an active directory?
 
 Answer: In the manager server you click on "active directory users and computers" and then you right click on the computers directory and click on "find". Then you click on the directory navigation and click on "entire directory". You do this because the user may not be in the computer directory or within a certain OU so searching from entire directory will search everything. You should see the user show up after this step. 
 
 You can click on "view" in the navigation bar within active directory users and computers and click on advanced features. This will give addition information about users whenever you search for them. If I repeat the steps in order to find a users within the active directory, I can see which directory they are in.
 
-\## Enable Recycle Bin
+## Enable Recycle Bin
 
 Enabling recycle bin is useful because if you delete something by accident you can retrieve. 
 
-\#### Steps to enable recycle bin
+#### Steps to enable recycle bin
 
 1. Go to the Windows Start button and search for "windows administrative tools"
 2. Look for "Active Directory Administrative Center"
