@@ -47,7 +47,7 @@ imageAlt: VMware Fusion 13
 <br>
 <br>
 
-<p> 2. File out the registry form to start the free trial. </p>
+<p> 2. Fill out the registry form to start the free trial. </p>
 <br>
 <br>
 
