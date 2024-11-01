@@ -26,7 +26,7 @@ Navigate to the directory where you saved the downloaded installer, and then run
 
 I will be using Windows Server 2022 as my server to control different PCs with other VMs using Active Directory.  Go to https://www.microsoft.com/en-us/evalcenter and click on Windows Server then Windows Server 2022.
 
-![Blog 1 Windows Server 2022 01](/assets/blog/edited-image-1.png)
+![Blog 1 Windows Server 2022 01](/assets/blog/winserver-2022-1.png)
 
 Click on "Download the ISO".
 
