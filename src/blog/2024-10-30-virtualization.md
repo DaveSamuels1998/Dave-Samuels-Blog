@@ -46,7 +46,7 @@ For this example I will not be using the easy install method. I also decided to 
 
 ![Blog 1 Windows Server 2022 04](/assets/blog/winserver-2022-4.png)
 
-![Blog 1 Windows Server 2022 05](Blog%201%20Windows%20Server%202022%2005.png)
+![Blog 1 Windows Server 2022 05](/assets/blog/winserver2022-5.png)
 
 When you setup a new virtual machine, open up the file manager and rename the PC to something familiar. I do this for better navigation so I won't get confused.
 
