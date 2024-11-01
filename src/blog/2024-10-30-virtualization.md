@@ -28,20 +28,44 @@ imageAlt: VMware Fusion 13
 
 ![Blog 1 Windows Server 2022 01](/assets/blog/winserver-2022-1.png)
 &nbsp;
-
+<br>
+<br>
+<br>
+<br>
 <p> 1. Click on "Download the ISO". </p>
-
+<br>
+<br>
+<br>
+<br>
 
 ![ 500](/assets/blog/winserver-2022-2.png)
-
+<br>
+<br>
+<br>
+<br>
 <p> 2. File out the registry form to start the free trial. </p>
+<br>
+<br>
+<br>
+<br>
 
 ![ 500](/assets/blog/winserver-2022-3.png)
+<br>
+<br>
+<br>
+<br>
 
 <p> 3. Open VMware and you will be greeted with an installation method page. For this example I will install from disc or image since I manually download the Windows Server 2022 iso file. </p>
 
+<br>
+<br>
+<br>
+<br>
 ![ 500](/assets/blog/blog-1-installation-method-1.png)
-
+<br>
+<br>
+<br>
+<br>
 <p> 4. For this example I will not be using the easy install method. I also decided to fill in the password text field. </p>
 
 ![ 500](/assets/blog/vmware-easy-installation-method-1.png)
