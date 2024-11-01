@@ -8,7 +8,7 @@ tags:
 image: /assets/blog/blog-1-figure-1.png
 imageAlt: VMware Fusion 13
 ---
-### Introduction
+## Introduction
 
 <p> This is my journey in diving into Active Directory and learning about the vast possibilities that this services has to offer. </p>
 
