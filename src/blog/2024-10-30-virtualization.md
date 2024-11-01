@@ -20,14 +20,21 @@ imageAlt: VMware Fusion 13
 
 <p> Navigate to the directory where you saved the downloaded installer, and then run the installer file. </p>
 
+<br>
+<br>
+
 ![ 500](/assets/blog/blog-1-figure-01.png)
+<br>
+<br>
 
 ### Installing Windows Server 2022 iso file
 
 <p> I will be using Windows Server 2022 as my server to control different PCs with other VMs using Active Directory.  Go to https://www.microsoft.com/en-us/evalcenter and click on Windows Server then Windows Server 2022. </p>
+<br>
+<br>
 
 ![Blog 1 Windows Server 2022 01](/assets/blog/winserver-2022-1.png)
-&nbsp;
+
 <br>
 <br>
 
