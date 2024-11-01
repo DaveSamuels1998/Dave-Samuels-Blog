@@ -20,7 +20,7 @@ I believe setting up a virtual machine is the most practical approach for learni
 
 Navigate to the directory where you saved the downloaded installer, and then run the installer file. 
 
-![ 500]()
+![ 500](/assets/blog/blog-1-figure-01.png)
 
 ### Installing Windows Server 2022 iso file
 
