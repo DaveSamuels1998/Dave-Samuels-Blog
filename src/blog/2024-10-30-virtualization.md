@@ -28,17 +28,29 @@ I will be using Windows Server 2022 as my server to control different PCs with o
 
 ![Blog 1 Windows Server 2022 01](/assets/blog/winserver-2022-1.png)
 
+
+
 Click on "Download the ISO".
 
 ![ 500](/assets/blog/winserver-2022-2.png)
+
+
 
 Fill out the registry form to start the free trial.
 
 ![ 500](/assets/blog/winserver-2022-3.png)
 
+
+
 Open VMware and you will be greeted with an installation method page. For this example I will install from disc or image since I manually download the Windows Server 2022 iso file.
 
+
+
+
+
 ![ 500](/assets/blog/winserver-2022-4.png)
+
+
 
 For this example I will not be using the easy install method. I also decided to fill in the password text field.
 
