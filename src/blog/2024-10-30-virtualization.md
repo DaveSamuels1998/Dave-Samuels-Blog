@@ -71,47 +71,264 @@ imageAlt: VMware Fusion 13
 <br>
 <br>
 
-![ 500](/assets/blog/vmware-easy-installation-method-1.png)
+![[VMware easy installation method 1.png]]
+
+<br>
+
+<br>
+
+ 5. Choose the firmware type that will be booting your virtual machine. I opted for the UEFI boot firmware.
+
 <br>
 <br>
 
-![Blog 1 Windows Server 2022 04](/assets/blog/winserver-2022-4.png)
+
+![[WinServer2022 04.png]]
+
+<br>
+
+<br>
+
+
+6. Click on Finish and name the virtual machine whatever you want and then save it. 
+
+<br>
+<br> 
+
+![[WinServer2022 05.png]]
+
 <br>
 <br>
 
-![Blog 1 Windows Server 2022 05](/assets/blog/winserver2022-5.png)
+7.  Navigate to the navbar for VMware and click on "Virtual Machine" and then "Settings".
 <br>
 <br>
 
-<p> When you setup a new virtual machine, open up the file manager and rename the PC to something familiar. I do this for better navigation so I won't get confused. </p>
+![[WinServer2022 07.png| 600]]
 
-<p> Then I would go into the advance settings in the "This PC" property settings and change the "Performance" settings to "adjust for best performance". That way the virtual machine can run fast. </p>
+<br>
+<br>
 
-<p> Look into the Group Policy editor. What does it do and what are the pc configuration you can change within the Group Policy editor. </p>
 
-Lab processes so far
+8. Click on CD/Data (SATA) and confirm that the correct iso is selected for "This CD/DVD drive is configured to use the following: " . Then make sure you check the checkbox for "Connect CD/DVD Drive". This process was not done automatically for me and I could not get my Virtual Machine to run until I did this step.
+<br>
+<br>
 
-1. Installed Virtual Machines using Windows 11 and Windows Server 2022.
-2. I installed active directory domain services on Windows Server 2022. This will allow me to add/remove a user on my network, reset the password of a user.
 
-## Potential interview question
+![[WinServer2022 08.png | 600]]
 
-### What is the feature that someone with a server manager role has that containerizes and maintains users computers and OUs?
+<br>
+<br>
 
-Answer: Active directory users and computers.
+9. Go back to the settings panel and click on "Processors & Memory". Allocate the appropriate processor core and memory for your virtual machine. I intend on running applications like Zoom, PDQ Deploy and PDQ Inventory so it is always a good idea to check for the PC requirements needed to run certain applications. I decided that 2 processor cores and 4gb of memory was enough for my intended use. You can always go into the "Processors & Memory" and change the specs of your VM at anytime. You can only change those settings when the VMware is shut down.
+<br>
+<br>
 
-### How to find a user in an active directory?
 
-<p> Answer: In the manager server you click on "active directory users and computers" and then you right click on the computers directory and click on "find". Then you click on the directory navigation and click on "entire directory". You do this because the user may not be in the computer directory or within a certain OU so searching from entire directory will search everything. You should see the user show up after this step. 
-You can click on "view" in the navigation bar within active directory users and computers and click on advanced features. This will give addition information about users whenever you search for them. If I repeat the steps in order to find a users within the active directory, I can see which directory they are in. </p>
+![[WinServer2022 09.png | 600]]
 
-## Enable Recycle Bin
+<br>
+<br> 
 
-Enabling recycle bin is useful because if you delete something by accident you can retrieve. 
+10. Click on the play button on the your VWmware window or click on "Virtual Machine" in the navbar and click on "Start Up".
+<br>
+<br>
+11. Chose the appropriate options for "Language to install:, "Time and currency format:, and Keyboard or input method: " pertaining to you.
+<br>
+<br>
 
-#### Steps to enable recycle bin
+![[WinServer2022 10.png | 600]]
+<br>
+<br>
 
-1. Go to the Windows Start button and search for "windows administrative tools"
-2. Look for "Active Directory Administrative Center"
-3. Click on your local domain name
-4. Enable Recycle bin (located to the right sidebar).
+
+12. Click on "Install now".
+<br>
+<br>
+
+
+![[WinServer2022 11.png | 600]]
+<br>
+<br>
+13. I opted for Windows Server 2022 Standard Evaluation Desktop Experience. If you pick the "Windows Server 2022 Evaluation" instead of the Desktop Experience, you will not get the user interface. You will have to use console commands to navigate around your PC.
+<br> 
+<br> 
+
+
+![[WinServer2022 12.png | 600]]
+
+<br>
+<br>
+
+14. Agree to the Microsoft Software License Terms.
+
+<br>
+<br>
+
+
+![[WinServer2022 13.png | 600]]
+
+<br>
+<br>
+15. Choose Custom install since we are setting up Windows Server for the first time. We don't have anything already installed in order to use the upgrade installation method.
+<br>
+<br>
+
+
+![[WinServer2022 14.png | 600]]
+
+<br>
+<br>
+16. Click on "Next".
+<br>
+<br>
+
+
+
+![[WinServer2022 15.png | 600]]
+
+<br>
+<br>
+17.  Wait for the operating system to finish installing.
+<br>
+<br>
+
+
+![[WinServer2022 16.png | 600]]
+
+<br>
+<br>
+18. Set a password for your Administrator account.
+<br>
+<br>
+
+![[WinServer2022 17.png | 600]]
+
+<br>
+<br>
+
+19. When you setup a new virtual machine, it is a good idea to change your PC name into something you can remember. This will lead to less confusion if you are working with multiple VMs. Go into File Explorer and right click on "This PC".
+<br>
+<br>
+
+
+![[WinServer2022 Setup 01.png | 600]]
+
+<br>
+<br>
+20. Click on "Rename this PC"
+<br>
+<br>
+
+
+![[WinServer2022 Setup 02.png | 600]]
+
+<br>
+<br>
+21. Rename your PC into something you can remember. Desktop1 is easier to remember than WIN-09C2HTAM7SC.
+<br>
+<br>
+
+
+![[WinServer2022 Setup 03.png | 600]]
+<br>
+<br>
+21. When setting up a new Virtual Machine environment, it is also a good idea to adjust your PC for the best performance. By doing this the PC on your VM will download things faster and run smoother. Go into the Properties settings for "This PC" and click on "Advanced system settings".
+<br>
+<br>
+
+
+![[WinServer2022 Setup 04.png | 600]]
+
+<br>
+<br>
+22. Click Settings under Performance.
+<br>
+<br>
+
+![[WinServer2022 Setup 05.png | 600]]
+
+<br>
+<br>
+23. Click the "Adjust for best performance" button. Then click "Apply" then "Ok".
+<br>
+<br>
+
+![[WinServer2022 Setup 06.png | 600]]
+
+
+
+### Note/WIP Active Directory Domain Services Installation
+Go over how to install active directory. It is not installed by default.
+
+<br>
+<br>
+
+1. Navigate to "Manage" in the Server Manager navbar and click on "Add Roles and Features".
+<br>
+<br>
+![[AD Install_01.png | 600]]
+<br>
+<br>
+2. Click on "Next"
+<br>
+<br>
+
+![[AD Install_02.png]]
+<br>
+<br>
+3. Select an installation type. I opted for "Role-based or feature-based installation".
+<br>
+<br>
+
+![[AD Install_03.png]]
+<br>
+<br>
+4. We will be installing Active Directory Services on our server so select "Select a server from the server pool".
+<br>
+<br>
+
+![[AD Install_04.png | 600]]
+<br>
+<br>
+5. Select "Active Directory Domain Services".
+<br>
+<br>
+
+![[AD Install_05.png | 600]]
+<br>
+<br>
+6. Click on "Add Features".
+<br>
+<br>
+
+![[AD Install_06.png | 600]]
+<br>
+<br>
+7. Click on "Next".
+<br>
+<br>
+
+![[AD Install_07.png | 600]]
+<br>
+<br>
+8. Click on "Next".
+<br>
+<br>
+
+![[AD Install_08.png]]
+<br>
+<br>
+9. Click on "Install"
+<br>
+<br>
+
+![[AD Install_09.png]]
+<br>
+<br>
+
+### Summary
+
+Within this lab I installed a Virtual Machine using VMWare that uses Windows Server 2022. I also setup an admin account on Windows Server 2022 and installed Active Directory Domain Services. This will allow me to add/remove a user on my network, reset the password of a user. I also renamed my PC into something relevant and rememberable because I will be working with other VMs that uses Windows 10/11. Then I also went into the advanced system setting on my PC to adjust the best performance.
+
+
