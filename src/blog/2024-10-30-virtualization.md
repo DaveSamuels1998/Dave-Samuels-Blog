@@ -142,18 +142,15 @@ imageAlt: VMware Fusion 13
 <br>
 <br>
 
-
-
 ![](/assets/blog/winserver2022-11-edit.png)
 
 <br>
 <br>
 
 13. I opted for Windows Server 2022 Standard Evaluation Desktop Experience. If you pick the "Windows Server 2022 Evaluation" instead of the Desktop Experience, you will not get the user interface. You will have to use console commands to navigate around your PC.
-    <br> 
-    <br> 
 
-
+<br> 
+<br> 
 
 ![](/assets/blog/winserver2022-12-edit.png)
 
@@ -165,78 +162,103 @@ imageAlt: VMware Fusion 13
 <br>
 <br>
 
-
-
 ![](/assets/blog/winserver2022-13-edit.png)
 
 <br>
 <br>
+
 15. Choose Custom install since we are setting up Windows Server for the first time. We don't have anything already installed in order to use the upgrade installation method.
-<br>
-<br>
-
-!\[[WinServer2022 14.png | 600]]
 
 <br>
 <br>
+
+![](/assets/blog/winserver2022-14-edit.png)
+
+<br>
+<br>
+
 16. Click on "Next".
-<br>
-<br>
-
-!\[[WinServer2022 15.png | 600]]
 
 <br>
 <br>
-17.  Wait for the operating system to finish installing.
+
+
+
+![](/assets/blog/winserver2022-15-edit.png)
+
 <br>
 <br>
 
-!\[[WinServer2022 16.png | 600]]
+17. Wait for the operating system to finish installing.
 
 <br>
 <br>
+
+
+
+![](/assets/blog/winserver2022-16-edit.png)
+
+<br>
+<br>
+
 18. Set a password for your Administrator account.
+
 <br>
 <br>
 
-!\[[WinServer2022 17.png | 600]]
+
+
+![](/assets/blog/winserver2022-17-edit.png)
 
 <br>
 <br>
 
 19. When you setup a new virtual machine, it is a good idea to change your PC name into something you can remember. This will lead to less confusion if you are working with multiple VMs. Go into File Explorer and right click on "This PC".
-    <br>
-    <br>
-
-!\[[WinServer2022 Setup 01.png | 600]]
 
 <br>
 <br>
+
+
+
+![](/assets/blog/winserver2022-setup-01-edit.png)
+
+<br>
+<br>
+
 20. Click on "Rename this PC"
-<br>
-<br>
-
-!\[[WinServer2022 Setup 02.png | 600]]
 
 <br>
 <br>
+
+
+
+![](/assets/blog/winserver2022-setup-02-edit.png)
+
+<br>
+<br>
+
 21. Rename your PC into something you can remember. Desktop1 is easier to remember than WIN-09C2HTAM7SC.
+
 <br>
 <br>
 
 !\[[WinServer2022 Setup 03.png | 600]]
+
 <br>
 <br>
 
 21. When setting up a new Virtual Machine environment, it is also a good idea to adjust your PC for the best performance. By doing this the PC on your VM will download things faster and run smoother. Go into the Properties settings for "This PC" and click on "Advanced system settings".
-    <br>
-    <br>
+
+<br>
+<br>
 
 !\[[WinServer2022 Setup 04.png | 600]]
 
 <br>
 <br>
+
 22. Click Settings under Performance.
+
 <br>
 <br>
 
@@ -244,7 +266,9 @@ imageAlt: VMware Fusion 13
 
 <br>
 <br>
+
 23. Click the "Adjust for best performance" button. Then click "Apply" then "Ok".
+
 <br>
 <br>
 
@@ -258,11 +282,15 @@ Go over how to install active directory. It is not installed by default.
 <br>
 
 1. Navigate to "Manage" in the Server Manager navbar and click on "Add Roles and Features".
-   <br>
-   <br>
-   !\[[AD Install_01.png | 600]]
-   <br>
-   <br>
+
+<br>
+<br>
+
+!\[[AD Install_01.png | 600]]
+
+<br>
+<br>
+
 2. Click on "Next"
    <br>
    <br>
