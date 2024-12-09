@@ -182,8 +182,6 @@ imageAlt: VMware Fusion 13
 <br>
 <br>
 
-
-
 ![](/assets/blog/winserver2022-15-edit.png)
 
 <br>
@@ -193,8 +191,6 @@ imageAlt: VMware Fusion 13
 
 <br>
 <br>
-
-
 
 ![](/assets/blog/winserver2022-16-edit.png)
 
@@ -206,8 +202,6 @@ imageAlt: VMware Fusion 13
 <br>
 <br>
 
-
-
 ![](/assets/blog/winserver2022-17-edit.png)
 
 <br>
@@ -217,8 +211,6 @@ imageAlt: VMware Fusion 13
 
 <br>
 <br>
-
-
 
 ![](/assets/blog/winserver2022-setup-01-edit.png)
 
@@ -230,8 +222,6 @@ imageAlt: VMware Fusion 13
 <br>
 <br>
 
-
-
 ![](/assets/blog/winserver2022-setup-02-edit.png)
 
 <br>
@@ -241,8 +231,6 @@ imageAlt: VMware Fusion 13
 
 <br>
 <br>
-
-
 
 ![](/assets/blog/winserver2022-setup-03-edit.png)
 
@@ -254,8 +242,6 @@ imageAlt: VMware Fusion 13
 <br>
 <br>
 
-
-
 ![](/assets/blog/winserver2022-setup-04-edit.png)
 
 <br>
@@ -266,8 +252,6 @@ imageAlt: VMware Fusion 13
 <br>
 <br>
 
-
-
 ![](/assets/blog/winserver2022-setup-05-edit.png)
 
 <br>
@@ -277,8 +261,6 @@ imageAlt: VMware Fusion 13
 
 <br>
 <br>
-
-
 
 ![](/assets/blog/winserver2022-setup-06-edit.png)
 
@@ -294,7 +276,9 @@ Go over how to install active directory. It is not installed by default.
 <br>
 <br>
 
-!\[[AD Install_01.png | 600]]
+
+
+![](/assets/blog/ad-install_01-edit.png)
 
 <br>
 <br>
@@ -303,7 +287,9 @@ Go over how to install active directory. It is not installed by default.
    <br>
    <br>
 
-!\[[AD Install_02.png]]
+![](/assets/blog/ad-install_02-edit.png)
+
+
 <br>
 <br>
 
@@ -311,7 +297,8 @@ Go over how to install active directory. It is not installed by default.
    <br>
    <br>
 
-!\[[AD Install_03.png]]
+![](/assets/blog/ad-install_03-edit.png)
+
 <br>
 <br>
 
@@ -319,7 +306,8 @@ Go over how to install active directory. It is not installed by default.
    <br>
    <br>
 
-!\[[AD Install_04.png | 600]]
+![](/assets/blog/ad-install_04-edit.png)
+
 <br>
 <br>
 
@@ -327,7 +315,9 @@ Go over how to install active directory. It is not installed by default.
    <br>
    <br>
 
-!\[[AD Install_05.png | 600]]
+![](/assets/blog/ad-install_05-edit.png)
+
+
 <br>
 <br>
 
@@ -335,7 +325,9 @@ Go over how to install active directory. It is not installed by default.
    <br>
    <br>
 
-!\[[AD Install_06.png | 600]]
+![](/assets/blog/ad-install_06-edit.png)
+
+
 <br>
 <br>
 
@@ -343,7 +335,11 @@ Go over how to install active directory. It is not installed by default.
    <br>
    <br>
 
-!\[[AD Install_07.png | 600]]
+![](/assets/blog/ad-install_07-edit.png)
+
+
+
+
 <br>
 <br>
 
@@ -351,7 +347,11 @@ Go over how to install active directory. It is not installed by default.
    <br>
    <br>
 
-!\[[AD Install_08.png]]
+![](/assets/blog/ad-install_08-edit.png)
+
+
+
+
 <br>
 <br>
 
@@ -359,7 +359,9 @@ Go over how to install active directory. It is not installed by default.
    <br>
    <br>
 
-!\[[AD Install_09.png]]
+![](/assets/blog/ad-install_09-edit.png)
+
+
 <br>
 <br>
 
