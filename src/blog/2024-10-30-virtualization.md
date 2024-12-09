@@ -79,8 +79,6 @@ imageAlt: VMware Fusion 13
 <br>
 <br>
 
-
-
 ![](/assets/blog/winserver-2022-4.png)
 
 <br>
@@ -92,8 +90,6 @@ imageAlt: VMware Fusion 13
 <br>
 <br> 
 
-
-
 ![](/assets/blog/winserver2022-5.png)
 
 <br>
@@ -102,8 +98,6 @@ imageAlt: VMware Fusion 13
 7. Navigate to the navbar for VMware and click on "Virtual Machine" and then "Settings".
    <br>
    <br>
-
-
 
 ![](/assets/blog/winserver2022-07-edit.png)
 
@@ -114,9 +108,7 @@ imageAlt: VMware Fusion 13
    <br>
    <br>
 
-
-
-![](/assets/blog/winserver2022-08.png)
+![](/assets/blog/winserver2022-08-edit.png)
 
 <br>
 <br>
@@ -125,27 +117,35 @@ imageAlt: VMware Fusion 13
    <br>
    <br>
 
-!\[[WinServer2022 09.png | 600]]
+![](/assets/blog/winserver2022-09-edit.png)
 
 <br>
 <br> 
 
 10. Click on the play button on the your VWmware window or click on "Virtual Machine" in the navbar and click on "Start Up".
-    <br>
-    <br>
-11. Chose the appropriate options for "Language to install:, "Time and currency format:, and Keyboard or input method: " pertaining to you.
-    <br>
-    <br>
 
-!\[[WinServer2022 10.png | 600]]
+<br>
+<br> 
+
+11. Chose the appropriate options for "Language to install:, "Time and currency format:, and Keyboard or input method: " pertaining to you.
+
+<br>
+<br> 
+
+![](/assets/blog/winserver2022-10-edit.png)
+
 <br>
 <br>
 
 12. Click on "Install now".
-    <br>
-    <br>
 
-!\[[WinServer2022 11.png | 600]]
+<br>
+<br>
+
+
+
+![](/assets/blog/winserver2022-11-edit.png)
+
 <br>
 <br>
 
@@ -153,7 +153,9 @@ imageAlt: VMware Fusion 13
     <br> 
     <br> 
 
-!\[[WinServer2022 12.png | 600]]
+
+
+![](/assets/blog/winserver2022-12-edit.png)
 
 <br>
 <br>
@@ -163,7 +165,9 @@ imageAlt: VMware Fusion 13
 <br>
 <br>
 
-!\[[WinServer2022 13.png | 600]]
+
+
+![](/assets/blog/winserver2022-13-edit.png)
 
 <br>
 <br>
