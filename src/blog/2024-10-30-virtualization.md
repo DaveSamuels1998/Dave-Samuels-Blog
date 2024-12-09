@@ -213,7 +213,7 @@ imageAlt: VMware Fusion 13
 <br>
 <br>
 
-19. When you setup a new virtual machine, it is a good idea to change your PC name into something you can remember. This will lead to less confusion if you are working with multiple VMs. Go into File Explorer and right click on "This PC".
+19. When you setup a new virtual machine, it is a good idea to change your PC name into something you can remember. This will lead to less confusion if you are working with multiple VMs. Go into File Explorer and right-click "This PC", then click "Properties".
 
 <br>
 <br>
@@ -242,7 +242,9 @@ imageAlt: VMware Fusion 13
 <br>
 <br>
 
-!\[[WinServer2022 Setup 03.png | 600]]
+
+
+![](/assets/blog/winserver2022-setup-03-edit.png)
 
 <br>
 <br>
@@ -252,7 +254,9 @@ imageAlt: VMware Fusion 13
 <br>
 <br>
 
-!\[[WinServer2022 Setup 04.png | 600]]
+
+
+![](/assets/blog/winserver2022-setup-04-edit.png)
 
 <br>
 <br>
@@ -262,7 +266,9 @@ imageAlt: VMware Fusion 13
 <br>
 <br>
 
-!\[[WinServer2022 Setup 05.png | 600]]
+
+
+![](/assets/blog/winserver2022-setup-05-edit.png)
 
 <br>
 <br>
@@ -272,7 +278,9 @@ imageAlt: VMware Fusion 13
 <br>
 <br>
 
-!\[[WinServer2022 Setup 06.png | 600]]
+
+
+![](/assets/blog/winserver2022-setup-06-edit.png)
 
 ### Note/WIP Active Directory Domain Services Installation
 
