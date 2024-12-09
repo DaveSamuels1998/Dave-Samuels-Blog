@@ -68,8 +68,6 @@ imageAlt: VMware Fusion 13
 <br>
 <br>
 
-
-
 ![](/assets/blog/vmware-easy-installation-method-1.png)
 
 <br>
@@ -81,7 +79,9 @@ imageAlt: VMware Fusion 13
 <br>
 <br>
 
-!\[[WinServer2022 04.png]]
+
+
+![](/assets/blog/winserver-2022-4.png)
 
 <br>
 
@@ -92,7 +92,9 @@ imageAlt: VMware Fusion 13
 <br>
 <br> 
 
-!\[[WinServer2022 05.png]]
+
+
+![](/assets/blog/winserver2022-5.png)
 
 <br>
 <br>
@@ -101,7 +103,9 @@ imageAlt: VMware Fusion 13
    <br>
    <br>
 
-!\[[WinServer2022 07.png| 600]]
+
+
+![](/assets/blog/winserver2022-07-edit.png)
 
 <br>
 <br>
@@ -110,7 +114,9 @@ imageAlt: VMware Fusion 13
    <br>
    <br>
 
-!\[[WinServer2022 08.png | 600]]
+
+
+![](/assets/blog/winserver2022-08.png)
 
 <br>
 <br>
