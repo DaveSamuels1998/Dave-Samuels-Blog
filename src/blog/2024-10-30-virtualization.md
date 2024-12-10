@@ -1,12 +1,12 @@
 ---
-title: Virtualization
+title: Virtualization and Active Directory installation
 description: First Lab
 author: Dave Samuels
 date: 2024-10-30T19:01:00.000Z
 tags:
   - post
 image: /assets/blog/blog-1-hero-pic.jpg
-imageAlt: VMware Fusion 13
+imageAlt: "Virtualization "
 ---
 ## Introduction
 
