@@ -227,7 +227,7 @@ imageAlt: "Virtualization "
 <br>
 <br>
 
-21. Rename your PC into something you can remember. Desktop1 is easier to remember than WIN-09C2HTAM7SC.
+21. Rename your PC into something you can remember. Server2022 is easier to remember than WIN-09C2HTAM7SC.
 
 <br>
 <br>
@@ -276,8 +276,6 @@ Go over how to install active directory. It is not installed by default.
 <br>
 <br>
 
-
-
 ![](/assets/blog/ad-install_01-edit.png)
 
 <br>
@@ -288,7 +286,6 @@ Go over how to install active directory. It is not installed by default.
    <br>
 
 ![](/assets/blog/ad-install_02-edit.png)
-
 
 <br>
 <br>
@@ -317,7 +314,6 @@ Go over how to install active directory. It is not installed by default.
 
 ![](/assets/blog/ad-install_05-edit.png)
 
-
 <br>
 <br>
 
@@ -326,7 +322,6 @@ Go over how to install active directory. It is not installed by default.
    <br>
 
 ![](/assets/blog/ad-install_06-edit.png)
-
 
 <br>
 <br>
@@ -337,9 +332,6 @@ Go over how to install active directory. It is not installed by default.
 
 ![](/assets/blog/ad-install_07-edit.png)
 
-
-
-
 <br>
 <br>
 
@@ -349,9 +341,6 @@ Go over how to install active directory. It is not installed by default.
 
 ![](/assets/blog/ad-install_08-edit.png)
 
-
-
-
 <br>
 <br>
 
@@ -360,7 +349,6 @@ Go over how to install active directory. It is not installed by default.
    <br>
 
 ![](/assets/blog/ad-install_09-edit.png)
-
 
 <br>
 <br>
