@@ -38,23 +38,23 @@ imageAlt: "Virtualization "
 <br>
 <br>
 
- 1. Click on "Download the ISO".
-<br>
-<br>
+1. Click on "Download the ISO".
+   <br>
+   <br>
 
 ![ 500](/assets/blog/winserver-2022-2.png)
 <br>
 <br>
 
- 2. Fill out the registry form to start the free trial. 
-<br>
-<br>
+2. Fill out the registry form to start the free trial. 
+   <br>
+   <br>
 
 ![ 500](/assets/blog/winserver-2022-3.png)
 <br>
 <br>
 
- 3. Open VMware and you will be greeted with an installation method page. For this example I will install from disc or image since I manually download the Windows Server 2022 iso file. 
+3. Open VMware and you will be greeted with an installation method page. For this example I will install from disc or image since I manually download the Windows Server 2022 iso file. 
 
 <br>
 <br>
@@ -63,7 +63,7 @@ imageAlt: "Virtualization "
 <br>
 <br>
 
- 4. For this example I will not be using the easy install method. I also decided to fill in the password text field. 
+4. For this example I will not be using the easy install method. I also decided to fill in the password text field. 
 
 <br>
 <br>
@@ -257,12 +257,19 @@ imageAlt: "Virtualization "
 <br>
 <br>
 
-24. Click the "Adjust for best performance" button. Then click "Apply" then "Ok".
+24. Click Settings under Performance.
 
 <br>
 <br>
 
 ![](/assets/blog/winserver2022-setup-06-edit.png)
+
+25. Click the "Adjust for best performance" button. Then click "Apply" then "Ok".
+
+<br>
+<br>
+
+![](/assets/blog/winserver2022-setup-07-edit.png)
 
 ### Note/WIP Active Directory Domain Services Installation
 
