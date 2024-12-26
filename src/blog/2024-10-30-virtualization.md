@@ -217,37 +217,37 @@ imageAlt: "Virtualization "
 <br>
 <br>
 
-20. Click on "Rename this PC"
+20. Click on "Rename this PC (advanced)"
 
 <br>
 <br>
 
-![](/assets/blog/winserver2022-setup-02-edit.png)
+![](/assets/blog/winserver2022-setup-02-edited.png)
 
 <br>
 <br>
 
-21. Rename your PC into something you can remember. Server2022 is easier to remember than WIN-09C2HTAM7SC.
+21. Click on "Change".
 
 <br>
 <br>
 
-![](/assets/blog/winserver2022-setup-03-edit.png)
+![](/assets/blog/winserver2022-setup-03-edited.png)
 
 <br>
 <br>
 
-21. When setting up a new Virtual Machine environment, it is also a good idea to adjust your PC for the best performance. By doing this the PC on your VM will download things faster and run smoother. Go into the Properties settings for "This PC" and click on "Advanced system settings".
+21. Rename your PC into something you can remember. Server2022 is easier to remember than WIN-09C2HTAM7SC
 
 <br>
 <br>
 
-![](/assets/blog/winserver2022-setup-04-edit.png)
+![](/assets/blog/winserver2022-setup-04-edited.png)
 
 <br>
 <br>
 
-22. Click Settings under Performance.
+22. When setting up a new Virtual Machine environment, it is also a good idea to adjust your PC for the best performance. By doing this the PC on your VM will download things faster and run smoother. Go into the Properties settings for "This PC" and click on "Advanced system settings".
 
 <br>
 <br>
