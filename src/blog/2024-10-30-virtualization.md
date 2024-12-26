@@ -38,7 +38,7 @@ imageAlt: "Virtualization "
 <br>
 <br>
 
-<p> 1. Click on "Download the ISO". </p>
+ 1. Click on "Download the ISO".
 <br>
 <br>
 
@@ -46,7 +46,7 @@ imageAlt: "Virtualization "
 <br>
 <br>
 
-<p> 2. Fill out the registry form to start the free trial. </p>
+ 2. Fill out the registry form to start the free trial. 
 <br>
 <br>
 
@@ -54,7 +54,7 @@ imageAlt: "Virtualization "
 <br>
 <br>
 
-<p> 3. Open VMware and you will be greeted with an installation method page. For this example I will install from disc or image since I manually download the Windows Server 2022 iso file. </p>
+ 3. Open VMware and you will be greeted with an installation method page. For this example I will install from disc or image since I manually download the Windows Server 2022 iso file. 
 
 <br>
 <br>
@@ -63,7 +63,7 @@ imageAlt: "Virtualization "
 <br>
 <br>
 
-<p> 4. For this example I will not be using the easy install method. I also decided to fill in the password text field. </p>
+ 4. For this example I will not be using the easy install method. I also decided to fill in the password text field. 
 
 <br>
 <br>
@@ -237,7 +237,7 @@ imageAlt: "Virtualization "
 <br>
 <br>
 
-21. Rename your PC into something you can remember. Server2022 is easier to remember than WIN-09C2HTAM7SC
+22. Rename your PC into something you can remember. Server2022 is easier to remember than WIN-09C2HTAM7SC
 
 <br>
 <br>
@@ -247,7 +247,7 @@ imageAlt: "Virtualization "
 <br>
 <br>
 
-22. When setting up a new Virtual Machine environment, it is also a good idea to adjust your PC for the best performance. By doing this the PC on your VM will download things faster and run smoother. Go into the Properties settings for "This PC" and click on "Advanced system settings".
+23. When setting up a new Virtual Machine environment, it is also a good idea to adjust your PC for the best performance. By doing this the PC on your VM will download things faster and run smoother. Go into the Properties settings for "This PC" and click on "Advanced system settings".
 
 <br>
 <br>
@@ -257,7 +257,7 @@ imageAlt: "Virtualization "
 <br>
 <br>
 
-23. Click the "Adjust for best performance" button. Then click "Apply" then "Ok".
+24. Click the "Adjust for best performance" button. Then click "Apply" then "Ok".
 
 <br>
 <br>
