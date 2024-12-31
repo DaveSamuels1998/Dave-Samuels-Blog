@@ -8,6 +8,7 @@ tags:
 image: /assets/blog/blog-1-hero-pic.jpg
 imageAlt: "Virtualization "
 ---
+
 ## Introduction
 
 <p> This is my journey in diving into Active Directory and learning about the vast possibilities that this services has to offer. </p>
@@ -46,7 +47,7 @@ imageAlt: "Virtualization "
 <br>
 <br>
 
-2. Fill out the registry form to start the free trial. 
+2. Fill out the registry form to start the free trial.
    <br>
    <br>
 
@@ -54,7 +55,7 @@ imageAlt: "Virtualization "
 <br>
 <br>
 
-3. Open VMware and you will be greeted with an installation method page. For this example I will install from disc or image since I manually download the Windows Server 2022 iso file. 
+3. Open VMware and you will be greeted with an installation method page. For this example I will install from disc or image since I manually download the Windows Server 2022 iso file.
 
 <br>
 <br>
@@ -63,7 +64,7 @@ imageAlt: "Virtualization "
 <br>
 <br>
 
-4. For this example I will not be using the easy install method. I also decided to fill in the password text field. 
+4. For this example I will not be using the easy install method. I also decided to fill in the password text field.
 
 <br>
 <br>
@@ -85,10 +86,10 @@ imageAlt: "Virtualization "
 
 <br>
 
-6. Click on Finish and name the virtual machine whatever you want and then save it. 
+6. Click on Finish and name the virtual machine whatever you want and then save it.
 
 <br>
-<br> 
+<br>
 
 ![](/assets/blog/winserver2022-5.png)
 
@@ -120,17 +121,17 @@ imageAlt: "Virtualization "
 ![](/assets/blog/winserver2022-09-edit.png)
 
 <br>
-<br> 
+<br>
 
 10. Click on the play button on the your VWmware window or click on "Virtual Machine" in the navbar and click on "Start Up".
 
 <br>
-<br> 
+<br>
 
 11. Chose the appropriate options for "Language to install:, "Time and currency format:, and Keyboard or input method: " pertaining to you.
 
 <br>
-<br> 
+<br>
 
 ![](/assets/blog/winserver2022-10-edit.png)
 
@@ -150,7 +151,7 @@ imageAlt: "Virtualization "
 13. I opted for Windows Server 2022 Standard Evaluation Desktop Experience. If you pick the "Windows Server 2022 Evaluation" instead of the Desktop Experience, you will not get the user interface. You will have to use console commands to navigate around your PC.
 
 <br> 
-<br> 
+<br>
 
 ![](/assets/blog/winserver2022-12-edit.png)
 
@@ -268,8 +269,6 @@ imageAlt: "Virtualization "
 
 <br>
 
-
-
 1. Click the "Adjust for best performance" button. Then click "Apply" then "Ok".
 
 <br>
@@ -295,7 +294,6 @@ Go over how to install active directory. It is not installed by default.
 <br>
 
 2. Click on "Next"
-
 
    <br>
    <br>
