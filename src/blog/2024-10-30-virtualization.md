@@ -264,7 +264,13 @@ imageAlt: "Virtualization "
 
 ![](/assets/blog/winserver2022-setup-06-edit.png)
 
-25. Click the "Adjust for best performance" button. Then click "Apply" then "Ok".
+<br>
+
+<br>
+
+
+
+1. Click the "Adjust for best performance" button. Then click "Apply" then "Ok".
 
 <br>
 <br>
@@ -289,6 +295,8 @@ Go over how to install active directory. It is not installed by default.
 <br>
 
 2. Click on "Next"
+
+
    <br>
    <br>
 
@@ -352,6 +360,7 @@ Go over how to install active directory. It is not installed by default.
 <br>
 
 9. Click on "Install"
+
    <br>
    <br>
 
