@@ -270,7 +270,7 @@ imageAlt: "Virtualization "
 
 
 
-1. Click the "Adjust for best performance" button. Then click "Apply" then "Ok".
+25. Click the "Adjust for best performance" button. Then click "Apply" then "Ok".
 
 <br>
 <br>
