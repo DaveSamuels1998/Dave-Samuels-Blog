@@ -94,6 +94,9 @@ picture {
 
 }
 
+blog-images {
+  box-shadow: 0 1rem 1.5rem -0.5rem rgba(0 50 100 / 0.15);
+}
 /* Inherit fonts for inputs and buttons */
 input,
 button,
