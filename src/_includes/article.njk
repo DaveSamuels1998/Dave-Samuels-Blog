@@ -6,15 +6,30 @@ layout: 'base.njk'
   <div class="container container--narrow flow">
 
     <h1 class="article-title">
-      {{ title}}
+      {{ title }}
     </h1>
     <figure class="main-article__figure">
       <img src="{{ image }}" alt="{{ imageAlt }}">
       <figcaption>
-        {{ imageAlt}}
+        {{ imageAlt }}
       </figcaption>
     </figure>
 
-    {{ content | safe}}
+    {% if content contains '##' %}
+      <div class="toc">
+        <h2>Table of Contents</h2>
+        <ul>
+          {% for heading in content | markdownify | safe %}
+            {% if heading.type == 'heading' %}
+              <li>
+                <a href="#{{ heading.id }}">{{ heading.text }}</a>
+              </li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+    {% endif %}
+
+    {{ content | safe }}
   </div>
 </article>
