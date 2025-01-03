@@ -5,40 +5,43 @@ layout: 'base.njk'
 <article class="main-article">
   <aside>
     <div class="dropdown" data-dropdown>
-      <button class="button-link" data-dropdown-button>Table of Contents</button>
+      <button class="button-link" data-dropdown-button aria-expanded="false">Table of Contents</button>
       <div class="dropdown-menu">
         {{ content | toc | safe }}
       </div>
     </div>
     <script>
-      document.addEventListener("click", e => {
+      document.addEventListener("click", (e) => {
         const isDropdownButton = e
           .target
-          .matches("[data-dropdown-button]")
-        if (!isDropdownButton && e.target.closest('[data-dropdown]') != null) 
-          return
-
-        let currentDropdown
+          .matches("[data-dropdown-button]");
+        if (!isDropdownButton && e.target.closest("[data-dropdown]") != null) 
+          return;
+        
+        let currentDropdown;
         if (isDropdownButton) {
           currentDropdown = e
             .target
-            .closest('[data-dropdown]')
-          currentDropdown
+            .closest("[data-dropdown]");
+          const button = currentDropdown.querySelector("[data-dropdown-button]");
+          const isActive = currentDropdown
             .classList
-            .toggle('active')
+            .toggle("active");
+          button.setAttribute("aria-expanded", isActive);
         }
 
         document
           .querySelectorAll("[data-dropdown].active")
-          .forEach(dropdown => {
+          .forEach((dropdown) => {
             if (dropdown === currentDropdown) 
-              returnn
+              return;
+            const button = dropdown.querySelector("[data-dropdown-button]");
             dropdown
               .classList
-              .remove('active')
-          })
-
-      })
+              .remove("active");
+            button.setAttribute("aria-expanded", "false");
+          });
+      });
     </script>
   </aside>
   <div class="container container--narrow flow">
