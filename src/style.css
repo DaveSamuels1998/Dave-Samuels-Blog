@@ -467,7 +467,7 @@ section,
 
   @media (max-width: 48rem) {
     
-   .dropdown {
+   .dropdown > .button-link {
     text-align: center;
    }
   }
