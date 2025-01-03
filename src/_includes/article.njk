@@ -14,7 +14,7 @@ layout: 'base.njk'
         {{ imageAlt}}
       </figcaption>
     </figure>
-
+    {{ content | safe}}
     {{ content | toc | safe }}
   </div>
 </article>
