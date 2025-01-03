@@ -410,19 +410,25 @@ section,
       grid-template-columns: 1fr min(80ch, 60vw) 1fr;
     }
   }
+  .toc-container {
+    position: relative;
+  }
 
-  summary::marker {
-    color: inherit;
-}
+  .toc {
+    margin-top: 10px;
+  }
 
-  ::marker {
-    unicode-bidi: isolate;
-    font-variant-numeric: tabular-nums;
-    text-transform: none;
-    text-indent: 0px !important;
-    text-align: start !important;
-    text-align-last: start !important;
-}
+  .toc.hidden {
+    display: none;
+  }
+
+  #toc-toggle {
+    background: none;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: left;
+  }
 
   .button-link {
     background: none;
