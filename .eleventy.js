@@ -12,7 +12,7 @@ module.exports = function(eleventyConfig) {
     return DateTime.fromJSDate(dateObj).toLocaleString(DateTime.DATE_MED);
   });
   
-  eleventyConfig.setLibrary('md', markdownIt().use(markdownItAnchor));
+  eleventyConfig.amendLibrary("md", (mdLib) => mdLib.use(markdownItAnchor));
   eleventyConfig.addPlugin(pluginTOC);
 
   return {
