@@ -394,6 +394,15 @@ section,
   Blog Pages
   /////////////////////// */
 
+  @media (min-width: 75rem) {
+    .main-article {
+      align-items: start;
+      display: grid;
+      gap: 1rem;
+      grid-template-columns: 1fr min(80ch, 60vw) 1fr;
+    }
+  }
+
   .button-link {
     background: none;
     border: none;
