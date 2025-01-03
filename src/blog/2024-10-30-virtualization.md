@@ -35,16 +35,14 @@ imageAlt: "Virtualization "
 
 ![Blog 1 Windows Server 2022 01](/assets/blog/winserver-2022-1.png)
 
-<br>
-<br>
+
 
 1. Click on "Download the ISO".
    <br>
    <br>
 
 ![ 500](/assets/blog/winserver-2022-2.png)
-<br>
-<br>
+
 
 2. Fill out the registry form to start the free trial. 
    <br>
