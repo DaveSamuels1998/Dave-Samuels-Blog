@@ -424,6 +424,7 @@ section,
     font-size: inherit;
     cursor: pointer;
     padding: 0;
+    text-align: center;
   }
 
   .dropdown.active > .menu-link,
@@ -468,7 +469,8 @@ section,
   @media (max-width: 48rem) {
     
    .dropdown > .button-link {
-    text-align: center;
+    display: flex;
+    justify-content: center;
    }
   }
   
