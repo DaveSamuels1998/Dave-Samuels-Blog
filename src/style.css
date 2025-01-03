@@ -469,8 +469,6 @@ section,
   @media (max-width: 48rem) {
     
    .dropdown  {
-    display: flex;
-    justify-content: center;
     margin-bottom: 4rem;
     margin-top: 3rem;
    }
