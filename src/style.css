@@ -450,9 +450,10 @@ section,
     transition: opacity 150ms ease-in-out, transform 150ms ease-in-out;
   }
 
-  .dropdown.active > .dropdown-menu {
+  .dropdown.active > .button-link + .dropdown-menu {
     opacity: 1;
-    max-height: 500px; /* Set to a value large enough to accommodate the content */
+    transform: translateY(0);
+    pointer-events: auto;
   }
 
   @media (max-width: 48rem) {
@@ -471,7 +472,7 @@ section,
     display: flex;
     justify-content: center;
     margin-bottom: 4rem;
-    margin-top: 2rem
+    margin-top: 3rem;
    }
   }
   
