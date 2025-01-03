@@ -276,8 +276,15 @@ section,
 
   .main-article {
     margin-bottom: 3rem;
-    text-align: center;
+    
   }
+
+.main-article h1,
+.main-article h2,
+.main-article h3,
+.main-article h4 {
+  text-align: center;
+}
 
   .main-article__figure figcaption {
     margin: 1rem 0;
