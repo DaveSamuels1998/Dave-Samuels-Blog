@@ -451,3 +451,11 @@ section,
     transform: translateY(0);
     pointer-events: auto;
   }
+
+  @media (max-width: 48rem) {
+    .main-article {
+      display: grid;
+      gap: 0.5rem;
+      grid-template-columns: 1fr;
+    }
+  }
