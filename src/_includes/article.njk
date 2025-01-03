@@ -3,22 +3,12 @@ layout: 'base.njk'
 ---
 
 <article class="main-article">
-  <aside aria-label="Table of Contents">
-    <summary>
-  
-      Table of Contents
-      </summary>
-    {{ content | toc | safe }}
-    <script>
-      const toc = document.getElementById('toc');
-      const windowWidth = window.innerWidth;
-      if (windowWidth < 1200) {
-        toc.removeAttribute('open');
-      } else {
-        toc.setAttribute('open', true);
-      }
-    </script>
-  </aside>
+  <div class="dropdown">
+    <button class="link">Table of Contents</button>
+    <div class="dropdown-menu">
+      {{ content | toc | safe }}
+    </div>
+  </div>
   <div class="container container--narrow flow">
 
     <h1 class="article-title">
