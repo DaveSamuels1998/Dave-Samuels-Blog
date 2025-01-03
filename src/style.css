@@ -463,7 +463,7 @@ section,
   @media (max-width: 48rem) {
     
    .dropdown {
-    display: block;
+    border: 1px solid green;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 4rem;
