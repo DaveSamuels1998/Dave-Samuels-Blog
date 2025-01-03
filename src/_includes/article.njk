@@ -3,7 +3,13 @@ layout: 'base.njk'
 ---
 
 <article class="main-article">
-  {{ content | toc | safe }}
+  <aside aria-label="Table of Contents">
+    <summary>
+      ::marker
+      "Table of Contents"
+      </summary>
+    {{ content | toc | safe }}
+  </aside>
   <div class="container container--narrow flow">
 
     <h1 class="article-title">
