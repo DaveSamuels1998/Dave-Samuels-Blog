@@ -14,11 +14,11 @@ imageAlt: "Virtualization "
 
 ## Virtualization Setup Process
 
-<p> I believe setting up a virtual machine is the most practical approach for learning about various Windows settings. A virtual machine provides a sandbox environment, so if I make mistakes with the settings on Windows or within the VM itself, I can simply discard the VM and create a new one, keeping my host PC unaffected. I decided to use VMware as my virtual machine manager, specifically VMware Fusion 13, as my host PC is a Mac. </p>
+ I believe setting up a virtual machine is the most practical approach for learning about various Windows settings. A virtual machine provides a sandbox environment, so if I make mistakes with the settings on Windows or within the VM itself, I can simply discard the VM and create a new one, keeping my host PC unaffected. I decided to use VMware as my virtual machine manager, specifically VMware Fusion 13, as my host PC is a Mac. 
 
 ### Installing VMware Fusion 13 on Mac
 
-<p> Navigate to the directory where you saved the downloaded installer, and then run the installer file. </p>
+ Navigate to the directory where you saved the downloaded installer, and then run the installer file. 
 
 <br>
 <br>
