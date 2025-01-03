@@ -463,7 +463,7 @@ section,
   @media (max-width: 48rem) {
     
    .dropdown > .button-link {
-    text-align: center;
+    border: 1px green solid;
     margin-bottom: 4rem;
     margin-top: 3rem;
    }
