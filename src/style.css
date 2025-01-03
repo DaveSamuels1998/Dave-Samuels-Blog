@@ -437,7 +437,7 @@ section,
   }
 
   .dropdown-menu {
-    position: relative;
+    position: static;
     left: 0;
     top: calc(100% + .25rem);
     background-color: var(--clr-neutral-100) ;
@@ -469,6 +469,8 @@ section,
   @media (max-width: 48rem) {
     
    .dropdown  {
+    display: flex;
+    justify-content: center;
     margin-bottom: 4rem;
     margin-top: 3rem;
    }
