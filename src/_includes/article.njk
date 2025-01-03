@@ -3,6 +3,7 @@ layout: 'base.njk'
 ---
 
 <article class="main-article">
+  {{ content | toc | safe }}
   <div class="container container--narrow flow">
 
     <h1 class="article-title">
@@ -16,5 +17,5 @@ layout: 'base.njk'
     </figure>
     {{ content | safe}}
   </div>
-  {{ content | toc | safe }}
+
 </article>
