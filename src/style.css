@@ -470,7 +470,7 @@ section,
     
    .dropdown > .button-link {
     display: flex;
-    justify-content: center;
+    align-items: center;
    }
   }
   
