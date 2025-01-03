@@ -24,22 +24,26 @@ imageAlt: "Virtualization "
 <br>
 
 ![ 500](/assets/blog/blog-1-figure-01.png)
+
 <br>
 <br>
 
 ### Installing Windows Server 2022 iso file
 
 <p> I will use Windows Server 2022 as my server to control different PCs with other VMs using Active Directory.  Go to <https://www.microsoft.com/en-us/evalcenter> and click on Windows Server then Windows Server 2022. </p>
+
 <br>
 <br>
 
 ![Blog 1 Windows Server 2022 01](/assets/blog/winserver-2022-1.png)
 
-
+<br>
+<br>
 
 1. Click on "Download the ISO".
-   <br>
-   <br>
+ 
+<br>
+ <br>
 
 ![ 500](/assets/blog/winserver-2022-2.png)
 
