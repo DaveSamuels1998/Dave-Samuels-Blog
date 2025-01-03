@@ -3,24 +3,56 @@ layout: 'base.njk'
 ---
 
 <article class="main-article">
-  <div class="dropdown" data-dropdown>
-    <button class="button-link" data-dropdown-button>Table of Contents</button>
-    <div class="dropdown-menu">
-      {{ content | toc | safe }}
+  <aside>
+    <div class="dropdown" data-dropdown>
+      <button class="button-link" data-dropdown-button>Table of Contents</button>
+      <div class="dropdown-menu">
+        {{ content | toc | safe }}
+      </div>
     </div>
-  </div>
-  <div class="container container--narrow flow">
+    <script>
+      document.addEventListener("click", e => {
+        const isDropdownButton = e
+          .target
+          .matches("[data-dropdown-button]")
+        if (!isDropdownButton && e.target.closest('[data-dropdown]') != null) 
+          return
 
-    <h1 class="article-title">
-      {{ title}}
-    </h1>
-    <figure class="main-article__figure">
-      <img src="{{ image }}" alt="{{ imageAlt }}">
-      <figcaption>
-        {{ imageAlt}}
-      </figcaption>
-    </figure>
-    {{ content | safe}}
-  </div>
+        let currentDropdown
+        if (isDropdownButton) {
+          currentDropdown = e
+            .target
+            .closest('[data-dropdown]')
+          currentDropdown
+            .classList
+            .toggle('active')
+        }
 
-</article>
+        document
+          .querySelectorAll("[data-dropdown].active")
+          .forEach(dropdown => {
+            if (dropdown === currentDropdown) 
+              returnn
+            dropdown
+              .classList
+              .remove('active')
+          })
+
+      })
+    </script>
+    <aside>
+      <div class="container container--narrow flow">
+
+        <h1 class="article-title">
+          {{ title}}
+        </h1>
+        <figure class="main-article__figure">
+          <img src="{{ image }}" alt="{{ imageAlt }}">
+          <figcaption>
+            {{ imageAlt}}
+          </figcaption>
+        </figure>
+        {{ content | safe}}
+      </div>
+
+    </article>
