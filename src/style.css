@@ -459,6 +459,7 @@ section,
 
   @media (max-width: 48rem) {
    summary {
-    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
    }
   }
