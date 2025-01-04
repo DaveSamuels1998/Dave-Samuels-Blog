@@ -438,7 +438,7 @@ section,
   summary {
     color: var(--clr-neutral-900);
     margin-inline-start: 1rem;
-    list-style-position: outside;
+    list-style-position: inside;
   }
 
   summary::marker {
