@@ -437,9 +437,6 @@ section,
   }
 
   .dropdown-menu {
-    position: absolute;
-    left: 0;
-    top: calc(100% + .25rem);
     background-color: var(--clr-neutral-100);
     padding: .75rem;
     border-radius: .25rem;
@@ -472,9 +469,10 @@ section,
     flex-direction: column;
    }
   }
-
+/*
   .main-article img:nth-of-type(n+2) {
 
     max-height: 600px;
 
   }
+  */
