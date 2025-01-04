@@ -472,7 +472,7 @@ section,
 
   .main-article img:not(:first-of-type) {
 
-    max-height: 600px;
-
+    max-height: 400px;
+    max-width: 400px;
   }
  
