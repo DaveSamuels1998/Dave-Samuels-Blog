@@ -456,10 +456,9 @@ section,
     }
   }
 
-
-  @media (max-width: 48rem) {
-   summary {
-    margin-left: auto;
-    margin-right: auto;
-   }
+ @media (max-width: 48rem) {
+  summary{
+    text-align: center;
   }
+ }
+ 
