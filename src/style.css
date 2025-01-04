@@ -474,7 +474,6 @@ section,
   @media (max-width: 48rem) {
     
     .dropdown {
-      position: relative;
       display: flex; 
       flex-direction: column;
     }
