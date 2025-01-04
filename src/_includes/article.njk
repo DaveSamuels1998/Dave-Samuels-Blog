@@ -4,42 +4,15 @@ layout: 'base.njk'
 
 <article class="main-article">
   <aside>
-    <div class="dropdown" data-dropdown>
-      <button class="button-link" data-dropdown-button>Table of Contents</button>
-      <div class="dropdown-menu">
-        {{ content | toc | safe }}
-      </div>
-    </div>
-    <script>
-      document.addEventListener("click", e => {
-        const isDropdownButton = e
-          .target
-          .matches("[data-dropdown-button]")
-        if (!isDropdownButton && e.target.closest('[data-dropdown]') != null) 
-          return
+    <details>
+      <summary>
+        <button class="button-link" >Table of Contents</button>
+      </summary>
 
-        let currentDropdown
-        if (isDropdownButton) {
-          currentDropdown = e
-            .target
-            .closest('[data-dropdown]')
-          currentDropdown
-            .classList
-            .toggle('active')
-        }
+      {{ content | toc | safe }}
 
-        document
-          .querySelectorAll("[data-dropdown].active")
-          .forEach(dropdown => {
-            if (dropdown === currentDropdown) 
-              returnn
-            dropdown
-              .classList
-              .remove('active')
-          })
+    </details>
 
-      })
-    </script>
   </aside>
   <div class="container container--narrow flow">
 

@@ -427,6 +427,25 @@ section,
     text-align: center;
   }
 
+  details {
+    background: var(--clr-neutral-300);
+    border: 1px solid var(--clr-neutral-300);
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    overflow: hidden;
+  }
+
+  summary {
+    color: var(--clr-neutral-900);
+    margin-inline-start: 1rem;
+    list-style-position: outside;
+  }
+
+  summary::marker {
+    font-size: 0.75em;
+    color: var(--clr-neutral-500);
+  }
+  /*
   .dropdown.active > .menu-link,
   .menu-link:hover {
     color: var(--clr-primary-400);
@@ -475,4 +494,4 @@ section,
     max-height: 400px;
     max-width: 400px;
   }
- 
+ */
