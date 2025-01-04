@@ -440,7 +440,7 @@ section,
     position: absolute;
     left: 0;
     top: calc(100% + .25rem);
-    background-color: var(--clr-neutral-100) ;
+    background-color: var(--clr-neutral-100);
     padding: .75rem;
     border-radius: .25rem;
     box-shadow: 0 2px 5px 0 rgb(0, 0, 0, .1);
@@ -467,10 +467,14 @@ section,
 
 
   @media (max-width: 48rem) {
-
-   
    .dropdown  {
     display: flex;
     flex-direction: column;
    }
+  }
+
+  .main-article img:nth-of-type(n+2) {
+
+    max-height: 600px;
+
   }
