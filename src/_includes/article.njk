@@ -11,37 +11,30 @@ layout: 'base.njk'
       </div>
     </div>
     <script>
-      document.addEventListener("click", (e) => {
+      document.addEventListener("click", e => {
         const isDropdownButton = e
           .target
-          .matches("[data-dropdown-button]");
-        if (!isDropdownButton && e.target.closest("[data-dropdown]") != null) 
+          .matches("[data-dropdown-button]")
+        if (!isDropdownButton && e.target.closest('[data-dropdown]') != null) 
           return;
         
-        let currentDropdown;
+        let currentDropdown
         if (isDropdownButton) {
           currentDropdown = e
             .target
-            .closest("[data-dropdown]");
-          const button = currentDropdown.querySelector("[data-dropdown-button]");
-          const isActive = currentDropdown
+            .closest('[data-dropdown]')
+          currentDropdown
             .classList
-            .toggle("active");
-          button.setAttribute("aria-expanded", isActive);
-        }
+            .toggle('active')
 
-        document
-          .querySelectorAll("[data-dropdown].active")
-          .forEach((dropdown) => {
-            if (dropdown === currentDropdown) 
-              return;
-            const button = dropdown.querySelector("[data-dropdown-button]");
-            dropdown
-              .classList
-              .remove("active");
-            button.setAttribute("aria-expanded", "false");
-          });
-      });
+          document
+            .querySelectorAll("[data-dropdown].active")
+            .forEach(dropdown => {
+              dropdown
+                .classList
+                .remove('active')
+            })
+        }
     </script>
   </aside>
   <div class="container container--narrow flow">
