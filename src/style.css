@@ -437,6 +437,7 @@ section,
   }
 
   .dropdown-menu {
+    position: absolute;
     left: 0;
     top: calc(100% + .25rem);
     background-color: var(--clr-neutral-100) ;
