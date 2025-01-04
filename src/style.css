@@ -470,7 +470,7 @@ section,
    }
   }
 
-  .main-article img:nth-of-type(n+2) {
+  .main-article img:not(:first-of-type) {
 
     max-height: 600px;
 
