@@ -413,19 +413,12 @@ section,
       grid-template-columns: 1fr 2fr 1fr;
     }
   }
-
-
-  .button-link {
-    background: none;
-    border: none;
-    text-decoration: none;
-    color: var(--clr-neutral-400);
-    font-family: inherit;
-    font-size: inherit;
-    cursor: pointer;
-    padding: 0;
-    text-align: center;
+ 
+  .main-article img:not(:first-child) {
+    max-height: 34.375rem;
   }
+
+  
 
   details {
     background: var(--clr-neutral-100);
