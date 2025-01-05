@@ -414,7 +414,7 @@ section,
     }
   }
  
-  .main-article img:not(:first-of-type) {
+  .main-article img:not(figure *) {
     max-height: 34.375rem;
 }
 
