@@ -406,7 +406,7 @@ section,
   /////////////////////// */
 
   .main-article__figure img  {
-    max-height: 700px;
+    max-height: 650px;
   }
 
   @media (min-width: 75rem) {
