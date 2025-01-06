@@ -1,5 +1,5 @@
 ---
-title: Virtualization and Active Directory installation
+title: Installing VMWare and Windows Server 2022
 description: First Lab
 author: Dave Samuels
 date: 2024-10-30T19:01:00.000Z
@@ -279,7 +279,10 @@ imageAlt: "Virtualization "
 
 ![](/assets/blog/winserver2022-setup-07-edit.png)
 
-### Note/WIP Active Directory Domain Services Installation
+<br>
+<br>
+
+!### Note/WIP Active Directory Domain Services Installation
 
 Go over how to install active directory. It is not installed by default.
 
@@ -298,16 +301,12 @@ Go over how to install active directory. It is not installed by default.
 
 2. Click on "Next"
 
-
-   <br>
-   <br>
-
 ![](/assets/blog/ad-install_02-edit.png)
 
 <br>
 <br>
 
-3. Select an installation type. I opted for "Role-based or feature-based installation".
+3. Select an installation type. I opted for "Role-based or feature-based installation" because I want to create a domain controller and add many users and PCs to it.
    <br>
    <br>
 
@@ -362,9 +361,6 @@ Go over how to install active directory. It is not installed by default.
 <br>
 
 9. Click on "Install"
-
-   <br>
-   <br>
 
 ![](/assets/blog/ad-install_09-edit.png)
 
