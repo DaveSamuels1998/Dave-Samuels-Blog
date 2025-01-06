@@ -405,6 +405,10 @@ section,
   Blog Pages
   /////////////////////// */
 
+  .main-article__figure img  {
+    max-height: 800px;
+  }
+
   @media (min-width: 75rem) {
     .main-article {
       align-items: start;
