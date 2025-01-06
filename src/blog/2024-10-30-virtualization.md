@@ -1,5 +1,5 @@
 ---
-title: Virtualization and Active Directory installation
+title: Installing VMWare and Windows Server 2022
 description: First Lab
 author: Dave Samuels
 date: 2024-10-30T19:01:00.000Z
