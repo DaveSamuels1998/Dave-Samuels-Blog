@@ -5,6 +5,7 @@ author: Dave Samuels
 date: 2024-10-30T19:01:00.000Z
 tags:
   - post
+  - featured
 image: /assets/blog/blog-1-hero-pic.jpg
 imageAlt: "Virtualization "
 ---
