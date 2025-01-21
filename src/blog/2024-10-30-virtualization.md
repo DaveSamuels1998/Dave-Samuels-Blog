@@ -335,6 +335,9 @@ Go over how to install active directory. It is not installed by default.
 
 2. Click on "Next"
 
+<br>
+<br>
+
 ![](/assets/blog/ad-install_02-edit.png)
 
 <br>
@@ -402,5 +405,9 @@ Go over how to install active directory. It is not installed by default.
 <br>
 
 ## Summary
+
+<br>
+
+<br>
 
 Within this lab I installed a Virtual Machine using VMWare that uses Windows Server 2022. I also setup an admin account on Windows Server 2022 and installed Active Directory Domain Services. This will allow me to add/remove a user on my network, reset the password of a user. I also renamed my PC into something relevant and rememberable because I will be working with other VMs that uses Windows 10/11. Then I also went into the advanced system setting on my PC to adjust the best performance.
