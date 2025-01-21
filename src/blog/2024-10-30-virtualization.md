@@ -316,7 +316,11 @@ imageAlt: "Virtualization "
 <br>
 <br>
 
-\### Active Directory Domain Services Installation
+### Active Directory Domain Services Installation
+
+<br>
+
+<br>
 
 Go over how to install active directory. It is not installed by default.
 
