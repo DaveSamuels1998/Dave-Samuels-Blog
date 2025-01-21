@@ -42,12 +42,11 @@ imageAlt: "Virtualization "
 <br>
 
 1. Click on "Download the ISO".
- 
+
 <br>
  <br>
 
 ![ 500](/assets/blog/winserver-2022-2.png)
-
 
 2. Fill out the registry form to start the free trial. 
    <br>
@@ -271,8 +270,6 @@ imageAlt: "Virtualization "
 
 <br>
 
-
-
 25. Click the "Adjust for best performance" button. Then click "Apply" then "Ok".
 
 <br>
@@ -283,7 +280,7 @@ imageAlt: "Virtualization "
 <br>
 <br>
 
-!### Active Directory Domain Services Installation
+\### Active Directory Domain Services Installation
 
 Go over how to install active directory. It is not installed by default.
 
