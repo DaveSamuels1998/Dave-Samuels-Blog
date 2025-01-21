@@ -11,13 +11,39 @@ imageAlt: "Virtualization "
 ---
 ## Introduction
 
+<br>
+
+<br>
+
+
+
 <p> This is my journey in diving into Active Directory and learning about the vast possibilities that this services has to offer. </p>
 
 ## Virtualization Setup Process
 
+
+
+<br>
+
+<br>
+
  I believe setting up a virtual machine is the most practical approach for learning about various Windows settings. A virtual machine provides a sandbox environment, so if I make mistakes with the settings on Windows or within the VM itself, I can simply discard the VM and create a new one, keeping my host PC unaffected. I decided to use VMware as my virtual machine manager, specifically VMware Fusion 13, as my host PC is a Mac. 
 
+
+
+<br>
+
+<br>
+
+
+
 ### Installing VMware Fusion 13 on Mac
+
+<br>
+
+<br>
+
+
 
  Navigate to the directory where you saved the downloaded installer, and then run the installer file. 
 
@@ -30,6 +56,10 @@ imageAlt: "Virtualization "
 <br>
 
 ### Installing Windows Server 2022 iso file
+
+<br>
+
+<br>
 
 <p> I will use Windows Server 2022 as my server to control different PCs with other VMs using Active Directory.  Go to <https://www.microsoft.com/en-us/evalcenter> and click on Windows Server then Windows Server 2022. </p>
 
@@ -48,11 +78,15 @@ imageAlt: "Virtualization "
 
 ![ 500](/assets/blog/winserver-2022-2.png)
 
+<br>
+<br>
+
 2. Fill out the registry form to start the free trial. 
    <br>
    <br>
 
 ![ 500](/assets/blog/winserver-2022-3.png)
+
 <br>
 <br>
 
@@ -62,6 +96,7 @@ imageAlt: "Virtualization "
 <br>
 
 ![ 500](/assets/blog/blog-1-installation-method-1.png)
+
 <br>
 <br>
 
@@ -98,8 +133,9 @@ imageAlt: "Virtualization "
 <br>
 
 7. Navigate to the navbar for VMware and click on "Virtual Machine" and then "Settings".
-   <br>
-   <br>
+   
+<br>
+  <br>
 
 ![](/assets/blog/winserver2022-07-edit.png)
 
