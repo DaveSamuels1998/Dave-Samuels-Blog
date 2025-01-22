@@ -433,8 +433,7 @@ aside {
     border: 1px solid var(--clr-neutral-100);
     padding: 0.5rem 1rem;
     border-radius: 0.25rem;
-   
-    overflow: hidden;
+
   }
 
   summary {
