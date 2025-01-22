@@ -422,11 +422,12 @@ section,
     max-height: 34.375rem;
 }
 
-  
+@media (min-width: 75rem) {
 aside {
   position: sticky;
   height: 100dvh;
   top: 0;
+}
 }
 
   details {
