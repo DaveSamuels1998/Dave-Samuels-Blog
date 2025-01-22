@@ -424,7 +424,7 @@ section,
 
   
 aside {
-  
+  position: sticky;
   height: 100dvh;
 }
 
@@ -433,8 +433,7 @@ aside {
     border: 1px solid var(--clr-neutral-100);
     padding: 0.5rem 1rem;
     border-radius: 0.25rem;
-    align-items: stretch;
-    position: sticky;
+   
     overflow: hidden;
   }
 
