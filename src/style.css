@@ -450,10 +450,10 @@ aside {
     font-size: 0.75em;
     color: var(--clr-neutral-500);
   }
-  
+  /*
   .toc li > ol > li {
     list-style: none;
-  }
+  } */
   
 
   @media (max-width: 48rem) {
