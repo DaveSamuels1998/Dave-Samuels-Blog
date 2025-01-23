@@ -176,7 +176,7 @@ Today, I will be installing Windows 10 and Windows 11 on two separate virtual ma
 <br>
 <br>
 
-13. Click on "Next".
+13. Click "Next".
     <br>
     <br>
 
@@ -237,7 +237,7 @@ Today, I will be installing Windows 10 and Windows 11 on two separate virtual ma
 
 <br>
 
-1. For Windows 10 right-click "This PC" in File-Explorer and click on Properties > Rename this PC(advanced) > Change. Refer to <a href="https://blogbydave.netlify.app/blog/01.%20virtual%20machine%20setup,%20windows%20server%202022%20and%20active%20directory%20installation/#renaming-your-pc-on-windows-server-2022" target="_blank">Renaming your PC</a>.
+1. For Windows 10 right-click "This PC" in File-Explorer and click Properties > Rename this PC(advanced) > Change. Refer to <a href="https://blogbydave.netlify.app/blog/01.%20virtual%20machine%20setup,%20windows%20server%202022%20and%20active%20directory%20installation/#renaming-your-pc-on-windows-server-2022" target="_blank">Renaming your PC</a>.
 
  <br>
  <br>
@@ -248,7 +248,7 @@ Today, I will be installing Windows 10 and Windows 11 on two separate virtual ma
 
 <br>
 
-   For Windows 11 click on right-click "This PC" in File-Explorer and click on Properties >  "Domain or Workgroup" > Change.
+   For Windows 11 right-click "This PC" in File-Explorer and click Properties >  "Domain or Workgroup" > Change.
 
 <br>
 
@@ -279,7 +279,7 @@ Today, I will be installing Windows 10 and Windows 11 on two separate virtual ma
  <br>
  <br>
 
-3. Then double-click "administrator" or right-click and click on "properties".
+3. Then double-click "administrator" or right-click and click "Properties".
 
 ![](/assets/blog/enabling-administrator-account-3.png)
 
@@ -301,7 +301,7 @@ Today, I will be installing Windows 10 and Windows 11 on two separate virtual ma
 <br>
 <br>
 
-6. Right-click on the Administrator account and click on "Set Password"
+6. Right-click the Administrator account and click "Set Password"
    <br>
    <br>
 
@@ -453,7 +453,7 @@ I will download TeamViewer, which will allow me to remotely access another user'
 <br>
 <br>
 
-2. Click on the logo of the operating system that you are using. I am using Windows
+2. Click the logo of the operating system that you are using. I am using Windows
 
 <br>
 <br>
@@ -473,7 +473,7 @@ I will download TeamViewer, which will allow me to remotely access another user'
 <br>
 <br>
 
-4. Choose the default installation and click on "Accept".
+4. Choose the default installation and click "Accept".
 
 <br>
 <br>
