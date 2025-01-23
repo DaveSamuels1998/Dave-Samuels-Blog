@@ -232,7 +232,7 @@ When searching for something within your domain, right-click the domain director
 <br>
 <br>
 
-Enabling recycle bin is useful because if you delete something by accident you can retrieve.
+Enabling the recycle bin is useful because it allows you to retrieve items if you accidentally delete them.
 <br>
 <br>
 
@@ -241,7 +241,7 @@ Enabling recycle bin is useful because if you delete something by accident you c
 <br>
 <br>
 
-1. Go to the Windows Start button and search for "windows administrative tools" then look for "Active Directory Administrative Center"
+1. Click the Windows Start button, search for 'Windows Administrative Tools,' and then select 'Active Directory Administrative Center.'
    <br>
    <br>
 
@@ -259,7 +259,7 @@ Enabling recycle bin is useful because if you delete something by accident you c
 <br>
 <br>
 
-3. Enable Recycle bin (located to the right sidebar).
+3. Enable the Recycle bin (located on the right sidebar).
       <br>
       <br>
 
@@ -295,7 +295,7 @@ Enabling recycle bin is useful because if you delete something by accident you c
 <br>
 <br>
 
-It is best practice to have a user with roles that you can copy from instead of creating a user and manually assigning them roles and permissions. Doing this is scalable and saves a bunch of time, especially if you have to make many user accounts.
+It is best practice to create a user with roles that can be copied, rather than manually assigning roles and permissions to each new user. This approach is scalable and saves time, especially when creating multiple user accounts.
 
 <br>
 <br>
@@ -324,7 +324,7 @@ It is best practice to have a user with roles that you can copy from instead of 
 <br>
 <br>
 
-3. The permissions and the active directory they are already set to the user that you copied from.
+3. The permissions and Active Directory settings are already configured for the user you copied from.
 
 <br>
 <br>
@@ -343,7 +343,7 @@ It is best practice to have a user with roles that you can copy from instead of 
 <br>
 <br>
 
-5. You should see the user you created inside the directory that you created it in.
+5. You should see the user you created in the directory where you created it.
    <br>
    <br>
 
@@ -352,7 +352,7 @@ It is best practice to have a user with roles that you can copy from instead of 
 <br>
 <br>
 
-6. You can right-click on the created user and click "Properties" to see the directories that they are in. Since the user was created by copying an existing user, they should be apart of the same directory as that person. In my case the user "helpdesk" should be apart of everything that the "Administrator" is apart of.
+6. Right-click the created user and select 'Properties' to view the directories they belong to. Since the user was created by copying an existing one, they should be part of the same directories as the original user. In my case, the 'helpdesk' user should be part of the same directories as the 'Administrator'.
    <br>
    <br>
 
@@ -370,7 +370,7 @@ It is best practice to have a user with roles that you can copy from instead of 
 <br>
 <br>
 
-8. Here you can what directories the user is apart of. I did a side by side comparison to show that the user that I created from copying the "Administrator" user is identical.
+8. Here, you can see which directories the user is a part of. I did a side-by-side comparison to show that the user I created by copying the 'Administrator' user is identical.
    <br>
    <br>
 
@@ -403,7 +403,7 @@ It is best practice to have a user with roles that you can copy from instead of 
 <br>
 <br>
 
-3. Create a password for the user and give them the permissions that you want them to have
+3. Create a password for the user and give them the permissions that you want them to have.
    <br>
    <br>
 
@@ -412,7 +412,7 @@ It is best practice to have a user with roles that you can copy from instead of 
 <br>
 <br>
 
-4. If you go to the properties of the newly created user, you will see that they are not apart of any directories. You will have to assign the directories you want them to be apart of one by one.
+4. When you view the properties of the newly created user, you will notice that they are not part of any directories. You will need to assign them to the desired directories individually.
    <br>
    <br>
 
@@ -435,7 +435,7 @@ It is best practice to have a user with roles that you can copy from instead of 
 <br>
 <br>
 
-   `ipconfig` command gives you the ip address of the computer you are using
+   The `ipconfig` command provides the IP address of the computer you are using.
 
 <br>
    <br>
@@ -449,23 +449,22 @@ It is best practice to have a user with roles that you can copy from instead of 
  <br>
 <br>
 
-   `ipconfig/all` command gives you all the ip addresses in the network.
+   `ipconfig/all` command provides all the IP addresses in the network.
 
 <br>
 <br>
 
- If you see `DCHP Enabled. . .  Yes`  that means computer is grabbing an ip address from Dynamic Configuration Host Protocol. 
- If you see `DCHP Enabled. . .  No` then your computer is using a static ip address.
+If you see `DHCP Enabled: Yes`,  it means the computer is obtaining an IP address from the Dynamic Host Configuration Protocol. If you see 'DHCP Enabled: No,' the computer is using a static IP address.
 
 <br>
 <br>
 
-What are some real world use cases for static ips?
+### What are some real-world use cases for static IPs?
 
 <br>
 <br>
 
-Answer: A real world use cases for static ips would be assigning a printer a static ip in a work place. Since the ip address might change in a work place it is good to have a static ip on a printer. If the ip address on a printer changes you cannot print to that printer anymore. For this reason it is good practice to give the printer a static ip address so you can print to it indefinitely.
+Answer: A real-world use case for static IPs would be assigning a printer a static IP in a workplace. Since IP addresses can change in a workplace, it’s beneficial to assign a static IP to the printer. If the printer's IP address changes, you won’t be able to print to it. For this reason, it’s good practice to assign a static IP address to the printer, ensuring uninterrupted printing.
 
 <br>
 <br>
@@ -475,7 +474,7 @@ Answer: A real world use cases for static ips would be assigning a printer a sta
 <br>
 <br>
 
-   This command will tell you the shared drives that a person is connected too.
+   This command will tell you the shared drives that a person is connected to.
 
 <br>
 <br>
@@ -490,7 +489,7 @@ Answer: A real world use cases for static ips would be assigning a printer a sta
  <br>
 <br>
 
-This cmd command shows you information about the user domain that you enter. For example what time their password expires, what group they are apart of etc.
+This cmd command shows you information about the user domain that you enter. For example what time their password expires, what group they are a part of etc.
 
 <br>
 <br>
@@ -500,7 +499,7 @@ This cmd command shows you information about the user domain that you enter. For
 <br>
 <br>
 
-When putting in commands in a terminal the `?` mark is there to help you. If you don't know the properties/extension of a command put a `?` on it.
+When entering commands in a terminal, the question mark (?) is there to assist you. If you're unsure of the properties or extension of a command, add a question mark to it.
 
 <br>
 <br>
