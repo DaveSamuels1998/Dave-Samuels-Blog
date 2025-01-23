@@ -107,6 +107,7 @@ Today, I will be demonstrating how to create Organizational Units (OUs) and then
 
 <br>
 <br>
+
 6. A error message will pop up. In this case it is fine. Just click "Yes".
 <br>
 <br>
@@ -144,6 +145,9 @@ If you wanted to see a user's information such as their user account, what group
 
 ## Seeing a users information through Active Directory Users and Computers
 
+<br>
+<br>
+
 If we wanted to find Maddy's information using another method we could do that by finding Maddy's profile through Active Directory Users and Computers. To see the full information of the account we have to go into the settings called "Attribute Editor". To get to the settings "Attribute Editor" you have to physically go into the OU that the user is apart of.
 
 <br>
@@ -169,6 +173,7 @@ If we wanted to find Maddy's information using another method we could do that b
 
     <br>
     <br>
+
 3. Type in the user you want to find in the text field and search "Entire Directory".
    <br>
    <br>
@@ -179,6 +184,7 @@ If we wanted to find Maddy's information using another method we could do that b
 
 <br>
 <br>
+
 4. Double click on the user you found in the search results.
 <br>
 <br>
@@ -189,6 +195,7 @@ If we wanted to find Maddy's information using another method we could do that b
 
 <br>
 <br>
+
 5. Click on the "Object" tab.
 
 <br>
@@ -200,6 +207,7 @@ If we wanted to find Maddy's information using another method we could do that b
 
 <br>
 <br>
+
 6. Here you will see the organizational unit the User is apart of. In my case the user Maddy is in the HR OU.
 
 <br>
@@ -211,6 +219,7 @@ If we wanted to find Maddy's information using another method we could do that b
 
 <br>
 <br>
+
 7.  Navigate to the OU the user is located in and double click on them.
 
 <br>
@@ -222,6 +231,7 @@ If we wanted to find Maddy's information using another method we could do that b
 
 <br>
 <br>
+
 8. You will see the "Attribute Editor" in the user properties now. Click on it.
 
 <br>
@@ -233,6 +243,7 @@ If we wanted to find Maddy's information using another method we could do that b
 
 <br>
 <br>
+
 9. In the Attribute Editor you can see additional information about the user. Here I can see the password for Maddy was set on 1/12/2025.
 
 <br>
@@ -273,6 +284,7 @@ If we wanted to find Maddy's information using another method we could do that b
 
 <br>
 <br>
+
 3. Click on the "Settings" tab.
 <br>
 <br>
@@ -283,6 +295,7 @@ If we wanted to find Maddy's information using another method we could do that b
 
 <br>
 <br>
+
 4. Here you can see information about the Domain Policy of your domain controller. Under "Account Policies/Account Lockout Policy" I see that the account lockout threshold is set to 0 invalid logon attempts. I am going to change this setting in the following steps.
 <br>
 <br>
@@ -309,6 +322,7 @@ If we wanted to find Maddy's information using another method we could do that b
 
 <br>
 <br>
+
 2. Navigate to Computer Configuration > Policies > Windows Settings > Security Settings. Then double click on "Account Policies".
 <br>
 <br>
@@ -385,6 +399,7 @@ If we wanted to find Maddy's information using another method we could do that b
 
 <br>
 <br>
+
 7. If you navigate to Security Setting > Account Policies > Password Policy, you can see that you are able to change settings under "Policy". 
 
 
@@ -404,6 +419,7 @@ If we wanted to find Maddy's information using another method we could do that b
 
 <br>
 <br>
+
 9. Once you are finished changing setting in the Domain Policy, right-click on "Default Domain Policy" and click on "Enforced."
 
 <br>
@@ -415,6 +431,7 @@ If we wanted to find Maddy's information using another method we could do that b
 
 <br>
 <br>
+
 10. Navigate to "Account Policies/Password Policy" in the "Settings" tab with the Default Domain Policy and you should see the changes that you made.
 
 <br>
