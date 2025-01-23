@@ -118,8 +118,10 @@ Today, I will be installing Windows 10 and Windows 11 on two separate virtual ma
 <br>
 
 6. Click on the play button on VMware and then Windows 10/11 will begin the installation process.
-   <br>
-   <br>
+   
+<br>
+ <br>
+
 7. Chose the appropriate options for "Language to install:, "Time and currency format:, and Keyboard or input method: " pertaining to you.
    <br>
    <br>
@@ -236,8 +238,13 @@ Today, I will be installing Windows 10 and Windows 11 on two separate virtual ma
 
 <br>
 
+
+
 1. For Windows 10 right click "This PC" in file explorer and click on Properties > Rename this PC(advanced) > Change. Refer to <a href="https://blogbydave.netlify.app/blog/01.%20virtual%20machine%20setup,%20windows%20server%202022%20and%20active%20directory%20installation/#renaming-your-pc-on-windows-server-2022" target="_blank">Renaming your PC</a>.
-   <br>
+
+ <br>
+ <br>
+
 
    ![](/assets/blog/win11-rename-pc.png)
 
@@ -245,11 +252,15 @@ Today, I will be installing Windows 10 and Windows 11 on two separate virtual ma
 
 <br>
 
+
+
    For Windows 11 click on right click "This PC" in file explorer and click on Properties >  "Domain or Workgroup" > Change.
 
 <br>
 
 <br>
+
+
 
 ## Enable Administrator account
 
@@ -257,30 +268,52 @@ Today, I will be installing Windows 10 and Windows 11 on two separate virtual ma
 
 <br>
 
+
+
 1. In file explorer right click on "This PC" and click on "Manage".
    <br>
    <br>
+
+
 
 ![](/assets/blog/enabling-administrator-account-1.png)
 
 <br>
 <br>
 
+
+
 2. Go to the "local users and groups" folder and navigate to the "users" folder.
-   <br>
-   <br>
+   
+<br>
+ <br>
 
-   ![](/assets/blog/enabling-administrator-account-2.png)
+
+ ![](/assets/blog/enabling-administrator-account-2.png)
+
+ <br>
+ <br>
+
 3. Then double click "administrator" or right click and click on "properties".
+
+
    <br>
    <br>
 
-   ![](/assets/blog/enabling-administrator-account-3.png)
-4. Uncheck "Account is disabled".
-   <br>
+![](/assets/blog/enabling-administrator-account-3.png)
+
+ <br>
    <br>
 
-   ![](/assets/blog/enabling-administrator-account-4.png)
+6. Uncheck "Account is disabled".
+   
+<br>
+<br>
+
+ ![](/assets/blog/enabling-administrator-account-4.png)
+
+<br>
+<br>
 
 ![](/assets/blog/enabling-administrator-account-5.png)
 
@@ -317,12 +350,15 @@ Today, I will be installing Windows 10 and Windows 11 on two separate virtual ma
 ### Enabling Administrator account across multiple PCs
 
 <br>
+<br>
 
 It is good practice to just have one administrator account for one PC and have that account span on multiple PCs. Whenever you set up a new PC/VM make sure to enable administrator account.
+<br>
 <br>
 
 ## VMWare Network Adapter Settings
 
+<br>
 <br>
 
 Changing the VMWare network adapter settings to "host-only" will allow the PCs created on VMs to connect and communicate with each other using Static IP addresses. The VMs will communicate in a private network rather than using your external network.
@@ -338,7 +374,7 @@ Changing the VMWare network adapter settings to "host-only" will allow the PCs c
 <br>
 
 ## Creating Static IP Addressesd
-
+<br>
 <br>
 
 I will be creating a static IP Address for my server which host my domain controller so that my Virtual Machines that host PCs for the helpdesk and user account can connect to the domain.
@@ -362,6 +398,7 @@ I will be creating a static IP Address for my server which host my domain contro
 
 <br>
 <br>
+
 3. Click on "Network and Sharing Center"
 <br>
 <br>
@@ -370,6 +407,7 @@ I will be creating a static IP Address for my server which host my domain contro
 
 <br>
 <br>
+
 4. Click on "Change adapter settings"
 <br>
 <br>
@@ -407,8 +445,9 @@ I will be creating a static IP Address for my server which host my domain contro
 <br>
 
 8. Click on "Use the following IP address: " and give your PC any IP address that you want.
-   <br>
-   <br>
+   
+<br>
+ <br>
 
 ![](/assets/blog/creating-static-ip-addresses-8.png)
 
@@ -416,6 +455,7 @@ I will be creating a static IP Address for my server which host my domain contro
 
 <br>
 <br>
+
 I will be downloading Team Viewer which will give me the ability remote into another user PC. Even though I won't be using Team Viewer at this exact moment I will still download now because once we create a static IP for this PC, we won't have access to Wifi. So I will be downloading everything I need now.
 
 <br>
@@ -430,6 +470,7 @@ I will be downloading Team Viewer which will give me the ability remote into ano
 
 <br>
 <br>
+
 2. Click on the logo of operating system that you are using. I am using Windows
 
 <br>
@@ -462,23 +503,29 @@ I will be downloading Team Viewer which will give me the ability remote into ano
 ## Installing RSAT Tools
 
 <br>
+<br>
 
 I will be using the user account that I created in Windows 10 as a helpdesk account. To do this I will need to functionalities of Server Manager within Windows 10. Therefore we will be installing RSAT Tools.
 
 <br>
+<br>
+
 
 #### RSAT Tools on Windows 10
 
 <br>
+<br>
 
 1. Click the "Start" button and search for "Add or remove programs"
-   <br>
-   <br>
+   
+<br>
+<br>
 
 ![](/assets/blog/win10-rsat-tools-download-1.png)
 
 <br>
 <br>
+
 2. Click on "Optional features".
 
 <br>
@@ -488,6 +535,7 @@ I will be using the user account that I created in Windows 10 as a helpdesk acco
 
 <br>
 <br>
+
 3. Click on "Add a feature"
 
 <br>
@@ -497,6 +545,7 @@ I will be using the user account that I created in Windows 10 as a helpdesk acco
 
 <br>
 <br>
+
 3. Install the RSAT Tools that you need.
 
 <br>
@@ -506,6 +555,7 @@ I will be using the user account that I created in Windows 10 as a helpdesk acco
 
 <br>
 <br>
+
 4. You can see the tools that I installed here.
 
 <br>
@@ -543,10 +593,15 @@ I will be using the user account that I created in Windows 10 as a helpdesk acco
 ![](/assets/blog/win11-rsat-download-3.png)
 
 <br>
+<br>
 
 ## Creating a static IP Address for the helpdesk and User PC
 
+<br>
+<br>
+
 The PC will need to have the right IP address in order to connect to the domain. You need to put the IP address of your Domain Name Server in the "Preferred DNS Server: "  Refer to \[[#Creating Static IP Addresses]] on how to get to the "Internet Protocol Version 4 (TCP/IPv4) Properties".
+
 <br>
 <br>
 
@@ -575,6 +630,7 @@ The PC will need to have the right IP address in order to connect to the domain.
 
 <br>
 <br>
+
 1.  Open file explorer and right click on "This PC" and click on "Properties" 
 <br>
 <br>
@@ -586,21 +642,27 @@ The PC will need to have the right IP address in order to connect to the domain.
 
 2. Click on "Rename this PC(advanced)" and click on the "Change" button  for Windows 10 or
       "Domain or Workgroup" for Windows 11.
-   <br>
+
+<br>
+<br>
+
 
 #### Windows 10
 
+<br>
 <br>
 
 ![](/assets/blog/winserver2022-setup-02-edited.png)
 
 <br>
+<br>
 
 ![](/assets/blog/winserver2022-setup-03-edited.png)
 
 <br>
+<br>
 
-\#### Windows 11
+#### Windows 11
 
 <br>
 
@@ -645,8 +707,9 @@ The PC will need to have the right IP address in order to connect to the domain.
 
 <br>
 <br>
-1. On your Windows 10/11 PC that you connected to your DNS open the Command Prompt and type in the command \\\\\`\\\\\`ping \\\\\[IP of your DNS]\\\\\`\\\\\`
-   For example: the IP of my DNS is "10.1.10.2" so I would type \\\\\`\\\\\`ping 10.1.10.2\\\\\`\\\\\`
+
+1. On your Windows 10/11 PC that you connected to your DNS open the Command Prompt and type in the command \\\\\\`\\\\\\`ping \\\\\\[IP of your DNS]\\\\\\`\\\\\\`
+   For example: the IP of my DNS is "10.1.10.2" so I would type \\\\\\`\\\\\\`ping 10.1.10.2\\\\\\`\\\\\\`
 
 <br>
 <br>
@@ -700,6 +763,7 @@ The PC will need to have the right IP address in order to connect to the domain.
 
 <br>
 <br>
+
 5. Confirm that you want to delete the profile
 
 <br>
