@@ -302,7 +302,6 @@ Today, I will be installing Windows 10 and Windows 11 on two separate virtual ma
 
 ![](/assets/blog/enabling-administrator-account-8.png)
 
-
 <br>
 <br>
 
@@ -311,7 +310,6 @@ Today, I will be installing Windows 10 and Windows 11 on two separate virtual ma
    <br>
 
 ![]()
-
 
 <br>
 <br>
@@ -335,7 +333,7 @@ Changing the VMWare network adapter settings to "host-only" will allow the PCs c
    <br>
    <br>
 
-!\[[Changing VMWare Network Adapter Settings.png | 600]]
+![](/assets/blog/changing-vmware-network-adapter-settings.png)
 <br>
 <br>
 
@@ -351,7 +349,9 @@ I will be creating a static IP Address for my server which host my domain contro
    <br>
    <br>
 
-!\[[Creating Static IP Addresses-1.png | 600]]
+![](/assets/blog/creating-static-ip-addresses-1.png)
+
+
 <br>
 <br>
 
@@ -359,7 +359,9 @@ I will be creating a static IP Address for my server which host my domain contro
    <br>
    <br>
 
-!\[[Creating Static IP Addresses-2.png | 600]]
+
+
+![](/assets/blog/creating-static-ip-addresses-2.png)
 
 <br>
 <br>
@@ -367,7 +369,9 @@ I will be creating a static IP Address for my server which host my domain contro
 <br>
 <br>
 
-!\[[Creating Static IP Addresses-3.png | 600]]
+
+
+![](/assets/blog/creating-static-ip-addresses-3.png)
 
 <br>
 <br>
@@ -375,7 +379,9 @@ I will be creating a static IP Address for my server which host my domain contro
 <br>
 <br>
 
-!\[[Creating Static IP Addresses-4.png | 600]]
+![](/assets/blog/creating-static-ip-addresses-4.png)
+
+
 <br>
 <br>
 
@@ -383,7 +389,9 @@ I will be creating a static IP Address for my server which host my domain contro
    <br>
    <br>
 
-!\[[Creating Static IP Addresses-5.png | 600]]
+![](/assets/blog/creating-static-ip-addresses-5.png)
+
+
 <br>
 <br>
 
@@ -391,7 +399,9 @@ I will be creating a static IP Address for my server which host my domain contro
    <br>
    <br>
 
-!\[[Creating Static IP Addresses-6.png | 600]]
+![](/assets/blog/creating-static-ip-addresses-6.png)
+
+
 <br>
 <br>
 
@@ -399,7 +409,9 @@ I will be creating a static IP Address for my server which host my domain contro
    <br>
    <br>
 
-!\[[Creating Static IP Addresses-7.png | 600]]
+![](/assets/blog/creating-static-ip-addresses-7.png)
+
+
 <br>
 <br>
 
@@ -407,7 +419,9 @@ I will be creating a static IP Address for my server which host my domain contro
    <br>
    <br>
 
-!\[[Creating Static IP Addresses-8.png | 600]]
+
+
+![](/assets/blog/creating-static-ip-addresses-8.png)
 
 ### Download Team Viewer
 
@@ -572,7 +586,7 @@ The PC will need to have the right IP address in order to connect to the domain.
 1.  Open file explorer and right click on "This PC" and click on "Properties" 
 <br>
 <br>
-!\\[[WinServer2022 Setup 01.png | 600]]
+!\\\[[WinServer2022 Setup 01.png | 600]]
 <br>
 <br>
 
@@ -635,8 +649,8 @@ The PC will need to have the right IP address in order to connect to the domain.
 
 <br>
 <br>
-1. On your Windows 10/11 PC that you connected to your DNS open the Command Prompt and type in the command \\`\\`ping \\[IP of your DNS]\\`\\`
-   For example: the IP of my DNS is "10.1.10.2" so I would type \\`\\`ping 10.1.10.2\\`\\`
+1. On your Windows 10/11 PC that you connected to your DNS open the Command Prompt and type in the command \\\`\\\`ping \\\[IP of your DNS]\\\`\\\`
+   For example: the IP of my DNS is "10.1.10.2" so I would type \\\`\\\`ping 10.1.10.2\\\`\\\`
 
 <br>
 <br>
@@ -676,8 +690,6 @@ The PC will need to have the right IP address in order to connect to the domain.
 <br>
 <br>
 
-
-
 ![](/assets/blog/delete-user-without-server-manager-1.png)
 
 <br>
@@ -687,8 +699,6 @@ The PC will need to have the right IP address in order to connect to the domain.
 
 <br>
 <br>
-
-
 
 ![](/assets/blog/delete-user-without-server-manager-2.png)
 
