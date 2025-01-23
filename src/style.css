@@ -443,7 +443,7 @@ aside {
     color: var(--clr-neutral-900);
     margin-inline-start: 1rem;
     list-style-position: inside;
-    list-style: none;
+    
   }
 
   summary::marker {
