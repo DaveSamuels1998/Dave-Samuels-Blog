@@ -97,12 +97,14 @@ In this lab, I will be completing the post-deployment configuration for Active D
    <br>
 
    ![](/assets/blog/dns-server-setup-8.png)
+
 <br>
 <br>
 
 9. We will get a bunch of error messages but we are setting up a basic DNS server environment on a static IP address so we don't have to worry about those messages. Just click "Next".
-   <br>
-   <br>
+   
+<br>
+<br>
 
    ![](/assets/blog/dns-server-setup-9.png)
 
@@ -139,6 +141,7 @@ With Server manager we can containerizes and maintain users computers and OUs (O
     <br>
 
    ![](/assets/blog/ad-find-user-1.png)
+
 <br>
 <br>
 
@@ -148,6 +151,7 @@ With Server manager we can containerizes and maintain users computers and OUs (O
 <br>
 
    ![](/assets/blog/ad-find-user-2.png)
+
 <br>
 <br>
 
