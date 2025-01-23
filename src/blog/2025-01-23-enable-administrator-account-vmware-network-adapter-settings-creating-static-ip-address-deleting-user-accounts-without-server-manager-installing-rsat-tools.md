@@ -230,13 +230,13 @@ Today, I will be installing Windows 10 and Windows 11 on two separate virtual ma
 <br>
 <br>
 
-#### Optional step: Renaming you PC for Windows 10/11
+#### Optional step: Renaming your PC for Windows 10/11
 
 <br>
 
 <br>
 
-1. For Windows 10 right click "This PC" in file explorer and click on Properties > Rename this PC(advanced) > Change. Refer to \[[01. Virtual Machine Setup, Windows Server 2022 and Active Directory Installation#Renaming your PC on Windows Server 2022]] .
+1. For Windows 10 right click "This PC" in file explorer and click on Properties > Rename this PC(advanced) > Change. Refer to <a href="https://blogbydave.netlify.app/blog/01.%20virtual%20machine%20setup,%20windows%20server%202022%20and%20active%20directory%20installation/#renaming-your-pc-on-windows-server-2022" target="_blank">Renaming your PC</a>.
    <br>
 
    ![](/assets/blog/win11-rename-pc.png)
@@ -426,8 +426,6 @@ I will be downloading Team Viewer which will give me the ability remote into ano
 <br>
 <br>
 
-
-
 ![](/assets/blog/teamviewer-install-1.png)
 
 <br>
@@ -436,8 +434,6 @@ I will be downloading Team Viewer which will give me the ability remote into ano
 
 <br>
 <br>
-
-
 
 ![](/assets/blog/teamviewer-install-2.png)
 
@@ -448,8 +444,6 @@ I will be downloading Team Viewer which will give me the ability remote into ano
 <br>
 <br>
 
-
-
 ![](/assets/blog/teamviewer-install-3.png)
 
 <br>
@@ -459,8 +453,6 @@ I will be downloading Team Viewer which will give me the ability remote into ano
 
 <br>
 <br>
-
-
 
 ![](/assets/blog/teamviewer-setup-1.png)
 
@@ -483,8 +475,6 @@ I will be using the user account that I created in Windows 10 as a helpdesk acco
    <br>
    <br>
 
-
-
 ![](/assets/blog/win10-rsat-tools-download-1.png)
 
 <br>
@@ -493,8 +483,6 @@ I will be using the user account that I created in Windows 10 as a helpdesk acco
 
 <br>
 <br>
-
-
 
 ![](/assets/blog/win10-rsat-tools-download-2.png)
 
@@ -505,8 +493,6 @@ I will be using the user account that I created in Windows 10 as a helpdesk acco
 <br>
 <br>
 
-
-
 ![](/assets/blog/win10-rsat-tools-download-3.png)
 
 <br>
@@ -516,8 +502,6 @@ I will be using the user account that I created in Windows 10 as a helpdesk acco
 <br>
 <br>
 
-
-
 ![](/assets/blog/win10-rsat-tools-download-4.png)
 
 <br>
@@ -526,8 +510,6 @@ I will be using the user account that I created in Windows 10 as a helpdesk acco
 
 <br>
 <br>
-
-
 
 ![](/assets/blog/win10-rsat-tools-download-5.png)
 
@@ -540,8 +522,6 @@ I will be using the user account that I created in Windows 10 as a helpdesk acco
    <br>
    <br>
 
-
-
 ![](/assets/blog/win11-rsat-download-1.png)
 
 <br>
@@ -550,8 +530,6 @@ I will be using the user account that I created in Windows 10 as a helpdesk acco
 2. Click on "add a feature"
    <br>
    <br>
-
-
 
 ![](/assets/blog/win11-rsat-download-2.png)
 
@@ -576,22 +554,17 @@ The PC will need to have the right IP address in order to connect to the domain.
 
 <br>
 
-
-
 ![](/assets/blog/static-ip-desktop-1.png)
 
 <br>
 
 <br>
 
-
 \#### Static IP Address for User PC
 
 <br>
 
 <br>
-
-
 
 ![](/assets/blog/static-ip-desktop-2.png)
 
@@ -606,9 +579,7 @@ The PC will need to have the right IP address in order to connect to the domain.
 <br>
 <br>
 
-
 ![](/assets/blog/winserver2022-setup-01-edit.png)
-
 
 <br>
 <br>
@@ -623,10 +594,7 @@ The PC will need to have the right IP address in order to connect to the domain.
 
 ![](/assets/blog/winserver2022-setup-02-edited.png)
 
-
 <br>
-
-
 
 ![](/assets/blog/winserver2022-setup-03-edited.png)
 
@@ -636,13 +604,9 @@ The PC will need to have the right IP address in order to connect to the domain.
 
 <br>
 
-
-
 ![](/assets/blog/win11-change-domain-or-workgroup-1.png)
 
 <br>
-
-
 
 ![](/assets/blog/win11-change-domain-or-workgroup-2.png)
 
@@ -654,8 +618,6 @@ The PC will need to have the right IP address in order to connect to the domain.
 <br>
 <br>
 
-
-
 ![](/assets/blog/connecting-desktop-1-to-dns.png)
 
 <br>
@@ -664,8 +626,6 @@ The PC will need to have the right IP address in order to connect to the domain.
 4. Put in your information for your administrator account to confirm the connection with the domain.
    <br>
    <br>
-
-
 
 ![](/assets/blog/dns-connect-information.png)
 
@@ -676,8 +636,6 @@ The PC will need to have the right IP address in order to connect to the domain.
    <br>
    <br>
 
-
-
 ![](/assets/blog/desktop1-desktop2-is-connected-to-the-domain..png)
 
 <br>
@@ -687,13 +645,11 @@ The PC will need to have the right IP address in order to connect to the domain.
 
 <br>
 <br>
-1. On your Windows 10/11 PC that you connected to your DNS open the Command Prompt and type in the command \\\\`\\\\`ping \\\\[IP of your DNS]\\\\`\\\\`
-   For example: the IP of my DNS is "10.1.10.2" so I would type \\\\`\\\\`ping 10.1.10.2\\\\`\\\\`
+1. On your Windows 10/11 PC that you connected to your DNS open the Command Prompt and type in the command \\\\\`\\\\\`ping \\\\\[IP of your DNS]\\\\\`\\\\\`
+   For example: the IP of my DNS is "10.1.10.2" so I would type \\\\\`\\\\\`ping 10.1.10.2\\\\\`\\\\\`
 
 <br>
 <br>
-
-
 
 ![](/assets/blog/pinging-dns-with-win11-pc.png)
 
@@ -710,8 +666,6 @@ The PC will need to have the right IP address in order to connect to the domain.
 <br>
 <br>
 
-
-
 ![](/assets/blog/winserver2022-setup-01-edit.png)
 
 <br>
@@ -721,8 +675,6 @@ The PC will need to have the right IP address in order to connect to the domain.
 
 <br>
 <br>
-
-
 
 ![](/assets/blog/winserver2022-setup-05-edit.png)
 
