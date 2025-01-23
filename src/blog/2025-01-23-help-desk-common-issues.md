@@ -45,8 +45,6 @@ In this blog I want to explore more on why we made the two accounts, the Helpdes
 
 <br>
 
-
-
 ![](/assets/blog/cmd-working-with-user-1.png)
 
 <br>
@@ -62,15 +60,16 @@ In this blog I want to explore more on why we made the two accounts, the Helpdes
 ### 1. Locked out of an account
 
 <br>
-
-
+<br>
 
 ![](/assets/blog/account-lockout-1.png)
 
 <br>
+<br>
 
 #### Solution
 
+<br>
 <br>
 
 1. Open Server Manager and go into Active Directory Users and Computers
@@ -78,8 +77,6 @@ In this blog I want to explore more on why we made the two accounts, the Helpdes
 <br>
 
 <br>
-
- 
 
 ![](/assets/blog/ad-find-user-1.png)
 
@@ -93,8 +90,6 @@ In this blog I want to explore more on why we made the two accounts, the Helpdes
 
 <br>
 
-
-
 ![](/assets/blog/ad-find-user-2.png)
 
 <br>
@@ -106,8 +101,6 @@ In this blog I want to explore more on why we made the two accounts, the Helpdes
 <br>
 
 <br>
-
- 
 
 ![](/assets/blog/maddy-ad-attr-1.png)
 
@@ -121,8 +114,6 @@ In this blog I want to explore more on why we made the two accounts, the Helpdes
 
 <br>
 
-
-
 ![](/assets/blog/maddy-ad-attr-2.png)
 
 <br>
@@ -134,8 +125,6 @@ In this blog I want to explore more on why we made the two accounts, the Helpdes
 <br>
 
 <br>
-
-
 
 ![](/assets/blog/account-lockout-2.png)
 
@@ -149,8 +138,6 @@ In this blog I want to explore more on why we made the two accounts, the Helpdes
 
 <br>
 
-
-
 ![](/assets/blog/account-lockout-3.png)
 
 <br>
@@ -162,10 +149,6 @@ In this blog I want to explore more on why we made the two accounts, the Helpdes
 <br>
 
 <br>
-
-
-
-
 
 ![](/assets/blog/account-disabled-1.png)
 
@@ -185,8 +168,6 @@ In this blog I want to explore more on why we made the two accounts, the Helpdes
 
 <br>
 
- 
-
 ![](/assets/blog/ad-find-user-1.png)
 
 <br>
@@ -198,8 +179,6 @@ In this blog I want to explore more on why we made the two accounts, the Helpdes
 <br>
 
 <br>
-
-
 
 ![](/assets/blog/ad-find-user-2.png)
 
@@ -213,8 +192,6 @@ In this blog I want to explore more on why we made the two accounts, the Helpdes
 
 <br>
 
- 
-
 ![](/assets/blog/maddy-ad-attr-1.png)
 
 <br>
@@ -226,8 +203,6 @@ In this blog I want to explore more on why we made the two accounts, the Helpdes
 <br>
 
 <br>
-
-
 
 ![](/assets/blog/enable-account-1.png)
 
@@ -253,8 +228,6 @@ In this blog I want to explore more on why we made the two accounts, the Helpdes
 
 <br>
 
-
-
 ![](/assets/blog/ad-find-user-1.png)
 
 <br>
@@ -266,8 +239,6 @@ In this blog I want to explore more on why we made the two accounts, the Helpdes
 <br>
 
 <br>
-
-
 
 ![](/assets/blog/ad-find-user-2.png)
 
@@ -281,8 +252,6 @@ In this blog I want to explore more on why we made the two accounts, the Helpdes
 
 <br>
 
- 
-
 ![](/assets/blog/maddy-ad-attr-1.png)
 
 <br>
@@ -294,8 +263,6 @@ In this blog I want to explore more on why we made the two accounts, the Helpdes
 <br>
 
 <br>
-
-
 
 ![](/assets/blog/reset-password-1.png)
 
@@ -309,8 +276,6 @@ In this blog I want to explore more on why we made the two accounts, the Helpdes
 
 <br>
 
-
-
 ![](/assets/blog/reset-password-2.png)
 
 <br>
@@ -322,8 +287,6 @@ In this blog I want to explore more on why we made the two accounts, the Helpdes
 <br>
 
 <br>
-
-
 
 ![](/assets/blog/account-expired-1.png)
 
@@ -349,8 +312,6 @@ A user might come across this issue because their password is expired and you ha
 
 <br>
 
-
-
 ![](/assets/blog/ad-find-user-1.png)
 
 <br>
@@ -362,8 +323,6 @@ A user might come across this issue because their password is expired and you ha
 <br>
 
 <br>
-
-
 
 ![](/assets/blog/ad-find-user-2.png)
 
@@ -377,8 +336,6 @@ A user might come across this issue because their password is expired and you ha
 
 <br>
 
- 
-
 ![](/assets/blog/maddy-ad-attr-1.png)
 
 <br>
@@ -390,8 +347,6 @@ A user might come across this issue because their password is expired and you ha
 <br>
 
 <br>
-
-
 
 ![](/assets/blog/maddy-ad-attr-2.png)
 
@@ -405,8 +360,6 @@ A user might come across this issue because their password is expired and you ha
 
 <br>
 
-
-
 ![](/assets/blog/account-lockout-2.png)
 
 <br>
@@ -419,21 +372,17 @@ A user might come across this issue because their password is expired and you ha
 
 <br>
 
-
-
 ![](/assets/blog/account-expired-2.png)
 
 <br>
 
 <br>
 
-7. Optional step: Check if the users information is alright in CMD with \`\`net user \[domain name] /domain\`\`
+7. Optional step: Check if the users information is alright in CMD with `net user [domain name] /domain`
 
 <br>
 
 <br>
-
-
 
 ![](/assets/blog/cmd-net-user-maddy.png)
 
@@ -465,8 +414,6 @@ A user might come across this issue because their password is expired and you ha
 
 <br>
 
-
-
 ![](/assets/blog/ad-find-user-1.png)
 
 <br>
@@ -478,8 +425,6 @@ A user might come across this issue because their password is expired and you ha
 <br>
 
 <br>
-
-
 
 ![](/assets/blog/enable-pc-on-ad-1.png)
 
@@ -493,8 +438,6 @@ A user might come across this issue because their password is expired and you ha
 
 <br>
 
-
-
 ![](/assets/blog/enable-pc-on-ad-2.png)
 
 <br>
@@ -506,8 +449,6 @@ A user might come across this issue because their password is expired and you ha
 <br>
 
 <br>
-
-
 
 ![](/assets/blog/pc-disabled-on-ad-1.png)
 
@@ -533,8 +474,6 @@ You have to rejoin the PC back into the domain.
 
 <br>
 
-
-
 ![](/assets/blog/adding-back-to-the-domain-1.png)
 
 <br>
@@ -546,8 +485,6 @@ You have to rejoin the PC back into the domain.
 <br>
 
 <br>
-
-
 
 ![](/assets/blog/winserver2022-setup-01-edit.png)
 
@@ -561,8 +498,6 @@ You have to rejoin the PC back into the domain.
 
 <br>
 
-
-
 ![](/assets/blog/winserver2022-setup-02-edited.png)
 
 <br>
@@ -574,8 +509,6 @@ You have to rejoin the PC back into the domain.
 <br>
 
 <br>
-
-
 
 ![](/assets/blog/winserver2022-setup-03-edited.png)
 
@@ -589,8 +522,6 @@ You have to rejoin the PC back into the domain.
 
 <br>
 
-
-
 ![](/assets/blog/adding-back-to-the-domain-2.png)
 
 <br>
@@ -602,8 +533,6 @@ You have to rejoin the PC back into the domain.
 <br>
 
 <br>
-
-
 
 ![](/assets/blog/adding-back-to-the-domain-3.png)
 
@@ -617,8 +546,6 @@ You have to rejoin the PC back into the domain.
 
 <br>
 
-
-
 ![](/assets/blog/adding-back-to-the-domain-4.png)
 
 <br>
@@ -630,8 +557,6 @@ You have to rejoin the PC back into the domain.
 <br>
 
 <br>
-
-
 
 ![](/assets/blog/adding-back-to-the-domain-5.png)
 
@@ -651,8 +576,6 @@ You have to rejoin the PC back into the domain.
 
 <br>
 
-
-
 ![](/assets/blog/adding-back-to-the-domain-6.png)
 
 <br>
@@ -670,8 +593,6 @@ You have to rejoin the PC back into the domain.
 <br>
 
 <br>
-
-
 
 ![](/assets/blog/desktop1-desktop2-is-connected-to-the-domain..png)
 
