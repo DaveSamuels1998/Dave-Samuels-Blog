@@ -24,7 +24,7 @@ Today, I will be installing Windows 10 and Windows 11 on two separate virtual ma
 <br>
 
 <br>
-1. Go to the [Download Windows 10](https://www.microsoft.com/en-us/software-download/windows10ISO) or [Download Windows 11](https://www.microsoft.com/en-us/software-download/windows11) site.
+1. Go to the <a href="https://www.microsoft.com/en-us/software-download/windows10ISO" target="_blank">Download Windows 10</a> or <a href="https://www.microsoft.com/en-us/software-download/windows11" target="_blank">Download Windows 11</a> site.
 
 <br>
 <br>
