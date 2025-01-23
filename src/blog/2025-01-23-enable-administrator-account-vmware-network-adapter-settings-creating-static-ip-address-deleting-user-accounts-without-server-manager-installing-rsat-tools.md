@@ -464,7 +464,6 @@ I will download TeamViewer, which will allow me to remotely access another user'
 <br>
 <br>
 
-
 3. Scroll down and download the TeamViewer Host. Select either the 32-bit or 64-bit version. 
 
 <br>
@@ -615,7 +614,7 @@ The PC must have the correct IP address to connect to the domain. Enter the IP a
 <br>
 <br>
 
-1. Open file explorer and right click on "This PC" and click on "Properties" 
+1. Open File-Explorer and right-click "This PC" and click "Properties" 
    <br>
    <br>
 
@@ -624,8 +623,7 @@ The PC must have the correct IP address to connect to the domain. Enter the IP a
 <br>
 <br>
 
-2. Click on "Rename this PC(advanced)" and click on the "Change" button  for Windows 10 or
-     "Domain or Workgroup" for Windows 11.
+2. Click 'Rename this PC (Advanced)' and then click the 'Change' button for Windows 10, or click 'Domain or Workgroup' for Windows 11.
 
 <br>
 <br>
@@ -658,7 +656,7 @@ The PC must have the correct IP address to connect to the domain. Enter the IP a
 <br>
 <br>
 
-3. Click on "Domain" under "Member of" and type in the domain you want to connect too.
+3. Click "Domain" under "Member of" and type in the domain you want to connect to.
 
 <br>
 <br>
@@ -668,7 +666,7 @@ The PC must have the correct IP address to connect to the domain. Enter the IP a
 <br>
 <br>
 
-4. Put in your information for your administrator account to confirm the connection with the domain.
+4. Enter your administrator account information to confirm the connection to the domain.
    <br>
    <br>
 
@@ -691,8 +689,8 @@ The PC must have the correct IP address to connect to the domain. Enter the IP a
 <br>
 <br>
 
-1. On your Windows 10/11 PC that you connected to your DNS open the Command Prompt and type in the command \\\`\\\\\\`ping \\\\[IP of your DNS]\\\`\\\\\\`
-   For example: the IP of my DNS is "10.1.10.2" so I would type \\\`\\\\\\`ping 10.1.10.2\\\`\\\\\\`
+1. On your Windows 10/11 PC that you connected to your DNS open the Command Prompt and type in the command `ping [IP of your DNS]`
+   For example: the IP of my DNS is "10.1.10.2" so I would type `ping 10.1.10.2`
 
 <br>
 <br>
@@ -707,7 +705,7 @@ The PC must have the correct IP address to connect to the domain. Enter the IP a
 <br>
 <br>
 
-1. Open File Explore and right click on "This PC" and click on "Properties".
+1. Open File-Explore and right-click "This PC" and click "Properties".
 
 <br>
 <br>
@@ -717,7 +715,7 @@ The PC must have the correct IP address to connect to the domain. Enter the IP a
 <br>
 <br>
 
-2. Click on "Advanced System Settings"
+2. Click "Advanced System Settings"
 
 <br>
 <br>
@@ -727,7 +725,7 @@ The PC must have the correct IP address to connect to the domain. Enter the IP a
 <br>
 <br>
 
-3. Click on "Settings" under "User Profiles"
+3. Click "Settings" under "User Profiles"
 
 <br>
 <br>
@@ -737,7 +735,7 @@ The PC must have the correct IP address to connect to the domain. Enter the IP a
 <br>
 <br>
 
-4. Find the user you want to delete, click on them and press the delete button.
+4. Find the user you want to delete, click on their profile, and press the delete button.
 
 <br>
 <br>
