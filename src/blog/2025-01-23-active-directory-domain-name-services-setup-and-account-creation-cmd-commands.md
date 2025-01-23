@@ -1,0 +1,443 @@
+---
+title: Active Directory Domain Name Services Setup and Account Creation, CMD Commands
+description: Second Lab Series
+author: Dave Samuels
+date: 2025-01-15T19:50:00.000Z
+tags:
+  - post
+image: /assets/blog/article-1.jpg
+imageAlt: Second Installment
+---
+## Introduction
+
+<br>
+<br>
+
+In this lab, I will be completing the post-deployment configuration for Active Directory by installing and setting up Active Directory Domain Services. Once this process is complete, I will able to create and locate users within Active Directory.
+
+<br>
+<br>
+
+### Deployment Configuration
+
+<br>
+<br>
+
+1. Click on "Promote this server to a domain controller"
+
+
+
+![](/assets/blog/dns-server-setup-1.png)
+
+<br>
+<br>
+
+2. Toggle "Add a new forest" because this a new environment setup so that means we don't have any existing domains or forest.
+
+
+
+   ![](/assets/blog/dns-server-setup-2.png)
+3. Fill in the "Root domain name" text field. Since I will be hosting my domain on a static IP I can call it whatever I want. If you have your domain on the internet then you might have to change your domain name depending if it is already taken by someone else.
+
+
+
+   ![](/assets/blog/dns-server-setup-3.png)
+4. In the Domain Controller Options leave everything as it is, then create a password.
+
+
+
+   ![](/assets/blog/dns-server-setup-4.png)
+5. Click "Next".
+   <br>
+   <br>
+
+
+   ![](/assets/blog/dns-server-setup-5.png)
+
+
+   <br>
+   <br>
+6. Verify that the NetBIOS domain name is correct.
+   <br>
+   <br>
+
+
+   ![](/assets/blog/dns-server-setup-6.png)
+
+
+   <br>
+   <br>
+7. Click "Next".
+   <br>
+   <br>
+
+
+   ![](/assets/blog/dns-server-setup-7.png)
+
+
+   <br>
+   <br>
+8. Click "Next".
+   <br>
+   <br>
+
+
+   ![](/assets/blog/dns-server-setup-8.png)
+
+
+   <br>
+   <br>
+9. We will get a bunch of error messages but we are setting up a basic DNS server environment on a static IP address so we don't have to worry about those messages. Just click "Next".
+   <br>
+   <br>
+
+
+   ![](/assets/blog/dns-server-setup-9.png)
+
+
+   <br>
+   <br>
+10. Your PC will restart on it's own and starting applying computer settings. This process will take a while.
+    <br>
+    <br>
+11. After your computer has finishing restarting, go to "Other User" and check to see if  "Sign in to: (Your Domain Name)" is present. If it is that means your domain is up and running. Also it means that the user that you will create will be apart of your domain.
+    <br>
+    <br>
+
+![](/assets/blog/dns-button.png)
+
+
+<br>
+<br>
+
+With Server manager we can containerizes and maintain users computers and OUs (Organizational Units) with active directory users and computers. I will be exploring more of the features within active directory in this post.
+<br>
+<br>
+
+### Finding a user in an active directory
+
+<br>
+<br>
+
+1. In Server Manger navigate to Tools > Active Directory Users and Computers
+   <br>
+    <br>
+    
+
+   ![](/assets/blog/ad-find-user-1.png)
+
+
+   <br>
+   <br>
+2. Right click on your domain name and click on "find". My domain name is "davesworld.com"
+   <br><br>
+
+
+   ![](/assets/blog/ad-find-user-2.png)
+
+
+   <br>
+   <br>
+3. Click on the directory navigation and click on "entire directory". It is best practice to search the "entire directory" since it will search everything. The user may not be in the domain or a particular directory so it is important to search on the entire directory. 
+   <br>
+   <br>
+
+ 
+
+![](/assets/blog/ad-find-user-3.png)
+
+
+ <br>
+ <br>
+
+4. Fill in the "Name: " text field and search for the user you want to find and click the "Find Now" button. 
+   <br>
+   <br>
+
+![](/assets/blog/ad-find-user-4.png)
+
+
+ <br>
+ <br>
+
+5. You should see the user show up after the previous step.
+   <br>
+   <br>
+
+
+   ![](/assets/blog/ad-find-user-5.png)
+
+
+   <br>
+   <br>
+6. Click on "view" in the navigation bar within active directory users and computers and click on advanced features. This will give addition information about users whenever you search for them. If I repeat the steps in order to find a users within the active directory, I can see which directory they are in. 
+   <br>
+   <br>
+
+
+   ![](/assets/blog/ad-find-user-6.png)
+
+
+   <br>
+   <br>
+7. Repeat the steps in order to find a users within the active directory and then double-click on the user.
+   <br>
+   <br>
+
+![](/assets/blog/ad-find-user-7.png)
+
+
+<br>
+<br>
+
+8. Click on "Object" in the Properties settings.
+   <br>
+   <br>
+
+![](/assets/blog/ad-find-user-8.png)
+
+
+<br>
+<br>
+
+9. Here you can see which directory the user is apart of. In my case the user "Guest" is apart of the "Users" directory.
+
+<br>
+<br>
+
+
+
+![](/assets/blog/ad-find-user-9.png)
+
+#### Sidenote
+
+<br>
+
+When you want to search for anything in your domain, you should right click your domain directory and click on 'Find'. In the example below we right clicked on the "Computer" directory to show that you might not find what you are looking for if you search in the "Computer" directory. 
+
+## Enable Recycle Bin
+
+Enabling recycle bin is useful because if you delete something by accident you can retrieve.
+
+#### Steps to enable recycle bin
+
+1. Go to the Windows Start button and search for "windows administrative tools" then look for "Active Directory Administrative Center"
+   <br>
+   <br>
+
+
+   ![](/assets/blog/ad-enable-recycle-bin-1.png)
+
+<br>
+<br>
+
+2. Click on your local domain name
+   <br>
+   <br>
+
+![](/assets/blog/ad-enable-recycle-bin-2.png)
+
+
+<br>
+<br>
+
+3. Enable Recycle bin (located to the right sidebar).
+   <br>
+   <br>
+
+
+   ![](/assets/blog/ad-enable-recycle-bin-3.png)
+
+
+   <br>
+   <br>
+4. Click "ok".
+   <br>
+   <br>
+
+
+
+![](/assets/blog/ad-enable-recycle-bin-4.png)
+
+<br>
+<br>
+5. Click the refresh icon in the navigation bar.
+<br>
+<br>
+
+
+![](/assets/blog/ad-enable-recycle-bin-5.png)
+
+
+<br>
+<br>
+6. You should see a folder called "Deleted Objects". This is your recycle bin.
+<br>
+<br>
+
+
+![](/assets/blog/ad-enable-recycle-bin-6.png)
+
+## Account Creation
+
+<br>
+<br>
+
+It is best practice to have a user with roles that you can copy from instead of creating a user and manually assigning them roles and permissions. Doing this is scalable and saves a bunch of time, especially if you have to make many user accounts.
+
+#### Steps to create a user account from an existing user
+
+<br>
+<br>
+
+1. Right click on an established user and copy it
+   <br>
+   <br>
+   !\[[Account-Creation-Copy-1.png | 600]]
+
+<br>
+<br>
+
+2. Then fill out the required text fields such as name and password
+
+<br>
+<br>
+!\\[[Account-Creation-Copy-2.png | 600]]
+
+<br>
+<br>
+3. The permissions and the active directory they are already set to the user that you copied from.
+
+<br>
+<br>
+!\\[[Account-Creation-Copy-3.png | 600]]
+
+<br>
+<br>
+4. Click on "Finish".
+<br>
+<br>
+
+!\[[Account-Creation-Copy-4.png | 600]]
+<br>
+<br>
+
+5. You should see the user you created inside the directory that you created it in.
+   <br>
+   <br>
+
+!\[[Account-Creation-Copy-5.png | 600]]
+
+<br>
+<br>
+6. You can right click on the created user and click on "Properties" to see the directories that they are in. Since the user was created by copying an existing user, they should be apart of the same directory as that person. In my case the user "helpdesk" should be apart of everything that the "Administrator" is apart of.
+<br>
+<br>
+
+!\[[Account-Creation-Copy-6.png | 600]]
+
+<br>
+<br>
+7. Click on "Member Of"
+<br>
+<br>
+
+!\[[Account-Creation-Copy-7.png | 600]]
+
+<br>
+<br>
+8. Here you can what directories the user is apart of. I did a side by side comparison to show that the user that I created from copying the "Administrator" user is identical.
+<br>
+<br>
+
+!\[[Account-Creation-Copy-8.png | 600]]
+
+<br>
+<br>
+#### Steps to create a new user account scratch
+<br>
+<br>
+1. Right click on the directory you want to create the user in and click on "New".
+<br>
+<br>
+
+!\[[Account-Creation-New-1.png | 600]]
+
+<br>
+<br>
+2. Fill in the information for the user.
+<br>
+<br>
+
+!\[[Account-Creation-New-2.png | 600]]
+
+<br>
+<br>
+3. Create a password for the user and give them the permissions that you want them to have
+<br>
+<br>
+
+!\[[Account-Creation-New-3.png | 600]]
+
+<br>
+<br>
+4. If you go to the properties of the newly created user, you will see that they are not apart of any directories. You will have to assign the directories you want them to be apart of one by one.
+<br>
+<br>
+
+!\[[Account-Creation-New-4.png | 600]]
+<br>
+<br>
+
+## CMD Commands
+
+<br>
+<br>
+
+1. `ipconfig` 
+   <br>
+   <br>
+   !\[[CMD-1-ipconfig.png | 600]]
+   <br>
+   `ipconfig` command gives you the ip address of the computer you are using
+   <br>
+   <br>
+2. `ipconfig/all`
+   <br>
+   <br>
+   !\[[CMD-2-ipconfig all.png | 600]]
+   <br>
+   `ipconfig/all` command gives you all the ip addresses in the network.
+   <br>
+
+ If you see `DCHP Enabled. . .  Yes`  that means computer is grabbing an ip address from Dynamic Configuration Host Protocol. 
+ If you see `DCHP Enabled. . .  No` then your computer is using a static ip address.
+
+What are some real world use cases for static ips?
+
+Answer: A real world use cases for static ips would be assigning a printer a static ip in a work place. Since the ip address might change in a work place it is good to have a static ip on a printer. If the ip address on a printer changes you cannot print to that printer anymore. For this reason it is good practice to give the printer a static ip address so you can print to it indefinitely.
+
+3. `net use` 
+   This command will tell you the shared drives that a person is connected too.
+   <br>
+4. `net user (user domain name) /domain`
+   <br>
+   <br>
+   !\[[CMD-3-net-user-domain name:domain.png | 600]]
+   <br>
+
+This cmd command shows you information about the user domain that you enter. For example what time their password expires, what group they are apart of etc.
+
+#### Sidenote
+
+When putting in commands in a terminal the `?` mark is there to help you. If you don't know the properties/extension of a command put a `?` on it.
+
+<br>
+<br>
+
+## Summary
+
+<br>
+<br>
+
+In this lab, I installed Active Directory Domain Services and explored how to locate users within a domain using Active Directory Users and Computers. I also learned how to enable the Recycle Bin in Windows Server 2022 and how to create user accounts using two methods. The first method, the copy method, involves using an existing user as a template. For example, I copied my admin account to create a helpdesk account. I then reviewed how to create a new user from scratch. Lastly, I explored some useful command-line tools, such as `ipconfig`, `net user (user domain name) /domain`, and others.
