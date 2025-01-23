@@ -351,15 +351,12 @@ I will be creating a static IP Address for my server which host my domain contro
 
 ![](/assets/blog/creating-static-ip-addresses-1.png)
 
-
 <br>
 <br>
 
 2. Click on "Network and Internet"
    <br>
    <br>
-
-
 
 ![](/assets/blog/creating-static-ip-addresses-2.png)
 
@@ -368,8 +365,6 @@ I will be creating a static IP Address for my server which host my domain contro
 3. Click on "Network and Sharing Center"
 <br>
 <br>
-
-
 
 ![](/assets/blog/creating-static-ip-addresses-3.png)
 
@@ -381,7 +376,6 @@ I will be creating a static IP Address for my server which host my domain contro
 
 ![](/assets/blog/creating-static-ip-addresses-4.png)
 
-
 <br>
 <br>
 
@@ -390,7 +384,6 @@ I will be creating a static IP Address for my server which host my domain contro
    <br>
 
 ![](/assets/blog/creating-static-ip-addresses-5.png)
-
 
 <br>
 <br>
@@ -401,7 +394,6 @@ I will be creating a static IP Address for my server which host my domain contro
 
 ![](/assets/blog/creating-static-ip-addresses-6.png)
 
-
 <br>
 <br>
 
@@ -411,15 +403,12 @@ I will be creating a static IP Address for my server which host my domain contro
 
 ![](/assets/blog/creating-static-ip-addresses-7.png)
 
-
 <br>
 <br>
 
 8. Click on "Use the following IP address: " and give your PC any IP address that you want.
    <br>
    <br>
-
-
 
 ![](/assets/blog/creating-static-ip-addresses-8.png)
 
@@ -437,7 +426,9 @@ I will be downloading Team Viewer which will give me the ability remote into ano
 <br>
 <br>
 
-!\[[TeamViewer install-1.png | 600]]
+
+
+![](/assets/blog/teamviewer-install-1.png)
 
 <br>
 <br>
@@ -446,7 +437,9 @@ I will be downloading Team Viewer which will give me the ability remote into ano
 <br>
 <br>
 
-!\[[TeamViewer install-2.png | 600]]
+
+
+![](/assets/blog/teamviewer-install-2.png)
 
 <br>
 <br>
@@ -455,7 +448,9 @@ I will be downloading Team Viewer which will give me the ability remote into ano
 <br>
 <br>
 
-!\[[TeamViewer install-3.png | 600]]
+
+
+![](/assets/blog/teamviewer-install-3.png)
 
 <br>
 <br>
@@ -465,7 +460,9 @@ I will be downloading Team Viewer which will give me the ability remote into ano
 <br>
 <br>
 
-!\[[TeamViewer Setup-1.png | 600]]
+
+
+![](/assets/blog/teamviewer-setup-1.png)
 
 <br>
 <br>
@@ -486,7 +483,9 @@ I will be using the user account that I created in Windows 10 as a helpdesk acco
    <br>
    <br>
 
-!\[[Win10-RSAT-Tools-Download-1.png | 600]]
+
+
+![](/assets/blog/win10-rsat-tools-download-1.png)
 
 <br>
 <br>
@@ -495,7 +494,9 @@ I will be using the user account that I created in Windows 10 as a helpdesk acco
 <br>
 <br>
 
-!\[[Win10-RSAT-Tools-Download-2.png | 600]]
+
+
+![](/assets/blog/win10-rsat-tools-download-2.png)
 
 <br>
 <br>
@@ -504,7 +505,9 @@ I will be using the user account that I created in Windows 10 as a helpdesk acco
 <br>
 <br>
 
-!\[[Win10-RSAT-Tools-Download-3.png | 600]]
+
+
+![](/assets/blog/win10-rsat-tools-download-3.png)
 
 <br>
 <br>
@@ -513,7 +516,9 @@ I will be using the user account that I created in Windows 10 as a helpdesk acco
 <br>
 <br>
 
-!\[[Win10-RSAT-Tools-Download-4.png | 600]]
+
+
+![](/assets/blog/win10-rsat-tools-download-4.png)
 
 <br>
 <br>
@@ -522,7 +527,9 @@ I will be using the user account that I created in Windows 10 as a helpdesk acco
 <br>
 <br>
 
-!\[[Win10-RSAT-Tools-Download-5.png | 600]]
+
+
+![](/assets/blog/win10-rsat-tools-download-5.png)
 
 #### RSAT Tools on Windows 11
 
@@ -533,7 +540,9 @@ I will be using the user account that I created in Windows 10 as a helpdesk acco
    <br>
    <br>
 
-!\[[Win11-RSAT-Download-1.png | 600]]
+
+
+![](/assets/blog/win11-rsat-download-1.png)
 
 <br>
 <br>
@@ -542,7 +551,9 @@ I will be using the user account that I created in Windows 10 as a helpdesk acco
    <br>
    <br>
 
-!\[[Win11-RSAT-Download-2.png | 600]]
+
+
+![](/assets/blog/win11-rsat-download-2.png)
 
 <br>
 <br>
@@ -551,8 +562,8 @@ I will be using the user account that I created in Windows 10 as a helpdesk acco
    <br>
    <br>
 
-!\[[Win11-RSAT-Download-3.png | 600]]
-<br>
+![](/assets/blog/win11-rsat-download-3.png)
+
 <br>
 
 ## Creating a static IP Address for the helpdesk and User PC
@@ -565,16 +576,24 @@ The PC will need to have the right IP address in order to connect to the domain.
 
 <br>
 
-!\[[Static IP Desktop 1.png | 600]]
+
+
+![](/assets/blog/static-ip-desktop-1.png)
 
 <br>
 
 <br>
-#### Static IP Address for User PC
+
+
+\#### Static IP Address for User PC
 
 <br>
 
-!\[[Static IP Desktop 2.png | 600]]
+<br>
+
+
+
+![](/assets/blog/static-ip-desktop-2.png)
 
 <br>
 <br>
@@ -586,7 +605,11 @@ The PC will need to have the right IP address in order to connect to the domain.
 1.  Open file explorer and right click on "This PC" and click on "Properties" 
 <br>
 <br>
-!\\\[[WinServer2022 Setup 01.png | 600]]
+
+
+![](/assets/blog/winserver2022-setup-01-edit.png)
+
+
 <br>
 <br>
 
@@ -598,21 +621,30 @@ The PC will need to have the right IP address in order to connect to the domain.
 
 <br>
 
-!\[[WinServer2022 Setup 02.png| 600]]
-<br>
+![](/assets/blog/winserver2022-setup-02-edited.png)
 
-!\[[WinServer2022 Setup 03.png | 600]]
-
-<br>
-#### Windows 11
 
 <br>
 
-!\[[Win11 Change Domain or Workgroup 1.png | 600]]
+
+
+![](/assets/blog/winserver2022-setup-03-edited.png)
 
 <br>
 
-!\[[Win11 Change Domain or Workgroup 2.png | 600]]
+\#### Windows 11
+
+<br>
+
+
+
+![](/assets/blog/win11-change-domain-or-workgroup-1.png)
+
+<br>
+
+
+
+![](/assets/blog/win11-change-domain-or-workgroup-2.png)
 
 <br>
 <br>
@@ -622,7 +654,9 @@ The PC will need to have the right IP address in order to connect to the domain.
 <br>
 <br>
 
-!\[[Connecting Desktop 1 to DNS.png | 600]]
+
+
+![](/assets/blog/connecting-desktop-1-to-dns.png)
 
 <br>
 <br>
@@ -631,7 +665,9 @@ The PC will need to have the right IP address in order to connect to the domain.
    <br>
    <br>
 
-!\[[DNS connect information.png | 600]]
+
+
+![](/assets/blog/dns-connect-information.png)
 
 <br>
 <br>
@@ -640,7 +676,9 @@ The PC will need to have the right IP address in order to connect to the domain.
    <br>
    <br>
 
-!\[[Desktop1 & Desktop2 is connected to the Domain..png]]
+
+
+![](/assets/blog/desktop1-desktop2-is-connected-to-the-domain..png)
 
 <br>
 <br>
@@ -649,13 +687,15 @@ The PC will need to have the right IP address in order to connect to the domain.
 
 <br>
 <br>
-1. On your Windows 10/11 PC that you connected to your DNS open the Command Prompt and type in the command \\\`\\\`ping \\\[IP of your DNS]\\\`\\\`
-   For example: the IP of my DNS is "10.1.10.2" so I would type \\\`\\\`ping 10.1.10.2\\\`\\\`
+1. On your Windows 10/11 PC that you connected to your DNS open the Command Prompt and type in the command \\\\`\\\\`ping \\\\[IP of your DNS]\\\\`\\\\`
+   For example: the IP of my DNS is "10.1.10.2" so I would type \\\\`\\\\`ping 10.1.10.2\\\\`\\\\`
 
 <br>
 <br>
 
-!\[[Pinging DNS with Win11 PC.png | 600]]
+
+
+![](/assets/blog/pinging-dns-with-win11-pc.png)
 
 <br>
 <br>
@@ -670,7 +710,9 @@ The PC will need to have the right IP address in order to connect to the domain.
 <br>
 <br>
 
-!\[[WinServer2022 Setup 01.png | 600]]
+
+
+![](/assets/blog/winserver2022-setup-01-edit.png)
 
 <br>
 <br>
@@ -680,7 +722,9 @@ The PC will need to have the right IP address in order to connect to the domain.
 <br>
 <br>
 
-!\[[WinServer2022 Setup 05.png | 600]]
+
+
+![](/assets/blog/winserver2022-setup-05-edit.png)
 
 <br>
 <br>
