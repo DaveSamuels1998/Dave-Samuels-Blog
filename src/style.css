@@ -451,7 +451,7 @@ aside {
     color: var(--clr-neutral-500);
   }
   
-  .toc li {
+  .toc ol li {
     list-style: none;
   }
   
