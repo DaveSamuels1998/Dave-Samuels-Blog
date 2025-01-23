@@ -78,9 +78,11 @@ In this lab, I will complete the post-deployment configuration for Active Direct
 7. Click "Next".
 
 <br>
-   <br>
+ <br>
 
-   ![](/assets/blog/dns-server-setup-7.png)
+   
+![](/assets/blog/dns-server-setup-7.png)
+
 <br>
 <br>
 
@@ -88,7 +90,8 @@ In this lab, I will complete the post-deployment configuration for Active Direct
    <br>
    <br>
 
-   ![](/assets/blog/dns-server-setup-8.png)
+   
+![](/assets/blog/dns-server-setup-8.png)
 
 <br>
 <br>
@@ -106,7 +109,7 @@ In this lab, I will complete the post-deployment configuration for Active Direct
 10. Your PC will restart automatically and begin applying computer settings. This process may take some time.
 
 <br>
-    <br>
+<br>
 
 11. After your computer has finished restarting, go to 'Other User' and check if 'Sign in to: (Your Domain Name)' is displayed. If it is, that means your domain is up and running. It also indicates that the user you create will be part of your domain.
 
@@ -266,6 +269,7 @@ Enabling the recycle bin is useful because it allows you to retrieve items if yo
       ![](/assets/blog/ad-enable-recycle-bin-3.png)
    <br>
    <br>
+
 4. Click "ok".
    <br>
    <br>
@@ -274,6 +278,7 @@ Enabling the recycle bin is useful because it allows you to retrieve items if yo
 
 <br>
 <br>
+
 5. Click the refresh icon in the navigation bar.
 <br>
 <br>
@@ -282,6 +287,7 @@ Enabling the recycle bin is useful because it allows you to retrieve items if yo
 
 <br>
 <br>
+
 6. You should see a folder called "Deleted Objects". This is your recycle bin.
 <br>
 <br>
