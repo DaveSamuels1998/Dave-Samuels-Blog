@@ -57,7 +57,7 @@ In this blog I want to explore more on why we made the two accounts, the Helpdes
 
 <br>
 
-### 1. Locked out of an account
+###  Locked out of an account
 
 <br>
 <br>
@@ -144,7 +144,7 @@ In this blog I want to explore more on why we made the two accounts, the Helpdes
 
 <br>
 
-### 2. Account is disabled
+### Account is disabled
 
 <br>
 
@@ -210,7 +210,7 @@ In this blog I want to explore more on why we made the two accounts, the Helpdes
 
 <br>
 
-### 3. User needs their password to be reset
+### User needs their password to be reset
 
 <br>
 
@@ -282,7 +282,7 @@ In this blog I want to explore more on why we made the two accounts, the Helpdes
 
 <br>
 
-### 4. User account is expired
+### User account is expired
 
 <br>
 
@@ -390,7 +390,7 @@ A user might come across this issue because their password is expired and you ha
 
 <br>
 
-### 5. PC that is connected to the domain is disable
+### PC that is connected to the domain is disable
 
 <br>
 
@@ -444,7 +444,7 @@ A user might come across this issue because their password is expired and you ha
 
 <br>
 
-### 6.  PC has fallen off of the domain
+### PC has fallen off of the domain
 
 <br>
 
