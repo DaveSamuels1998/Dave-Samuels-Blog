@@ -7,7 +7,6 @@ author: Dave Samuels
 date: 2025-01-17T10:30:00.000Z
 tags:
   - post
-  - featured
 image: /assets/blog/article-2.jpg
 imageAlt: Third Installment
 ---
