@@ -25,8 +25,6 @@ In this lab, I will be completing the post-deployment configuration for Active D
 
 1. Click on "Promote this server to a domain controller"
 
-
-
 ![](/assets/blog/dns-server-setup-1.png)
 
 <br>
@@ -34,69 +32,38 @@ In this lab, I will be completing the post-deployment configuration for Active D
 
 2. Toggle "Add a new forest" because this a new environment setup so that means we don't have any existing domains or forest.
 
-
-
    ![](/assets/blog/dns-server-setup-2.png)
 3. Fill in the "Root domain name" text field. Since I will be hosting my domain on a static IP I can call it whatever I want. If you have your domain on the internet then you might have to change your domain name depending if it is already taken by someone else.
 
-
-
    ![](/assets/blog/dns-server-setup-3.png)
 4. In the Domain Controller Options leave everything as it is, then create a password.
-
-
 
    ![](/assets/blog/dns-server-setup-4.png)
 5. Click "Next".
    <br>
    <br>
 
-
    ![](/assets/blog/dns-server-setup-5.png)
-
-
-   <br>
-   <br>
 6. Verify that the NetBIOS domain name is correct.
    <br>
    <br>
 
-
    ![](/assets/blog/dns-server-setup-6.png)
-
-
-   <br>
-   <br>
 7. Click "Next".
    <br>
    <br>
 
-
    ![](/assets/blog/dns-server-setup-7.png)
-
-
-   <br>
-   <br>
 8. Click "Next".
    <br>
    <br>
 
-
    ![](/assets/blog/dns-server-setup-8.png)
-
-
-   <br>
-   <br>
 9. We will get a bunch of error messages but we are setting up a basic DNS server environment on a static IP address so we don't have to worry about those messages. Just click "Next".
    <br>
    <br>
 
-
    ![](/assets/blog/dns-server-setup-9.png)
-
-
-   <br>
-   <br>
 10. Your PC will restart on it's own and starting applying computer settings. This process will take a while.
     <br>
     <br>
@@ -105,7 +72,6 @@ In this lab, I will be completing the post-deployment configuration for Active D
     <br>
 
 ![](/assets/blog/dns-button.png)
-
 
 <br>
 <br>
@@ -122,30 +88,17 @@ With Server manager we can containerizes and maintain users computers and OUs (O
 1. In Server Manger navigate to Tools > Active Directory Users and Computers
    <br>
     <br>
-    
 
    ![](/assets/blog/ad-find-user-1.png)
-
-
-   <br>
-   <br>
 2. Right click on your domain name and click on "find". My domain name is "davesworld.com"
    <br><br>
 
-
    ![](/assets/blog/ad-find-user-2.png)
-
-
-   <br>
-   <br>
 3. Click on the directory navigation and click on "entire directory". It is best practice to search the "entire directory" since it will search everything. The user may not be in the domain or a particular directory so it is important to search on the entire directory. 
    <br>
    <br>
 
- 
-
 ![](/assets/blog/ad-find-user-3.png)
-
 
  <br>
  <br>
@@ -156,7 +109,6 @@ With Server manager we can containerizes and maintain users computers and OUs (O
 
 ![](/assets/blog/ad-find-user-4.png)
 
-
  <br>
  <br>
 
@@ -164,28 +116,17 @@ With Server manager we can containerizes and maintain users computers and OUs (O
    <br>
    <br>
 
-
    ![](/assets/blog/ad-find-user-5.png)
-
-
-   <br>
-   <br>
 6. Click on "view" in the navigation bar within active directory users and computers and click on advanced features. This will give addition information about users whenever you search for them. If I repeat the steps in order to find a users within the active directory, I can see which directory they are in. 
    <br>
    <br>
 
-
    ![](/assets/blog/ad-find-user-6.png)
-
-
-   <br>
-   <br>
 7. Repeat the steps in order to find a users within the active directory and then double-click on the user.
    <br>
    <br>
 
 ![](/assets/blog/ad-find-user-7.png)
-
 
 <br>
 <br>
@@ -196,7 +137,6 @@ With Server manager we can containerizes and maintain users computers and OUs (O
 
 ![](/assets/blog/ad-find-user-8.png)
 
-
 <br>
 <br>
 
@@ -204,8 +144,6 @@ With Server manager we can containerizes and maintain users computers and OUs (O
 
 <br>
 <br>
-
-
 
 ![](/assets/blog/ad-find-user-9.png)
 
@@ -225,7 +163,6 @@ Enabling recycle bin is useful because if you delete something by accident you c
    <br>
    <br>
 
-
    ![](/assets/blog/ad-enable-recycle-bin-1.png)
 
 <br>
@@ -237,7 +174,6 @@ Enabling recycle bin is useful because if you delete something by accident you c
 
 ![](/assets/blog/ad-enable-recycle-bin-2.png)
 
-
 <br>
 <br>
 
@@ -245,17 +181,10 @@ Enabling recycle bin is useful because if you delete something by accident you c
    <br>
    <br>
 
-
    ![](/assets/blog/ad-enable-recycle-bin-3.png)
-
-
-   <br>
-   <br>
 4. Click "ok".
    <br>
    <br>
-
-
 
 ![](/assets/blog/ad-enable-recycle-bin-4.png)
 
@@ -265,16 +194,13 @@ Enabling recycle bin is useful because if you delete something by accident you c
 <br>
 <br>
 
-
 ![](/assets/blog/ad-enable-recycle-bin-5.png)
-
 
 <br>
 <br>
 6. You should see a folder called "Deleted Objects". This is your recycle bin.
 <br>
 <br>
-
 
 ![](/assets/blog/ad-enable-recycle-bin-6.png)
 
@@ -293,7 +219,9 @@ It is best practice to have a user with roles that you can copy from instead of 
 1. Right click on an established user and copy it
    <br>
    <br>
-   !\[[Account-Creation-Copy-1.png | 600]]
+
+
+   ![](/assets/blog/account-creation-copy-1.png)
 
 <br>
 <br>
@@ -302,7 +230,9 @@ It is best practice to have a user with roles that you can copy from instead of 
 
 <br>
 <br>
-!\\[[Account-Creation-Copy-2.png | 600]]
+
+
+![](/assets/blog/account-creation-copy-2.png)
 
 <br>
 <br>
@@ -310,7 +240,9 @@ It is best practice to have a user with roles that you can copy from instead of 
 
 <br>
 <br>
-!\\[[Account-Creation-Copy-3.png | 600]]
+
+
+![](/assets/blog/account-creation-copy-3.png)
 
 <br>
 <br>
@@ -318,7 +250,9 @@ It is best practice to have a user with roles that you can copy from instead of 
 <br>
 <br>
 
-!\[[Account-Creation-Copy-4.png | 600]]
+![](/assets/blog/account-creation-copy-4.png)
+
+
 <br>
 <br>
 
@@ -326,7 +260,9 @@ It is best practice to have a user with roles that you can copy from instead of 
    <br>
    <br>
 
-!\[[Account-Creation-Copy-5.png | 600]]
+
+
+![](/assets/blog/account-creation-copy-5.png)
 
 <br>
 <br>
@@ -334,7 +270,9 @@ It is best practice to have a user with roles that you can copy from instead of 
 <br>
 <br>
 
-!\[[Account-Creation-Copy-6.png | 600]]
+
+
+![](/assets/blog/account-creation-copy-6.png)
 
 <br>
 <br>
@@ -342,7 +280,9 @@ It is best practice to have a user with roles that you can copy from instead of 
 <br>
 <br>
 
-!\[[Account-Creation-Copy-7.png | 600]]
+
+
+![](/assets/blog/account-creation-copy-7.png)
 
 <br>
 <br>
@@ -350,18 +290,23 @@ It is best practice to have a user with roles that you can copy from instead of 
 <br>
 <br>
 
-!\[[Account-Creation-Copy-8.png | 600]]
+
+
+![](/assets/blog/account-creation-copy-8.png)
 
 <br>
 <br>
-#### Steps to create a new user account scratch
+
+\#### Steps to create a new user account scratch
 <br>
 <br>
 1. Right click on the directory you want to create the user in and click on "New".
 <br>
 <br>
 
-!\[[Account-Creation-New-1.png | 600]]
+
+
+![](/assets/blog/account-creation-new-1.png)
 
 <br>
 <br>
@@ -369,7 +314,9 @@ It is best practice to have a user with roles that you can copy from instead of 
 <br>
 <br>
 
-!\[[Account-Creation-New-2.png | 600]]
+
+
+![](/assets/blog/account-creation-new-2.png)
 
 <br>
 <br>
@@ -377,7 +324,9 @@ It is best practice to have a user with roles that you can copy from instead of 
 <br>
 <br>
 
-!\[[Account-Creation-New-3.png | 600]]
+
+
+![](/assets/blog/account-creation-new-3.png)
 
 <br>
 <br>
@@ -385,7 +334,9 @@ It is best practice to have a user with roles that you can copy from instead of 
 <br>
 <br>
 
-!\[[Account-Creation-New-4.png | 600]]
+![](/assets/blog/account-creation-new-4.png)
+
+
 <br>
 <br>
 
@@ -397,15 +348,22 @@ It is best practice to have a user with roles that you can copy from instead of 
 1. `ipconfig` 
    <br>
    <br>
-   !\[[CMD-1-ipconfig.png | 600]]
-   <br>
+
+
+   ![](/assets/blog/cmd-1-ipconfig.png)
+
+
    `ipconfig` command gives you the ip address of the computer you are using
    <br>
    <br>
 2. `ipconfig/all`
    <br>
    <br>
-   !\[[CMD-2-ipconfig all.png | 600]]
+
+
+   ![](/assets/blog/cmd-2-ipconfig-all.png)
+
+
    <br>
    `ipconfig/all` command gives you all the ip addresses in the network.
    <br>
@@ -423,7 +381,11 @@ Answer: A real world use cases for static ips would be assigning a printer a sta
 4. `net user (user domain name) /domain`
    <br>
    <br>
-   !\[[CMD-3-net-user-domain name:domain.png | 600]]
+
+
+   ![](/assets/blog/cmd-3-net-user-domain-name-domain.png)
+
+
    <br>
 
 This cmd command shows you information about the user domain that you enter. For example what time their password expires, what group they are apart of etc.
