@@ -436,13 +436,14 @@ aside {
     padding: 0.5rem 1rem;
     border-radius: 0.25rem;
     overflow: hidden;
-    list-style: none;
+  
   }
 
   summary {
     color: var(--clr-neutral-900);
     margin-inline-start: 1rem;
     list-style-position: inside;
+    list-style: none;
   }
 
   summary::marker {
