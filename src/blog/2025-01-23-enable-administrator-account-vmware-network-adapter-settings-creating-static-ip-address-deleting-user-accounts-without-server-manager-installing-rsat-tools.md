@@ -584,7 +584,7 @@ I will use the user account I created in Windows 10 as a helpdesk account. To do
 <br>
 <br>
 
-The PC must have the correct IP address to connect to the domain. Enter the IP address of your Domain Name Server in the 'Preferred DNS Server' field. For instructions on accessing the 'Internet Protocol Version 4 (TCP/IPv4) Properties,' refer to <a href="
+The PC must have the correct IP address to connect to the domain. Enter the IP address of your Domain Name Server in the 'Preferred DNS Server' field. For instructions on accessing the 'Internet Protocol Version 4 (TCP/IPv4) Properties,' refer to <a href="https://blogbydave.netlify.app/blog/2025-01-23-enable-administrator-account-vmware-network-adapter-settings-creating-static-ip-address-deleting-user-accounts-without-server-manager-installing-rsat-tools/#creating-static-ip-addresses" target="_blank">Creating Static IP Addresses</a>
 
 <br>
 <br>
