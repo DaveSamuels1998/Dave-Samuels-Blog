@@ -451,6 +451,10 @@ aside {
     color: var(--clr-neutral-500);
   }
   
+  .toc li {
+    list-style: none;
+  }
+  
 
   @media (max-width: 48rem) {
     .main-article {
