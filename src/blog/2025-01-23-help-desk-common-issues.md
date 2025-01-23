@@ -33,7 +33,9 @@ In this blog I want to explore more on why we made the two accounts, the Helpdes
 
 <br>
 
-!\[[cmd working with user-1.png | 600]]
+
+
+![](/assets/blog/cmd-working-with-user-1.png)
 
 <br>
 
@@ -45,7 +47,7 @@ In this blog I want to explore more on why we made the two accounts, the Helpdes
 
 <br>
 
-![](/assets/blog/cmd-working-with-user-1.png)
+![](/assets/blog/cmd-working-with-user-2.png)
 
 <br>
 
@@ -57,7 +59,7 @@ In this blog I want to explore more on why we made the two accounts, the Helpdes
 
 <br>
 
-###  Locked out of an account
+### Locked out of an account
 
 <br>
 <br>
