@@ -11,15 +11,15 @@ tags:
 image: /assets/blog/article-2.jpg
 imageAlt: Third Installment
 ---
+
 ### Introduction
+<br>
+Today, I will be installing Windows 10 and Windows 11 on two separate virtual machines using VMware and joining them to a domain. I will demonstrate the installation process once, as it is very similar for Windows 10 and 11, and highlight any differences as they arise. One of the VMs will serve as my Helpdesk PC, named "Desktop1". On the Helpdesk PC, I will perform various troubleshooting tasks, such as resetting user passwords and enabling or disabling accounts. The second PC, named "Desktop2", will act as a user PC that interacts with the Helpdesk PC. 
 
 <br>
-Today, I will be installing Windows 10 and Windows 11 on two separate virtual machines using VMware and joining them to a domain. I will demonstrate the installation process once, as it is very similar for Windows 10 and 11, and highlight any differences as they arise. One of the VMs will serve as my Helpdesk PC, named "Desktop1". On the Helpdesk PC, I will perform various troubleshooting tasks, such as resetting user passwords and enabling or disabling accounts. The second PC, named "Desktop2", will act as a user PC that interacts with the Helpdesk PC.
-
-<br>
 <br>
 
-### Installing Windows 10/11 iso
+###  Installing Windows 10/11 iso 
 
 <br>
 
@@ -38,7 +38,7 @@ Today, I will be installing Windows 10 and Windows 11 on two separate virtual ma
 <br>
 
 ![[Win11ISO install-1.png | 600]]
-`<br>`
+<br>
 3. Select the language for your Windows install.
 
 <br>
@@ -58,74 +58,79 @@ Today, I will be installing Windows 10 and Windows 11 on two separate virtual ma
 <br>
 <br>
 
-### Setup up Windows 10/11 on VMware
-
+### Setup up Windows 10/11 on VMware 
 <br>
 <br>
 
 1. Click on the "Install from disc or image" button on the top.
-   `<br>`
-   `<br>`
+<br>
+<br>
 
 ![[Win10-VM-User-1.png | 600]]
-`<br>`
-`<br>`
+<br>
+<br>
 2. Chose the Windows 10/11 iso and then click on "Continue".
-`<br>`
-`<br>`
+<br> 
+<br>
+
 
 ![[Win10-VM-User-2.png | 600]]
-`<br>`
-`<br>`
+<br>
+<br>
 3. I would recommend to use "Easy Install" since it will enable the administrator account by default. I will be enabling the administrator account on the Windows 10 machine itself so I opted to not use Easy install. I am doing this just to show you how to enable administrator account on Windows 10/11 just incase it is ever disabled and you want to enable it.
-`<br>`
-`<br>`
+<br>
+<br>
 
 ![[Win10-VM-User-3.png | 600]]
-`<br>`
-`<br>`
+<br>
+<br>
 4. Specify the boot firmware you want to use. I am using the default "UEFI" firmware.
-`<br>`
-`<br>`
+<br>
+<br>
+
 
 ![[Win10-VM-User-4.png | 600]]
-`<br>`
-`<br>`
+<br>
+<br>
 5. Name the VM whatever you want.
-`<br>`
-`<br>`
+<br>
+<br>
+
 
 ![[Win10-VM-User-5.png]]
-`<br>`
-`<br>`
+<br>
+<br>
 
 6. Click on the play button on VMware and then Windows 10/11 will begin the installation process.
-   `<br>`
-   `<br>`
+<br>
+<br>
 7. Chose the appropriate options for "Language to install:, "Time and currency format:, and Keyboard or input method: " pertaining to you.
-   `<br>`
-   `<br>`
+<br>
+<br>
 
 ![[Win10-VM-User-6.png | 600]]
-`<br>`
-`<br>`
+<br>
+<br>
 8. Click on "Install now"
-`<br>`
-`<br>`
+<br>
+<br>
+
 
 ![[Win10-VM-User-7.png | 600]]
-`<br>`
-`<br>`
+<br>
+<br>
 9. I won't be activating windows so I will be clicking "I don't have a product key"
-`<br>`
-`<br>`
+<br>
+<br>
+
 
 ![[Win10-VM-User-8.png | 600]]
-`<br>`
-`<br>`
+<br>
+<br>
 10. We will be setting up this PC for a lab environment and will be joining it to a domain. Therefore I will be choosing "Windows 10 Pro".
-`<br>`
-`<br>`
+<br>
+<br>
+
 
 ![[Win10-VM-User-9.png |600]]
 
@@ -135,40 +140,44 @@ Today, I will be installing Windows 10 and Windows 11 on two separate virtual ma
 <br>
 <br>
 
+
 ![[Win10-VM-User-10.png | 600]]
-`<br>`
-`<br>`
+<br>
+<br>
 12. Click on "Custom: Install Windows only(advanced)". We don't have anything installed yet to upgrade.
-`<br>`
-`<br>`
+<br>
+<br>
+
 
 ![[Win10-VM-User-11.png | 600]]
-`<br>`
-`<br>`
+<br>
+<br>
 13. Click on "Next".
-`<br>`
-`<br>`
+<br>
+<br>
+
 
 ![[Win10-VM-User-12.png | 600]]
-`<br>`
-`<br>`
-14. Choose your appropriate region.
-`<br>`
-`<br>`
+<br>
+<br>
+14. Choose your appropriate region. 
+<br>
+<br>
+
 
 ![[Win10-VM-User-13.png | 600]]
-`<br>`
-`<br>`
+<br>
+<br>
 15. Choose your appropriate keyboard layout.
-`<br>`
-`<br>`
+<br>
+<br>
 
 ![[Win10-VM-User-14.png | 600]]
-`<br>`
-`<br>`
+<br>
+<br>
 16. Choose a second keyboard layout if you want to. I chose to skip.
-`<br>`
-`<br>`
+<br>
+<br>
 
 ![[Win10-VM-User-15.png | 600]]
 
@@ -179,26 +188,27 @@ Today, I will be installing Windows 10 and Windows 11 on two separate virtual ma
 <br>
 
 ![[Win10-VM-User-16.png | 600]]
-`<br>`
-`<br>`
+<br>
+<br>
 18. Fill in the password textfield if you want. I will be creating a password for the administrator account inside Windows 10 itself so I opted to skip this step.
-`<br>`
-`<br>`
+<br>
+<br>
 
 ![[Win10-VM-User-17.png | 600]]
-`<br>`
-`<br>`
+<br>
+<br>
 
 #### Optional step: Renaming you PC for Windows 10/11
 
 <br>
 
 1. For Windows 10 right click "This PC" in file explorer and click on Properties > Rename this PC(advanced) > Change. Refer to [[01. Virtual Machine Setup, Windows Server 2022 and Active Directory Installation#Renaming your PC on Windows Server 2022]] .
-   `<br>`
-   ![[Win11 Rename PC.png | 600]]
+<br>
+![[Win11 Rename PC.png | 600]]
 
 <br>
 
+   
    For Windows 11 click on right click "This PC" in file explorer and click on Properties >  "Domain or Workgroup" > Change.
 
 <br>
@@ -207,102 +217,105 @@ Today, I will be installing Windows 10 and Windows 11 on two separate virtual ma
 
 <br>
 
+
 1. In file explorer right click on "This PC" and click on "Manage".
-   `<br>`
-   `<br>`
+<br>
+<br>
 
 ![[Enabling-administrator-account-1.png | 600]]
-`<br>`
-`<br>`
+<br>
+<br>
 
 2. Go to the "local users and groups" folder and navigate to the "users" folder.
-   `<br>`
-   `<br>`
-   ![[Enabling-administrator-account-2.png | 600]]
-   `<br>`
-   `<br>`
+<br>
+<br>
+![[Enabling-administrator-account-2.png | 600]]
+<br>
+<br>
 3. Then double click "administrator" or right click and click on "properties".
-   `<br>`
-   `<br>`
-   ![[Enabling-administrator-account-3.png | 600]]
-   `<br>`
-   `<br>`
+<br>
+<br>
+![[Enabling-administrator-account-3.png | 600]]
+<br>
+<br>
+
 4. Uncheck "Account is disabled".
-   `<br>`
-   `<br>`
-   ![[Enabling-administrator-account-4.png | 600]]
-   `<br>`
-   `<br>` 5. Click on "Apply" and then "Ok".
-   `<br>`
-   `<br>`
+<br>
+<br>
+![[Enabling-administrator-account-4.png | 600]]
+<br>
+<br> 5. Click on "Apply" and then "Ok".
+<br>
+<br>
 
 ![[Enabling-administrator-account-5.png | 600]]
-`<br>`
-`<br>`
+<br>
+<br>
 6. Right click on the Administrator account and click on "Set Password"
-`<br>`
-`<br>`
+<br>
+<br>
 
 ![[Enabling-administrator-account-7.png | 600]]
-`<br>`
-`<br>`
+<br>
+<br>
 7. Click on "Proceed".
-`<br>`
-`<br>`
+<br>
+<br>
 
 ![[Enabling-administrator-account-8.png | 600]]
-`<br>`
-`<br>`
+<br>
+<br>
 8. Set the password for the Administrator then click on "Ok".
-`<br>`
-`<br>`
+<br>
+<br>
+
 
 ![[Enabling-administrator-account-9.png | 600]]
-`<br>`
-`<br>`
+<br>
+<br>
 
 ### Enabling Administrator account across multiple PCs
-
 <br>
 
 It is good practice to just have one administrator account for one PC and have that account span on multiple PCs. Whenever you set up a new PC/VM make sure to enable administrator account.
-`<br>`
-
-## VMWare Network Adapter Settings
-
 <br>
 
-Changing the VMWare network adapter settings to "host-only" will allow the PCs created on VMs to connect and communicate with each other using Static IP addresses. The VMs will communicate in a private network rather than using your external network.
-`<br>`
-`<br>`
+## VMWare Network Adapter Settings
+<br>
 
+
+Changing the VMWare network adapter settings to "host-only" will allow the PCs created on VMs to connect and communicate with each other using Static IP addresses. The VMs will communicate in a private network rather than using your external network.
+<br>
+<br>
 1. Navigate to the navigation bar on top of VMware and click on Virtual Machine > Network Adapter > Host-only.
-   `<br>`
-   `<br>`
+<br>
+<br>
+
 
 ![[Changing VMWare Network Adapter Settings.png | 600]]
-`<br>`
-`<br>`
+<br>
+<br>
 
 ## Creating Static IP Addressesd
 
 <br>
 
 I will be creating a static IP Address for my server which host my domain controller so that my Virtual Machines that host PCs for the helpdesk and user account can connect to the domain.
-`<br>`
-`<br>`
+<br>
+<br>
 
 1. Go to the start windows button and search for "Control Panel".
-   `<br>`
-   `<br>`
+<br>
+<br>
 
 ![[Creating Static IP Addresses-1.png | 600]]
-`<br>`
-`<br>`
+<br>
+<br>
 
 2. Click on "Network and Internet"
-   `<br>`
-   `<br>`
+<br>
+<br>
+
 
 ![[Creating Static IP Addresses-2.png | 600]]
 
@@ -311,6 +324,7 @@ I will be creating a static IP Address for my server which host my domain contro
 3. Click on "Network and Sharing Center"
 <br>
 <br>
+
 
 ![[Creating Static IP Addresses-3.png | 600]]
 
@@ -321,38 +335,39 @@ I will be creating a static IP Address for my server which host my domain contro
 <br>
 
 ![[Creating Static IP Addresses-4.png | 600]]
-`<br>`
-`<br>`
+<br>
+<br>
 
 5. Click on "Ethernet"
-   `<br>`
-   `<br>`
+<br>
+<br>
 
 ![[Creating Static IP Addresses-5.png | 600]]
-`<br>`
-`<br>`
+<br>
+<br>
 
 6. Click on "Properties"
-   `<br>`
-   `<br>`
+<br>
+<br>
 
 ![[Creating Static IP Addresses-6.png | 600]]
-`<br>`
-`<br>`
+<br>
+<br>
 7. Double click on "Internet Protocol Version 4 (TCP/IPv4)"
-`<br>`
-`<br>`
+<br>
+<br>
 
 ![[Creating Static IP Addresses-7.png | 600]]
-`<br>`
-`<br>`
+<br>
+<br>
 8. Click on "Use the following IP address: " and give your PC any IP address that you want.
-`<br>`
-`<br>`
+<br>
+<br>
 
 ![[Creating Static IP Addresses-8.png | 600]]
 
-### Download Team Viewer
+
+### Download Team Viewer 
 
 <br>
 <br>
@@ -379,7 +394,7 @@ I will be downloading Team Viewer which will give me the ability remote into ano
 
 <br>
 <br>
-3. Scroll down and download the TeamViewer Host. Chose between the 32 or 64 bit option.
+3. Scroll down and download the TeamViewer Host. Chose between the 32 or 64 bit option. 
 
 <br>
 <br>
@@ -396,6 +411,7 @@ I will be downloading Team Viewer which will give me the ability remote into ano
 
 ![[TeamViewer Setup-1.png | 600]]
 
+
 <br>
 <br>
 
@@ -408,12 +424,11 @@ I will be using the user account that I created in Windows 10 as a helpdesk acco
 <br>
 
 #### RSAT Tools on Windows 10
-
 <br>
 
 1. Click the "Start" button and search for "Add or remove programs"
-   `<br>`
-   `<br>`
+<br>
+<br>
 
 ![[Win10-RSAT-Tools-Download-1.png | 600]]
 
@@ -425,6 +440,7 @@ I will be using the user account that I created in Windows 10 as a helpdesk acco
 <br>
 
 ![[Win10-RSAT-Tools-Download-2.png | 600]]
+
 
 <br>
 <br>
@@ -453,14 +469,14 @@ I will be using the user account that I created in Windows 10 as a helpdesk acco
 
 ![[Win10-RSAT-Tools-Download-5.png | 600]]
 
+
 #### RSAT Tools on Windows 11
-
 <br>
 <br>
 
-1. Click the "Start" button and search for "optional features" which is located in the "System" settings.
-   `<br>`
-   `<br>`
+1.  Click the "Start" button and search for "optional features" which is located in the "System" settings.
+<br>
+<br>
 
 ![[Win11-RSAT-Download-1.png | 600]]
 
@@ -468,8 +484,8 @@ I will be using the user account that I created in Windows 10 as a helpdesk acco
 <br>
 
 2. Click on "add a feature"
-   `<br>`
-   `<br>`
+<br>
+<br>
 
 ![[Win11-RSAT-Download-2.png | 600]]
 
@@ -477,19 +493,19 @@ I will be using the user account that I created in Windows 10 as a helpdesk acco
 <br>
 
 3. Install RSAT Tools such as "RSAT Active Directory Certificate Service Tools."
-   `<br>`
-   `<br>`
+<br>
+<br>
 
 ![[Win11-RSAT-Download-3.png | 600]]
-`<br>`
-`<br>`
+<br>
+<br>
 
 ## Creating a static IP Address for the helpdesk and User PC
 
-The PC will need to have the right IP address in order to connect to the domain. You need to put the IP address of your Domain Name Server in the "Preferred DNS Server: "  Refer to [[#Creating Static IP Addresses]] on how to get to the "Internet Protocol Version 4 (TCP/IPv4) Properties".
-`<br>`
-`<br>`
 
+The PC will need to have the right IP address in order to connect to the domain. You need to put the IP address of your Domain Name Server in the "Preferred DNS Server: "  Refer to [[#Creating Static IP Addresses]] on how to get to the "Internet Protocol Version 4 (TCP/IPv4) Properties".
+<br>
+<br>
 #### Static IP Address for helpdesk PC
 
 <br>
@@ -521,14 +537,12 @@ The PC will need to have the right IP address in order to connect to the domain.
 
 2. Click on "Rename this PC(advanced)" and click on the "Change" button  for Windows 10 or
    "Domain or Workgroup" for Windows 11.
-   `<br>`
-
+<br>
 #### Windows 10
-
 <br>
 
 ![[WinServer2022 Setup 02.png| 600]]
-`<br>`
+<br>
 
 ![[WinServer2022 Setup 03.png | 600]]
 
@@ -557,17 +571,17 @@ The PC will need to have the right IP address in order to connect to the domain.
 <br>
 
 4. Put in your information for your administrator account to confirm the connection with the domain.
-   `<br>`
-   `<br>`
+<br>
+<br>
 
 ![[DNS connect information.png | 600]]
 
 <br>
 <br>
 
-5. Go to Active Directory Users and Computers to confirm that the PC is connected to the domain. Check in the "Computers" directory.
-   `<br>`
-   `<br>`
+5. Go to Active Directory Users and Computers to confirm that the PC is connected to the domain. Check in the "Computers" directory. 
+<br>
+<br>
 
 ![[Desktop1 & Desktop2 is connected to the Domain..png]]
 
@@ -575,7 +589,6 @@ The PC will need to have the right IP address in order to connect to the domain.
 <br>
 
 #### Pinging our Domain Name Server
-
 <br>
 <br>
 1. On your Windows 10/11 PC that you connected to your DNS open the Command Prompt and type in the command ``ping [IP of your DNS]``
@@ -603,6 +616,7 @@ The PC will need to have the right IP address in order to connect to the domain.
 
 <br>
 <br>
+
 
 2. Click on "Advanced System Settings"
 
