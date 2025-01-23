@@ -25,6 +25,10 @@ In this lab, I will be completing the post-deployment configuration for Active D
 
 1. Click on "Promote this server to a domain controller"
 
+<br>
+<br>
+
+
 ![](/assets/blog/dns-server-setup-1.png)
 
 <br>
@@ -101,6 +105,7 @@ In this lab, I will be completing the post-deployment configuration for Active D
    <br>
 
    ![](/assets/blog/dns-server-setup-9.png)
+
 <br>
 <br>
 
@@ -169,22 +174,24 @@ With Server manager we can containerizes and maintain users computers and OUs (O
 5. You should see the user show up after the previous step.
    
 <br>
-   <br>
+ <br>
 
    ![](/assets/blog/ad-find-user-5.png)
 
 <br>
 <br>
 
+
 6. Click on "view" in the navigation bar within active directory users and computers and click on advanced features. This will give addition information about users whenever you search for them. If I repeat the steps in order to find a users within the active directory, I can see which directory they are in. 
    
 <br>
-  <br>
+<br>
 
    ![](/assets/blog/ad-find-user-6.png)
 
 <br>
 <br>
+
 
 7. Repeat the steps in order to find a users within the active directory and then double-click on the user.
   
