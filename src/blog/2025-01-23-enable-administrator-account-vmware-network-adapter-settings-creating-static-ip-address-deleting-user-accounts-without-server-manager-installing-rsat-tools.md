@@ -421,7 +421,7 @@ I will be downloading Team Viewer which will give me the ability remote into ano
 <br>
 <br>
 
-1. Go into the web browser of you choice and search for "Team Viewer" then download the application. [Team Viewer Download Link](https://www.teamviewer.com/en-us/download/free-download-with-license-options/?utm_source=google&utm_medium=cpc&utm_campaign=us%7Cb%7Cpr%7C22%7Caug%7Ctv-core-brand-only-exact-sn%7Cnew%7Ct0%7C0&utm_content=Exact&utm_term=team+viewer) Chose the free download option.
+1. Go into the web browser of you choice and search for "Team Viewer" then download the application. <a href="https://www.teamviewer.com/en-us/download/free-download-with-license-options/?utm_source=google&utm_medium=cpc&utm_campaign=us%7Cb%7Cpr%7C22%7Caug%7Ctv-core-brand-only-exact-sn%7Cnew%7Ct0%7C0&utm_content=Exact&utm_term=team+viewer" target="_blank">Team Viewer Free Download</a> Chose the free download option.
 
 <br>
 <br>
