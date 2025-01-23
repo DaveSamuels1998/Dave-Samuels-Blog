@@ -560,7 +560,7 @@ The PC will need to have the right IP address in order to connect to the domain.
 
 <br>
 
-\#### Static IP Address for User PC
+#### Static IP Address for User PC
 
 <br>
 
