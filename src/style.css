@@ -477,6 +477,12 @@ aside {
     z-index: 15;
   }
 
+  .back-to-top-image {
+
+    width: 32px;
+    height: 32px;
+  }
+
   @media (max-width: 48rem) {
     .main-article {
       display: grid;
