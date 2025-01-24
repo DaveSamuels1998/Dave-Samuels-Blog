@@ -445,7 +445,7 @@ section,
 @media (min-width: 75rem) {
 aside {
   position: sticky;
-  height: 100dvh;
+  height: 80dvh;
   top: 0;
 }
 }
