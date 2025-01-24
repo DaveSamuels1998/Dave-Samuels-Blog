@@ -30,40 +30,5 @@ layout: 'base.njk'
   </div>
   <a href="#top-of-the-site-anchor" class="top-of-site-link" data-visible="true">
     <span class="screen-reader-text">Back to Top</span>
-    <script>
-      const {JSDOM} = require("jsdom");
 
-      module.exports = function (eleventyConfig) {
-        eleventyConfig.addTransform("wrapH2WithDetails", (content, outputPath) => {
-          if (outputPath && outputPath.endsWith(".html")) {
-            const dom = new JSDOM(content);
-            const document = dom.window.document;
-
-            const h2Elements = document.querySelectorAll("h2");
-            h2Elements.forEach(h2 => {
-              const details = document.createElement("details");
-              const summary = document.createElement("summary");
-
-              // Move the h2 text to the summary tag
-              summary.innerHTML = h2.innerHTML;
-              details.appendChild(summary);
-
-              // Move the following sibling elements into the details tag until the next heading or end of the parent
-              let sibling = h2.nextElementSibling;
-              while (sibling && sibling.tagName !== "H2") {
-                const nextSibling = sibling.nextElementSibling;
-                details.appendChild(sibling);
-                sibling = nextSibling;
-              }
-
-              // Replace the h2 element with the details tag
-              h2.replaceWith(details);
-            });
-
-            return document.documentElement.outerHTML;
-          }
-          return content;
-        });
-      };
-    </script>
   </article>
