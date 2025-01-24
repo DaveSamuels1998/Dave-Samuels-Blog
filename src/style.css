@@ -471,7 +471,11 @@ aside {
     color: var(--clr-neutral-500);
   }
  
-  
+  .top-of-site-link {
+    position: fixed;
+    bottom: 1.8rem;
+    z-index: 15;
+  }
 
   @media (max-width: 48rem) {
     .main-article {
