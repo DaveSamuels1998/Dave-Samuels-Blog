@@ -445,7 +445,7 @@ section,
 @media (min-width: 75rem) {
 aside {
   position: sticky;
-  height: 80dvh;
+  height: 100dvh;
   top: 0;
 }
 }
@@ -473,7 +473,7 @@ aside {
  
   .top-of-site-link {
     position: fixed;
-    bottom: 1.8rem;
+    bottom: 10rem;
     z-index: 15;
   }
 
