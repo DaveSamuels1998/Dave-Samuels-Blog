@@ -155,7 +155,7 @@ h1 {
 
     font-size: var(--fs-500);
   }
-  
+
 aside {
    margin-inline: auto;
     width: calc(100% - 2rem);
@@ -470,10 +470,7 @@ aside {
     font-size: 0.75em;
     color: var(--clr-neutral-500);
   }
-  /*
-  .toc li > ol > li {
-    list-style: none;
-  } */
+ 
   
 
   @media (max-width: 48rem) {

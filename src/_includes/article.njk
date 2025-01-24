@@ -3,6 +3,7 @@ layout: 'base.njk'
 ---
 
 <article class="main-article">
+
   <aside>
     <details>
       <summary>
@@ -10,12 +11,12 @@ layout: 'base.njk'
       </summary>
 
       {{ content | toc | safe }}
-
+      <a href="#top-of-site-anchor" class="top-of-site">Back to Top</a>
     </details>
 
   </aside>
   <div class="container container--narrow flow">
-
+    <div id="top-of-site-anchor"></div>
     <h1 class="article-title">
       {{ title}}
     </h1>
@@ -26,6 +27,7 @@ layout: 'base.njk'
       </figcaption>
     </figure>
     {{ content | safe}}
+
   </div>
 
 </article>
