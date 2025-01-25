@@ -33,7 +33,11 @@
     --fs-700: 3rem;
   }
 }
-
+@media (max-width: 48rem) {
+  :root {
+    --fs-900: 3rem;
+  }
+}
 /* //////////////////////
   RESET - source: https://piccalil.li/blog/a-modern-css-reset
   /////////////////////// */
@@ -495,4 +499,5 @@ aside {
     text-align: center;
   }
  }
+ 
  
