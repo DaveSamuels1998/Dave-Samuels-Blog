@@ -29,17 +29,17 @@ layout: 'base.njk'
         {{ imageAlt}}
       </figcaption>
     </figure>
-    <div>
-      <div class="modal">
-        <span class="closed">X</span>
-        <div class="modal-body">
-          <img src="" class="modal-img">
-          <span class="modal-text"></span>
-        </div>
-      </div>
 
-      {{ content | safe}}
-      <script src="index.js"></script>
+    {{ content | safe}}
+    <!-- Modal Structure -->
+    <div id="image-modal" class="modal hidden">
+      <div class="modal-content">
+        <img id="modal-image" src="" alt=""/>
+        <button id="close-modal" aria-label="Close Modal">&times;</button>
+      </div>
     </div>
 
-  </article>
+    <script src="index.js"></script>
+  </div>
+
+</article>

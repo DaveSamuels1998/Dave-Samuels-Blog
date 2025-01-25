@@ -1,29 +1,32 @@
-// set variable
+document.addEventListener("DOMContentLoaded", () => {
+  const modal = document.getElementById("image-modal");
+  const modalImage = document.getElementById("modal-image");
+  const closeModal = document.getElementById("close-modal");
+  const imageTriggers = document.querySelectorAll(".image-modal-trigger");
 
-// image img variable
-const mainImages = document.querySelectorAll(".main-article img:not(figure *)");
-// modal body variable
-const modalBody = document.querySelector(".modal");
-// modal image variable
-const modalImages = document.querySelector(".modal-img");
-// modal text & close btn variable
-const text = document.querySelector(".modal-text");
-const close = document.querySelector(".closed");
-
-// take ForEach loop in images to appear a classlist on their
-
-mainImages.forEach((image) => {
- image.addEventListener('click', () => {
-  modalBody.classList.add("active");
-
-  // Individual Title and Individual photos
-
-  modalImages.src = image.src;
-  text.innerHTML = image.alt; 
-
-  close.addEventListener('click', () => {
-    modalBody.classList.remove("active");
+  // Open modal on image click
+  imageTriggers.forEach((trigger) => {
+    trigger.addEventListener("click", (event) => {
+      const img = trigger.querySelector("img");
+      modalImage.src = img.src;
+      modalImage.alt = img.alt;
+      modal.classList.remove("hidden");
+    });
   });
- });
-});
 
+  // Close modal on button click
+  closeModal.addEventListener("click", () => {
+    modal.classList.add("hidden");
+    modalImage.src = "";
+    modalImage.alt = "";
+  });
+
+  // Close modal on outside click
+  modal.addEventListener("click", (event) => {
+    if (event.target === modal) {
+      modal.classList.add("hidden");
+      modalImage.src = "";
+      modalImage.alt = "";
+    }
+  });
+});

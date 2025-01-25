@@ -475,73 +475,46 @@ aside {
 
   .modal {
     position: fixed;
-    height: 100%;
-    width: 100%;
-    margin: 0 auto;
     top: 0;
     left: 0;
-    background-color: rgba(0, 0, 0, 0.733);
-    z-index: 1;
-    overflow: auto;
-    opacity: 0; 
-    pointer-events:none
-  }
-
-  .modal-body {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
-    flex-direction: column;
+    z-index: 1000;
+    transition: opacity 0.3s ease;
   }
-
-  .modal.active {
-    opacity: 1;
-    pointer-events: all;
+  
+  .modal.hidden {
+    display: none;
   }
- 
-  .modal-img{
+  
+  .modal-content {
+    position: relative;
+    max-width: 80%;
+    max-height: 80%;
+  }
+  
+  .modal-content img {
     width: 100%;
-   max-height: 600px;
-   max-width: 400px;
-   object-fit: cover;
+    height: auto;
+    border-radius: 8px;
   }
-
-  .modal.active .modal-img,
-  .modal.active .modal-text {
-    animation: zoom 0.3s, linear;
-  }
-
-  @keyframes zoom {
-    
-    from{transform: scale(0);}
-    to{transform: scale(1);}
-  }
-
-  .modal-text {
-    color:#fff;
-    margin-top: 20px;
-    font-size: 1.5rem;
-    font-weight: 800;
-    text-transform: capitalize;
-  }
-
-  .closed {
+  
+  #close-modal {
     position: absolute;
-    top: 3rem;
-    color: #fff;
-    background-color: black;
-    border-radius: 100%;
-    transition: 0.5s;
-    transform: scale(1.2);
+    top: 10px;
+    right: 10px;
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 2rem;
     cursor: pointer;
   }
-
-  .closed:hover{
-    background-color: #fff;
-    color: black;
-  }
-
+  
+  
   .top-of-site-link {
     position: fixed;
     bottom: 1.8rem;
