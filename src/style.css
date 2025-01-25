@@ -136,10 +136,8 @@ h3 {
   font-weight: var(--fw-900);
   line-height: 1.1;
 }
-h1 {
-  font-size: var(--fs-900);
 
-}
+
   h2 {
 
     font-size: var(--fs-700);
@@ -211,7 +209,7 @@ section,
 }
 
 .article-title {
-  font-size: var(--fs-700);
+  font-size: var(--fs-900);
 }
 
 .section-title {
