@@ -1,7 +1,7 @@
 // set variable
 
 // image img variable
-const mainImages = document.querySelectorAll(".images img");
+const mainImages = document.querySelectorAll(".main-article img:not(figure *) ");
 // modal body variable
 const modalBody = document.querySelector(".modal");
 // modal image variable
@@ -20,7 +20,7 @@ mainImages.forEach((image) => {
 
   modalImages.src = image.src;
   text.innerHTML = image.alt; 
-  
+
   close.addEventListener('click', () => {
     modalBody.classList.remove("active");
   });
