@@ -1,7 +1,7 @@
 // set variable
 
 // image img variable
-const mainImages = document.querySelectorAll(".main-article img:not(figure *) ");
+const mainImages = document.querySelectorAll(".main-article img:not(figure *)");
 // modal body variable
 const modalBody = document.querySelector(".modal");
 // modal image variable
