@@ -1,7 +1,6 @@
 ---
-title: Enable Administrator Account, VMware Network Adapter Settings, Creating
-  Static IP Address, Deleting User Accounts without Server Manager, Installing
-  RSAT Tools
+title: Admin Account Setup, VMware Network, Static IPs, User Management, RSAT
+  Installation
 description: Third Lab Series
 author: Dave Samuels
 date: 2025-01-17T10:30:00.000Z
