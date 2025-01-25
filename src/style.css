@@ -483,7 +483,7 @@ aside {
     background-color: rgba(0, 0, 0, 0.733);
     z-index: 1;
     overflow: auto;
-    /* opacity: 0; */
+    opacity: 0; 
     pointer-events:none
   }
 
@@ -541,7 +541,7 @@ aside {
     background-color: #fff;
     color: black;
   }
-  
+
   .top-of-site-link {
     position: fixed;
     bottom: 1.8rem;
