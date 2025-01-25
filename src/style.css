@@ -472,7 +472,76 @@ aside {
     font-size: 0.75em;
     color: var(--clr-neutral-500);
   }
+
+  .modal {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.733);
+    z-index: 1;
+    overflow: auto;
+    /* opacity: 0; */
+    pointer-events:none
+  }
+
+  .modal-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  .modal.active {
+    opacity: 1;
+    pointer-events: all;
+  }
  
+  .modal-img{
+    width: 100%;
+   max-height: 600px;
+   max-width: 400px;
+   object-fit: cover;
+  }
+
+  .modal.active .modal-img,
+  .modal.active .modal-text {
+    animation: zoom 0.3s, linear;
+  }
+
+  @keyframes zoom {
+    
+    from{transform: scale(0);}
+    to{transform: scale(1);}
+  }
+
+  .modal-text {
+    color:#fff;
+    margin-top: 20px;
+    font-size: 1.5rem;
+    font-weight: 800;
+    text-transform: capitalize;
+  }
+
+  .closed {
+    position: absolute;
+    top: 3rem;
+    color: #fff;
+    background-color: black;
+    border-radius: 100%;
+    transition: 0.5s;
+    transform: scale(1.2);
+    cursor: pointer;
+  }
+
+  .closed:hover{
+    background-color: #fff;
+    color: black;
+  }
+  
   .top-of-site-link {
     position: fixed;
     bottom: 1.8rem;
