@@ -52,7 +52,9 @@ I will use Windows Server 2022 as my server to manage various PCs and virtual ma
 
 <br>
 
+<div class="myImg">
 ![](/assets/blog/winserver-2022-1.png){.myIMG}
+</div>
 
 <br>
 
@@ -64,7 +66,9 @@ I will use Windows Server 2022 as my server to manage various PCs and virtual ma
 
 <br>
 
+<div class="myImg">
 ![](/assets/blog/winserver-2022-2.png){.myIMG}
+</div>
 
 <br>
 
@@ -76,7 +80,9 @@ I will use Windows Server 2022 as my server to manage various PCs and virtual ma
 
 <br>
 
+<div class="myImg">
 ![](/assets/blog/winserver-2022-3.png){.myIMG}
+</div>
 
 <br>
 
@@ -94,7 +100,9 @@ I will use Windows Server 2022 as my server to manage various PCs and virtual ma
 
 <br>
 
+<div class="myImg">
 ![](/assets/blog/blog-1-installation-method-1.png){.myIMG}
+</div>
 
 <br>
 
@@ -106,7 +114,9 @@ I will use Windows Server 2022 as my server to manage various PCs and virtual ma
 
 <br>
 
+<div class="myImg">
 ![](/assets/blog/vmware-easy-installation-method-1.png){.myIMG}
+</div>
 
 <br>
 
@@ -118,7 +128,9 @@ I will use Windows Server 2022 as my server to manage various PCs and virtual ma
 
 <br>
 
+<div class="myImg">
 ![](/assets/blog/winserver-2022-4.png){.myIMG}
+</div>
 
 <br>
 
@@ -130,7 +142,9 @@ I will use Windows Server 2022 as my server to manage various PCs and virtual ma
 
 <br>
 
+<div class="myImg">
 ![](/assets/blog/winserver2022-5.png){.myIMG}
+</div>
 
 <br>
 
@@ -142,7 +156,9 @@ I will use Windows Server 2022 as my server to manage various PCs and virtual ma
 
 <br>
 
+<div class="myImg">
 ![](/assets/blog/winserver2022-07.png){.myIMG}
+</div>
 
 <br>
 
@@ -154,7 +170,9 @@ I will use Windows Server 2022 as my server to manage various PCs and virtual ma
 
 <br>
 
+<div class="myImg">
 ![](/assets/blog/winserver2022-08-edit.png){.myIMG}
+</div>
 
 <br>
 
@@ -166,7 +184,9 @@ I will use Windows Server 2022 as my server to manage various PCs and virtual ma
 
 <br>
 
+<div class="myImg">
 ![](/assets/blog/winserver2022-09-edit.png){.myIMG}
+</div>
 
 <br>
 
@@ -190,7 +210,9 @@ I will use Windows Server 2022 as my server to manage various PCs and virtual ma
 
 <br>
 
+<div class="myImg">
 ![](/assets/blog/winserver2022-10-edit.png){.myIMG}
+</div>
 
 <br>
 
@@ -202,7 +224,9 @@ I will use Windows Server 2022 as my server to manage various PCs and virtual ma
 
 <br>
 
+<div class="myImg">
 ![](/assets/blog/winserver2022-11-edit.png){.myIMG}
+</div>
 
 <br>
 
@@ -214,7 +238,9 @@ I will use Windows Server 2022 as my server to manage various PCs and virtual ma
 
 <br>
 
+<div class="myImg">
 ![](/assets/blog/winserver2022-12-edit.png){.myIMG}
+</div>
 
 <br>
 
@@ -226,7 +252,9 @@ I will use Windows Server 2022 as my server to manage various PCs and virtual ma
 
 <br>
 
+<div class="myImg">
 ![](/assets/blog/winserver2022-13-edit.png){.myIMG}
+</div>
 
 <br>
 
@@ -238,7 +266,9 @@ I will use Windows Server 2022 as my server to manage various PCs and virtual ma
 
 <br>
 
+<div class="myImg">
 ![](/assets/blog/winserver2022-14-edit.png){.myIMG}
+</div>
 
 <br>
 
@@ -250,7 +280,9 @@ I will use Windows Server 2022 as my server to manage various PCs and virtual ma
 
 <br>
 
+<div class="myImg">
 ![](/assets/blog/winserver2022-15-edit.png){.myIMG}
+</div>
 
 <br>
 
@@ -262,7 +294,9 @@ I will use Windows Server 2022 as my server to manage various PCs and virtual ma
 
 <br>
 
+<div class="myImg">
 ![](/assets/blog/winserver2022-16-edit.png){.myIMG}
+</div>
 
 <br>
 
@@ -274,7 +308,9 @@ I will use Windows Server 2022 as my server to manage various PCs and virtual ma
 
 <br>
 
+<div class="myImg">
 ![](/assets/blog/winserver2022-17-edit.png){.myIMG}
+</div>
 
 <br>
 
@@ -292,7 +328,9 @@ I will use Windows Server 2022 as my server to manage various PCs and virtual ma
 
 <br>
 
+<div class="myImg">
 ![](/assets/blog/winserver2022-setup-01-edit.png){.myIMG}
+</div>
 
 <br>
 
@@ -304,7 +342,9 @@ I will use Windows Server 2022 as my server to manage various PCs and virtual ma
 
 <br>
 
+<div class="myImg">
 ![](/assets/blog/winserver2022-setup-02-edited.png){.myIMG}
+</div>
 
 <br>
 
@@ -316,7 +356,9 @@ I will use Windows Server 2022 as my server to manage various PCs and virtual ma
 
 <br>
 
+<div class="myImg">
 ![](/assets/blog/winserver2022-setup-03-edited.png){.myIMG}
+</div>
 
 <br>
 
@@ -328,7 +370,9 @@ I will use Windows Server 2022 as my server to manage various PCs and virtual ma
 
 <br>
 
+<div class="myImg">
 ![](/assets/blog/winserver2022-setup-04-edited.png){.myIMG}
+</div>
 
 <br>
 
@@ -346,7 +390,9 @@ I will use Windows Server 2022 as my server to manage various PCs and virtual ma
 
 <br>
 
+<div class="myImg">
 ![](/assets/blog/winserver2022-setup-05-edit.png){.myIMG}
+</div>
 
 <br>
 
@@ -358,7 +404,9 @@ I will use Windows Server 2022 as my server to manage various PCs and virtual ma
 
 <br>
 
+<div class="myImg">
 ![](/assets/blog/winserver2022-setup-06-edit.png){.myIMG}
+</div>
 
 <br>
 
@@ -370,7 +418,9 @@ I will use Windows Server 2022 as my server to manage various PCs and virtual ma
 
 <br>
 
+<div class="myImg">
 ![](/assets/blog/winserver2022-setup-07-edit.png){.myIMG}
+</div>
 
 <br>
 
@@ -388,7 +438,9 @@ I will use Windows Server 2022 as my server to manage various PCs and virtual ma
 
 <br>
 
+<div class="myImg">
 ![](/assets/blog/ad-install_01-edit.png){.myIMG}
+</div>
 
 <br>
 
@@ -400,7 +452,9 @@ I will use Windows Server 2022 as my server to manage various PCs and virtual ma
 
 <br>
 
+<div class="myImg">
 ![](/assets/blog/ad-install_02-edit.png){.myIMG}
+</div>
 
 <br>
 
@@ -412,7 +466,9 @@ I will use Windows Server 2022 as my server to manage various PCs and virtual ma
 
 <br>
 
+<div class="myImg">
 ![](/assets/blog/ad-install_03-edit.png){.myIMG}
+</div>
 
 <br>
 
@@ -424,7 +480,9 @@ I will use Windows Server 2022 as my server to manage various PCs and virtual ma
 
 <br>
 
+<div class="myImg">
 ![](/assets/blog/ad-install_04-edit.png){.myIMG}
+</div>
 
 <br>
 
@@ -436,7 +494,9 @@ I will use Windows Server 2022 as my server to manage various PCs and virtual ma
 
 <br>
 
+<div class="myImg">
 ![](/assets/blog/ad-install_05-edit.png){.myIMG}
+</div>
 
 <br>
 
@@ -448,7 +508,9 @@ I will use Windows Server 2022 as my server to manage various PCs and virtual ma
 
 <br>
 
+<div class="myImg">
 ![](/assets/blog/ad-install_06-edit.png){.myIMG}
+</div>
 
 <br>
 
@@ -460,7 +522,9 @@ I will use Windows Server 2022 as my server to manage various PCs and virtual ma
 
 <br>
 
+<div class="myImg">
 ![](/assets/blog/ad-install_07-edit.png){.myIMG}
+</div>
 
 <br>
 
@@ -472,7 +536,9 @@ I will use Windows Server 2022 as my server to manage various PCs and virtual ma
 
 <br>
 
+<div class="myImg">
 ![](/assets/blog/ad-install_08-edit.png){.myIMG}
+</div>
 
 <br>
 
@@ -484,7 +550,9 @@ I will use Windows Server 2022 as my server to manage various PCs and virtual ma
 
 <br>
 
+<div class="myImg">
 ![](/assets/blog/ad-install_09-edit.png){.myIMG}
+</div>
 
 <br>
 
