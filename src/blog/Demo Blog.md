@@ -1,3 +1,13 @@
+---
+title: Demo
+description: Demo
+author: Dave Samuels
+date: 2025-01-26T10:55:00.000Z
+tags:
+  - post
+image: /assets/blog/blog-1-figure-1.png
+imageAlt: demo
+---
 ## Introduction
 
 <br>
@@ -53,7 +63,9 @@ I will use Windows Server 2022 as my server to manage various PCs and virtual ma
 <br>
 
 <div class="myImg">
+
 ![](/assets/blog/winserver-2022-1.png)
+
 </div>
 
 <br>
