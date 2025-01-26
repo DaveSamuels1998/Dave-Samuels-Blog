@@ -471,7 +471,7 @@ aside {
   }
 
 
-  #cancel {
+  .cancel {
     position: fixed;
     top: 15px;
     right: 35px;
@@ -482,7 +482,7 @@ aside {
     transition: 0.3s;
   }
   
-  #modal::backdrop {
+  .modal::backdrop {
     background: rgb(0 0 0 / .6);
   }
   

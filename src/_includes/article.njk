@@ -33,9 +33,9 @@ layout: 'base.njk'
     {{ content | safe}}
 
     <script>
-      const updateButton = document.getElementById("updateDetails");
-      const cancelButton = document.getElementById("cancel");
-      const dialog = document.getElementById("modal");
+      const updateButton = getElementsByClassName("updateDetails");
+      const cancelButton = getElementsByClassName("cancel");
+      const dialog = document.getElementsByClassName("modal");
       dialog.returnValue = "favAnimal";
 
       function openCheck(dialog) {
