@@ -473,7 +473,7 @@ aside {
 
 
   #cancel {
-    position: absolute;
+    position: fixed;
     top: 15px;
     right: 35px;
     color: #333;
