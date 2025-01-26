@@ -2,7 +2,7 @@
 
 var modal = document.getElementById('myModal');
 // to all images -- note I'm using a class!
-var images = document.getElementsByClassName('main-article img:not(figure *)');
+var images = document.getElementsByClassName('.main-article img:not(figure *)');
 // the image in the modal
 var modalImg = document.getElementById("img01");
 // and the caption in the modal
