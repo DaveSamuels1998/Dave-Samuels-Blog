@@ -479,6 +479,7 @@ aside {
     display: inline-block;
     vertical-align: top;
     max-height: 34.375rem;
+    overflow: hidden;
   }
   .myImg:hover {
     opacity: 0.7;
