@@ -1,3 +1,13 @@
+---
+title: Demo
+description: Demo Lab
+author: Dave Samuels
+date: 2025-01-26T10:17:00.000Z
+tags:
+  - post
+image: /assets/blog/blog-1-hero-pic.jpg
+imageAlt: Demo
+---
 ## Introduction
 
 <br>
