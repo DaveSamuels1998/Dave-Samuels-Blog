@@ -440,9 +440,7 @@ section,
     }
   }
  
-  .main-article img:not(figure *) {
-    max-height: 34.375rem;
-}
+
 
 @media (min-width: 75rem) {
 aside {
@@ -480,8 +478,8 @@ aside {
   transition: 0.3s;
   display: inline-block;
   vertical-align: top;
-  width: 300px;
-  min-height: 200px;
+  max-height: 34.375rem;
+  
 }
 .myImg:hover {
   opacity: 0.7;
