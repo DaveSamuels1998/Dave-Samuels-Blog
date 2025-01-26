@@ -477,7 +477,7 @@ aside {
   cursor: pointer;
   transition: 0.3s;
   display: inline-block;
-  vertical-align: top;
+  vertical-align: middle;
   max-height: 34.375rem;
   
 }
