@@ -28,26 +28,39 @@ In this lab, I will complete the post-deployment configuration for Active Direct
 <br>
 <br>
 
+<div class="myImg">
+
 ![](/assets/blog/dns-server-setup-1.png)
 
 <br>
 <br>
+
+</div>
 
 2. Toggle 'Add a new forest' because this is a new environment setup, meaning we don't have any existing domains or forests.
 
 <br>
 <br>
 
+<div class="myImg">
+
    ![](/assets/blog/dns-server-setup-2.png)
 <br>
 <br>
+
+</div>
 
 3. Fill in the 'Root domain name' text field. Since I will be hosting my domain on a static IP, I can choose any name I like. If your domain is hosted on the internet, you may need to change the name if it is already taken by someone else.
 
 <br>
 <br>
 
+<div class="myImg">
+
    ![](/assets/blog/dns-server-setup-3.png)
+
+</div>
+
 <br>
 <br>
 
@@ -56,21 +69,33 @@ In this lab, I will complete the post-deployment configuration for Active Direct
 <br>
 <br>
 
+<div class="myImg">
+
    ![](/assets/blog/dns-server-setup-4.png)
+
+</div>
 
 <br>
 <br>
 
 5. Click "Next".
 
+<div class="myImg">
+
    ![](/assets/blog/dns-server-setup-5.png)
+
+</div>
 
 <br>
 <br>
 
 6. Verify that the NetBIOS domain name is correct.
 
+<div class="myImg">
+
    ![](/assets/blog/dns-server-setup-6.png)
+
+</div>
 
 <br>
 <br>
@@ -80,18 +105,25 @@ In this lab, I will complete the post-deployment configuration for Active Direct
 <br>
  <br>
 
-   
+ <div class="myImg">
+
 ![](/assets/blog/dns-server-setup-7.png)
+
+</div>
 
 <br>
 <br>
 
 8. Click "Next".
-   <br>
-   <br>
-
    
+<br>
+<br>
+
+ <div class="myImg">
+
 ![](/assets/blog/dns-server-setup-8.png)
+
+</div>
 
 <br>
 <br>
@@ -101,7 +133,11 @@ In this lab, I will complete the post-deployment configuration for Active Direct
 <br>
 <br>
 
-   ![](/assets/blog/dns-server-setup-9.png)
+<div class="myImg">
+
+![](/assets/blog/dns-server-setup-9.png)
+
+</div>
 
 <br>
 <br>
@@ -114,9 +150,13 @@ In this lab, I will complete the post-deployment configuration for Active Direct
 11. After your computer has finished restarting, go to 'Other User' and check if 'Sign in to: (Your Domain Name)' is displayed. If it is, that means your domain is up and running. It also indicates that the user you create will be part of your domain.
 
 <br>
-    <br>
+ <br>
+
+<div class="myImg">
 
 ![](/assets/blog/dns-button.png)
+
+</div>
 
 <br>
 <br>
@@ -135,7 +175,11 @@ With Server Manager, we can containerize and manage user computers and Organizat
    <br>
     <br>
 
+<div class="myImg">
+
    ![](/assets/blog/ad-find-user-1.png)
+
+</div>
 
 <br>
 <br>
@@ -145,7 +189,11 @@ With Server Manager, we can containerize and manage user computers and Organizat
  <br>
 <br>
 
+<div class="myImg">
+
    ![](/assets/blog/ad-find-user-2.png)
+
+</div>
 
 <br>
 <br>
@@ -155,7 +203,11 @@ With Server Manager, we can containerize and manage user computers and Organizat
 <br>
    <br>
 
+<div class="myImg">
+
 ![](/assets/blog/ad-find-user-3.png)
+
+</div>
 
  <br>
  <br>
@@ -165,7 +217,11 @@ With Server Manager, we can containerize and manage user computers and Organizat
 <br>
    <br>
 
+<div class="myImg">
+
 ![](/assets/blog/ad-find-user-4.png)
+
+</div>
 
  <br>
  <br>
@@ -175,7 +231,11 @@ With Server Manager, we can containerize and manage user computers and Organizat
 <br>
  <br>
 
+<div class="myImg">
+
    ![](/assets/blog/ad-find-user-5.png)
+
+</div>
 
 <br>
 <br>
@@ -185,7 +245,11 @@ With Server Manager, we can containerize and manage user computers and Organizat
 <br>
 <br>
 
+<div class="myImg">
+
    ![](/assets/blog/ad-find-user-6.png)
+
+</div>
 
 <br>
 <br>
@@ -195,7 +259,11 @@ With Server Manager, we can containerize and manage user computers and Organizat
  <br>
    <br>
 
+<div class="myImg">
+
 ![](/assets/blog/ad-find-user-7.png)
+
+</div>
 
 <br>
 <br>
@@ -205,7 +273,11 @@ With Server Manager, we can containerize and manage user computers and Organizat
 <br>
    <br>
 
+<div class="myImg">
+
 ![](/assets/blog/ad-find-user-8.png)
+
+</div>
 
 <br>
 <br>
@@ -215,7 +287,11 @@ With Server Manager, we can containerize and manage user computers and Organizat
 <br>
 <br>
 
+<div class="myImg">
+
 ![](/assets/blog/ad-find-user-9.png)
+
+</div>
 
 <br>
 <br>
@@ -248,7 +324,11 @@ Enabling the recycle bin is useful because it allows you to retrieve items if yo
    <br>
    <br>
 
+<div class="myImg">
+
    ![](/assets/blog/ad-enable-recycle-bin-1.png)
+
+</div>
 
 <br>
 <br>
@@ -257,7 +337,11 @@ Enabling the recycle bin is useful because it allows you to retrieve items if yo
    <br>
    <br>
 
+<div class="myImg">
+
 ![](/assets/blog/ad-enable-recycle-bin-2.png)
+
+</div>
 
 <br>
 <br>
@@ -266,15 +350,25 @@ Enabling the recycle bin is useful because it allows you to retrieve items if yo
       <br>
       <br>
 
-      ![](/assets/blog/ad-enable-recycle-bin-3.png)
+<div class="myImg">
+
+  ![](/assets/blog/ad-enable-recycle-bin-3.png)
+
+</div>
+
    <br>
    <br>
 
 4. Click "ok".
-   <br>
+   
+<br>
    <br>
 
+<div class="myImg">
+
 ![](/assets/blog/ad-enable-recycle-bin-4.png)
+
+</div>
 
 <br>
 <br>
@@ -283,16 +377,26 @@ Enabling the recycle bin is useful because it allows you to retrieve items if yo
 <br>
 <br>
 
+<div class="myImg">
+
 ![](/assets/blog/ad-enable-recycle-bin-5.png)
+
+</div>
 
 <br>
 <br>
 
 6. You should see a folder called "Deleted Objects". This is your recycle bin.
+
 <br>
 <br>
 
+<div class="myImg">
+
 ![](/assets/blog/ad-enable-recycle-bin-6.png)
+
+</div>
+
 <br>
 <br>
 
@@ -315,7 +419,11 @@ It is best practice to create a user with roles that can be copied, rather than 
    <br>
    <br>
 
+<div class="myImg">
+
    ![](/assets/blog/account-creation-copy-1.png)
+
+</div>
 
 <br>
 <br>
@@ -325,7 +433,11 @@ It is best practice to create a user with roles that can be copied, rather than 
 <br>
 <br>
 
+<div class="myImg">
+
 ![](/assets/blog/account-creation-copy-2.png)
+
+</div>
 
 <br>
 <br>
@@ -335,7 +447,11 @@ It is best practice to create a user with roles that can be copied, rather than 
 <br>
 <br>
 
+<div class="myImg">
+
 ![](/assets/blog/account-creation-copy-3.png)
+
+</div>
 
 <br>
 <br>
@@ -344,16 +460,25 @@ It is best practice to create a user with roles that can be copied, rather than 
    <br>
    <br>
 
+<div class="myImg">
+
 ![](/assets/blog/account-creation-copy-4.png)
+
+</div>
 
 <br>
 <br>
 
 5. You should see the user you created in the directory where you created it.
-   <br>
+   
+<br>
    <br>
 
+<div class="myImg">
+
 ![](/assets/blog/account-creation-copy-5.png)
+
+</div>
 
 <br>
 <br>
@@ -362,7 +487,11 @@ It is best practice to create a user with roles that can be copied, rather than 
    <br>
    <br>
 
+<div class="myImg">
+
 ![](/assets/blog/account-creation-copy-6.png)
+
+</div>
 
 <br>
 <br>
@@ -371,7 +500,11 @@ It is best practice to create a user with roles that can be copied, rather than 
    <br>
    <br>
 
+<div class="myImg">
+
 ![](/assets/blog/account-creation-copy-7.png)
+
+</div>
 
 <br>
 <br>
@@ -380,7 +513,11 @@ It is best practice to create a user with roles that can be copied, rather than 
    <br>
    <br>
 
+<div class="myImg">
+
 ![](/assets/blog/account-creation-copy-8.png)
+
+</div>
 
 <br>
 <br>
@@ -395,7 +532,11 @@ It is best practice to create a user with roles that can be copied, rather than 
 <br>
 <br>
 
+<div class="myImg">
+
 ![](/assets/blog/account-creation-new-1.png)
+
+</div>
 
 <br>
 <br>
@@ -404,7 +545,11 @@ It is best practice to create a user with roles that can be copied, rather than 
    <br>
    <br>
 
+<div class="myImg">
+
 ![](/assets/blog/account-creation-new-2.png)
+
+</div>
 
 <br>
 <br>
@@ -413,7 +558,11 @@ It is best practice to create a user with roles that can be copied, rather than 
    <br>
    <br>
 
+<div class="myImg">
+
 ![](/assets/blog/account-creation-new-3.png)
+
+</div>
 
 <br>
 <br>
@@ -422,7 +571,11 @@ It is best practice to create a user with roles that can be copied, rather than 
    <br>
    <br>
 
+<div class="myImg">
+
 ![](/assets/blog/account-creation-new-4.png)
+
+</div>
 
 <br>
 <br>
@@ -436,7 +589,11 @@ It is best practice to create a user with roles that can be copied, rather than 
    <br>
    <br>
 
+<div class="myImg">
+
    ![](/assets/blog/cmd-1-ipconfig.png)
+
+</div>
 
 <br>
 <br>
@@ -450,7 +607,11 @@ It is best practice to create a user with roles that can be copied, rather than 
    <br>
    <br>
 
+<div class="myImg">
+
    ![](/assets/blog/cmd-2-ipconfig-all.png)
+
+</div>
 
  <br>
 <br>
@@ -490,7 +651,11 @@ Answer: A real-world use case for static IPs would be assigning a printer a stat
 <br>
 <br>
 
+<div class="myImg">
+
    ![](/assets/blog/cmd-3-net-user-domain-name-domain.png)
+
+</div>
 
  <br>
 <br>
