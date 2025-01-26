@@ -35,12 +35,20 @@ Today, I will be installing Windows 10 and Windows 11 on two separate virtual ma
 <br>
 <br>
 
+<div class="myImg">
+
 ![](/assets/blog/win10iso-install-1.png)
 
+</div>
+
 <br>
 <br>
 
+<div class="myImg">
+
 ![](/assets/blog/win11iso-install-1.png)
+
+</div>
 
 <br>
 <br>
@@ -50,7 +58,11 @@ Today, I will be installing Windows 10 and Windows 11 on two separate virtual ma
 <br>
 <br>
 
+<div class="myImg">
+
 ![](/assets/blog/win10iso-install-2.png)
+
+</div>
 
 <br>
 <br>
@@ -60,7 +72,11 @@ Today, I will be installing Windows 10 and Windows 11 on two separate virtual ma
 <br>
 <br>
 
+<div class="myImg">
+
 ![](/assets/blog/win10iso-install-3.png)
+
+</div>
 
 <br>
 <br>
@@ -74,43 +90,65 @@ Today, I will be installing Windows 10 and Windows 11 on two separate virtual ma
    <br>
    <br>
 
+<div class="myImg">
+
 ![](/assets/blog/win10-vm-user-1.png)
+
+</div>
 
 <br>
 <br>
 
 2. Choose the Windows 10/11 iso and then click 'Continue.'
-   <br> 
-   <br>
+<br> 
+<br>
+
+<div class="myImg">
 
 ![](/assets/blog/win10-vm-user-2.png)
+
+</div>
 
 <br>
 <br>
 
 3. I recommend using 'Easy Install' because it enables the administrator account by default. However, I will be enabling the administrator account directly on the Windows 10 machine, so I chose not to use Easy Install. I'm doing this to demonstrate how to enable the administrator account on Windows 10/11 in case it is ever disabled and you need to enable it.
-   <br>
-   <br>
+<br>
+<br>
+
+<div class="myImg">
 
 ![](/assets/blog/win10-vm-user-3.png)
+
+</div>
 
 <br>
 <br>
 
 4. Specify the boot firmware you want to use. I am using the default firmware, which is 'UEFI.'
-   <br>
-   <br>
+
+<br>
+<br>
+
+<div class="myImg">
 
 ![](/assets/blog/win10-vm-user-4.png)
+
+</div>
 
 <br>
 <br>
 
 5. You can name the VM whatever you like.
-   <br>
-   <br>
+
+<br>
+<br>
+
+<div class="myImg">
 
 ![](/assets/blog/win10-vm-user-5.png)
+
+</div>
 
 <br>
 <br>
@@ -118,40 +156,60 @@ Today, I will be installing Windows 10 and Windows 11 on two separate virtual ma
 6. Click the play button in VMware, and the installation process for Windows 10/11 will begin.
 
 <br>
- <br>
+<br>
 
 7. Choose the appropriate options for 'Language to install,' 'Time and currency format,' and 'Keyboard or input method' that pertain to you.
-   <br>
-   <br>
+
+<br>
+<br>
+
+<div class="myImg">
 
 ![](/assets/blog/win10-vm-user-6.png)
+
+</div>
 
 <br>
 <br>
 
 8. Click "Install now"
-   <br>
-   <br>
+ 
+<br>
+<br>
+
+<div class="myImg">
 
 ![](/assets/blog/win10-vm-user-7.png)
+
+</div>
 
 <br>
 <br>
 
 9. I won't activate Windows, so I will click 'I don't have a product key.'
-   <br>
-   <br>
+
+<br>
+<br>
+
+<div class="myImg">
 
 ![](/assets/blog/win10-vm-user-8.png)
+
+</div>
 
 <br>
 <br>
 
 10. I will be setting up this PC for a lab environment and will be joining it to a domain. Therefore I will be choosing "Windows 10 Pro".
-    <br>
-    <br>
+ 
+<br>
+ <br>
+
+<div class="myImg">
 
 ![](/assets/blog/win10-vm-user-9.png)
+
+</div>
 
 <br>
 <br>
@@ -161,52 +219,81 @@ Today, I will be installing Windows 10 and Windows 11 on two separate virtual ma
 <br>
 <br>
 
+<div class="myImg">
+
 ![](/assets/blog/win10-vm-user-10.png)
+
+</div>
 
 <br>
 <br>
 
 12. Click "Custom: Install Windows only(advanced)". I do not have anything installed yet to upgrade.
-    <br>
-    <br>
+
+<br>
+<br>
+
+<div class="myImg">
 
 ![](/assets/blog/win10-vm-user-11.png)
+
+</div>
 
 <br>
 <br>
 
 13. Click "Next".
-    <br>
-    <br>
+ 
+<br>
+<br>
+
+<div class="myImg">
 
 ![](/assets/blog/win10-vm-user-12.png)
+
+</div>
 
 <br>
 <br>
 
 14. Choose your appropriate region. 
-    <br>
-    <br>
+
+ <br>
+ <br>
+
+<div class="myImg">
 
 ![](/assets/blog/win10-vm-user-13.png)
+
+</div>
 
 <br>
 <br>
 
 15. Choose your appropriate keyboard layout.
-    <br>
-    <br>
+ 
+<br>
+<br>
+
+<div class="myImg">
 
 ![](/assets/blog/win10-vm-user-14.png)
+
+</div>
 
 <br>
 <br>
 
 16. You can choose a second keyboard layout if you wish, but I decided to skip it.
-    <br>
-    <br>
+ 
+<br>
+<br>
+
+<div class="myImg">
 
 ![](/assets/blog/win10-vm-user-15.png)
+
+</div>
 
 <br>
 <br>
@@ -216,16 +303,25 @@ Today, I will be installing Windows 10 and Windows 11 on two separate virtual ma
 <br>
 <br>
 
+<div class="myImg">
+
 ![](/assets/blog/win10-vm-user-16.png)
+
+</div>
 
 <br>
 <br>
 
 18. Feel free to fill in the password text field if you'd like. However, I will be creating a password for the administrator account directly within Windows 10, so I chose to skip this step.
-    <br>
-    <br>
+
+<br>
+<br>
+
+<div class="myImg">
 
 ![](/assets/blog/win10-vm-user-17.png)
+
+</div>
 
 <br>
 <br>
@@ -238,10 +334,14 @@ Today, I will be installing Windows 10 and Windows 11 on two separate virtual ma
 
 1. For Windows 10 right-click "This PC" in File-Explorer and click Properties > Rename this PC(advanced) > Change. Refer to <a href="https://blogbydave.netlify.app/blog/01.%20virtual%20machine%20setup,%20windows%20server%202022%20and%20active%20directory%20installation/#renaming-your-pc-on-windows-server-2022" target="_blank">Renaming your PC</a>.
 
- <br>
- <br>
+<br>
+<br>
 
-   ![](/assets/blog/win11-rename-pc.png)
+<div class="myImg">
+
+![](/assets/blog/win11-rename-pc.png)
+
+</div>
 
 <br>
 
@@ -260,10 +360,15 @@ Today, I will be installing Windows 10 and Windows 11 on two separate virtual ma
 <br>
 
 1. In file explorer right-click "This PC" and click "Manage".
-   <br>
-   <br>
+ 
+<br>
+<br>
+
+<div class="myImg">
 
 ![](/assets/blog/enabling-administrator-account-1.png)
+
+</div>
 
 <br>
 <br>
@@ -271,31 +376,47 @@ Today, I will be installing Windows 10 and Windows 11 on two separate virtual ma
 2. Go to the "local users and groups" folder and navigate to the "users" folder.
 
 <br>
- <br>
+<br>
+
+<div class="myImg">
 
  ![](/assets/blog/enabling-administrator-account-2.png)
+
+</div>
 
  <br>
  <br>
 
 3. Then double-click "administrator" or right-click and click "Properties".
 
+<div class="myImg">
+
 ![](/assets/blog/enabling-administrator-account-3.png)
 
- <br>
-   <br>
+</div>
+
+<br>
+<br>
 
 6. Uncheck "Account is disabled".
 
 <br>
 <br>
 
+<div class="myImg">
+
  ![](/assets/blog/enabling-administrator-account-4.png)
 
+</div>
+
 <br>
 <br>
 
+<div class="myImg">
+
 ![](/assets/blog/enabling-administrator-account-5.png)
+
+</div>
 
 <br>
 <br>
@@ -304,7 +425,11 @@ Today, I will be installing Windows 10 and Windows 11 on two separate virtual ma
    <br>
    <br>
 
+<div class="myImg">
+
 ![](/assets/blog/enabling-administrator-account-7.png)
+
+</div>
 
 <br>
 <br>
@@ -313,7 +438,11 @@ Today, I will be installing Windows 10 and Windows 11 on two separate virtual ma
    <br>
    <br>
 
+<div class="myImg">
+
 ![](/assets/blog/enabling-administrator-account-8.png)
+
+</div>
 
 <br>
 <br>
@@ -346,10 +475,16 @@ Changing the VMWare network adapter settings to "host-only" will allow the PCs c
 <br>
 
 1. Navigate to the navigation bar on top of VMware and click on Virtual Machine > Network Adapter > Host-only.
-   <br>
-   <br>
+
+<br>
+<br>
+
+<div class="myImg">
 
 ![](/assets/blog/changing-vmware-network-adapter-settings.png)
+
+</div>
+
 <br>
 <br>
 
@@ -363,64 +498,101 @@ I will create a static IP address for my server, which hosts my domain controlle
 <br>
 
 1. Click the Start button and search for 'Control Panel'.
-   <br>
-   <br>
+
+<br>
+<br>
+
+<div class="myImg">
 
 ![](/assets/blog/creating-static-ip-addresses-1.png)
+
+</div>
 
 <br>
 <br>
 
 2. Click "Network and Internet"
-   <br>
-   <br>
+
+<br>
+<br>
+
+<div class="myImg">
 
 ![](/assets/blog/creating-static-ip-addresses-2.png)
+
+</div>
 
 <br>
 <br>
 
 3. Click "Network and Sharing Center"
-   <br>
-   <br>
+
+
+
+<br>
+<br>
+
+<div class="myImg">
 
 ![](/assets/blog/creating-static-ip-addresses-3.png)
+
+</div>
 
 <br>
 <br>
 
 4. Click "Change adapter settings"
-   <br>
-   <br>
+
+<br>
+<br>
+
+<div class="myImg">
 
 ![](/assets/blog/creating-static-ip-addresses-4.png)
+
+</div>
 
 <br>
 <br>
 
 5. Click "Ethernet"
-   <br>
-   <br>
+   
+<br>
+<br>
+
+<div class="myImg">
 
 ![](/assets/blog/creating-static-ip-addresses-5.png)
+
+</div>
 
 <br>
 <br>
 
 6. Click "Properties"
-   <br>
-   <br>
+
+<br>
+<br>
+
+<div class="myImg">
 
 ![](/assets/blog/creating-static-ip-addresses-6.png)
+
+</div>
 
 <br>
 <br>
 
 7. Double-click "Internet Protocol Version 4 (TCP/IPv4)"
-   <br>
-   <br>
+
+<br>
+<br>
+
+<div class="myImg">
 
 ![](/assets/blog/creating-static-ip-addresses-7.png)
+
+</div>
 
 <br>
 <br>
@@ -428,9 +600,13 @@ I will create a static IP address for my server, which hosts my domain controlle
 8. Click 'Use the following IP address:' and assign any IP address of your choice to your PC.
 
 <br>
- <br>
+<br>
+
+<div class="myImg">
 
 ![](/assets/blog/creating-static-ip-addresses-8.png)
+
+</div>
 
 ### Download Team Viewer
 
@@ -447,7 +623,11 @@ I will download TeamViewer, which will allow me to remotely access another user'
 <br>
 <br>
 
+<div class="myImg">
+
 ![](/assets/blog/teamviewer-install-1.png)
+
+</div>
 
 <br>
 <br>
@@ -457,7 +637,11 @@ I will download TeamViewer, which will allow me to remotely access another user'
 <br>
 <br>
 
+<div class="myImg">
+
 ![](/assets/blog/teamviewer-install-2.png)
+
+</div>
 
 <br>
 <br>
@@ -467,7 +651,11 @@ I will download TeamViewer, which will allow me to remotely access another user'
 <br>
 <br>
 
+<div class="myImg">
+
 ![](/assets/blog/teamviewer-install-3.png)
+
+</div>
 
 <br>
 <br>
@@ -477,7 +665,11 @@ I will download TeamViewer, which will allow me to remotely access another user'
 <br>
 <br>
 
+<div class="myImg">
+
 ![](/assets/blog/teamviewer-setup-1.png)
+
+</div>
 
 <br>
 <br>
@@ -502,7 +694,11 @@ I will use the user account I created in Windows 10 as a helpdesk account. To do
 <br>
 <br>
 
+<div class="myImg">
+
 ![](/assets/blog/win10-rsat-tools-download-1.png)
+
+</div>
 
 <br>
 <br>
@@ -512,7 +708,11 @@ I will use the user account I created in Windows 10 as a helpdesk account. To do
 <br>
 <br>
 
+<div class="myImg">
+
 ![](/assets/blog/win10-rsat-tools-download-2.png)
+
+</div>
 
 <br>
 <br>
@@ -522,7 +722,11 @@ I will use the user account I created in Windows 10 as a helpdesk account. To do
 <br>
 <br>
 
+<div class="myImg">
+
 ![](/assets/blog/win10-rsat-tools-download-3.png)
+
+</div>
 
 <br>
 <br>
@@ -532,7 +736,11 @@ I will use the user account I created in Windows 10 as a helpdesk account. To do
 <br>
 <br>
 
+<div class="myImg">
+
 ![](/assets/blog/win10-rsat-tools-download-4.png)
+
+</div>
 
 <br>
 <br>
@@ -542,7 +750,11 @@ I will use the user account I created in Windows 10 as a helpdesk account. To do
 <br>
 <br>
 
+<div class="myImg">
+
 ![](/assets/blog/win10-rsat-tools-download-5.png)
+
+</div>
 
 #### RSAT Tools on Windows 11
 
@@ -553,25 +765,39 @@ I will use the user account I created in Windows 10 as a helpdesk account. To do
    <br>
    <br>
 
+<div class="myImg">
+
 ![](/assets/blog/win11-rsat-download-1.png)
+
+</div>
 
 <br>
 <br>
 
 2. Click "Add a feature"
-   <br>
-   <br>
+
+<br>
+<br>
+
+<div class="myImg">
 
 ![](/assets/blog/win11-rsat-download-2.png)
+
+</div>
 
 <br>
 <br>
 
 3. Install RSAT Tools such as "RSAT Active Directory Certificate Service Tools."
-   <br>
-   <br>
+
+ <br>
+ <br>
+
+<div class="myImg">
 
 ![](/assets/blog/win11-rsat-download-3.png)
+
+</div>
 
 <br>
 <br>
@@ -589,8 +815,13 @@ The PC must have the correct IP address to connect to the domain. Enter the IP a
 #### Static IP Address for helpdesk PC
 
 <br>
+<br>
+
+<div class="myImg">
 
 ![](/assets/blog/static-ip-desktop-1.png)
+
+</div>
 
 <br>
 
@@ -602,7 +833,11 @@ The PC must have the correct IP address to connect to the domain. Enter the IP a
 
 <br>
 
+<div class="myImg">
+
 ![](/assets/blog/static-ip-desktop-2.png)
+
+</div>
 
 <br>
 <br>
@@ -613,10 +848,15 @@ The PC must have the correct IP address to connect to the domain. Enter the IP a
 <br>
 
 1. Open File-Explorer and right-click "This PC" and click "Properties" 
-   <br>
-   <br>
+
+<br>
+<br>
+
+<div class="myImg">
 
 ![](/assets/blog/winserver2022-setup-01-edit.png)
+
+</div>
 
 <br>
 <br>
@@ -631,12 +871,20 @@ The PC must have the correct IP address to connect to the domain. Enter the IP a
 <br>
 <br>
 
+<div class="myImg">
+
 ![](/assets/blog/winserver2022-setup-02-edited.png)
 
+</div>
+
 <br>
 <br>
 
+<div class="myImg">
+
 ![](/assets/blog/winserver2022-setup-03-edited.png)
+
+</div>
 
 <br>
 <br>
@@ -645,11 +893,19 @@ The PC must have the correct IP address to connect to the domain. Enter the IP a
 
 <br>
 
+<div class="myImg">
+
 ![](/assets/blog/win11-change-domain-or-workgroup-1.png)
+
+</div>
 
 <br>
 
+<div class="myImg">
+
 ![](/assets/blog/win11-change-domain-or-workgroup-2.png)
+
+</div>
 
 <br>
 <br>
@@ -659,25 +915,39 @@ The PC must have the correct IP address to connect to the domain. Enter the IP a
 <br>
 <br>
 
+<div class="myImg">
+
 ![](/assets/blog/connecting-desktop-1-to-dns.png)
+
+</div>
 
 <br>
 <br>
 
 4. Enter your administrator account information to confirm the connection to the domain.
-   <br>
-   <br>
+
+<br>
+<br>
+
+<div class="myImg">
 
 ![](/assets/blog/dns-connect-information.png)
+
+</div>
 
 <br>
 <br>
 
 5. Go to Active Directory Users and Computers to confirm that the PC is connected to the domain. Check in the "Computers" directory. 
-   <br>
-   <br>
+
+<br>
+<br>
+
+<div class="myImg">
 
 ![](/assets/blog/desktop1-desktop2-is-connected-to-the-domain..png)
+
+</div>
 
 <br>
 <br>
@@ -693,7 +963,11 @@ The PC must have the correct IP address to connect to the domain. Enter the IP a
 <br>
 <br>
 
+<div class="myImg">
+
 ![](/assets/blog/pinging-dns-with-win11-pc.png)
+
+</div>
 
 <br>
 <br>
@@ -708,7 +982,11 @@ The PC must have the correct IP address to connect to the domain. Enter the IP a
 <br>
 <br>
 
+<div class="myImg">
+
 ![](/assets/blog/winserver2022-setup-01-edit.png)
+
+</div>
 
 <br>
 <br>
@@ -718,7 +996,11 @@ The PC must have the correct IP address to connect to the domain. Enter the IP a
 <br>
 <br>
 
+<div class="myImg">
+
 ![](/assets/blog/winserver2022-setup-05-edit.png)
+
+</div>
 
 <br>
 <br>
@@ -728,8 +1010,11 @@ The PC must have the correct IP address to connect to the domain. Enter the IP a
 <br>
 <br>
 
+<div class="myImg">
+
 ![](/assets/blog/delete-user-without-server-manager-1.png)
 
+</div>
 <br>
 <br>
 
@@ -738,8 +1023,11 @@ The PC must have the correct IP address to connect to the domain. Enter the IP a
 <br>
 <br>
 
+<div class="myImg">
+
 ![](/assets/blog/delete-user-without-server-manager-2.png)
 
+</div>
 <br>
 <br>
 
@@ -748,8 +1036,11 @@ The PC must have the correct IP address to connect to the domain. Enter the IP a
 <br>
 <br>
 
+<div class="myImg">
+
 ![](/assets/blog/delete-user-without-server-manager-3.png)
 
+</div>
 <br>
 <br>
 
