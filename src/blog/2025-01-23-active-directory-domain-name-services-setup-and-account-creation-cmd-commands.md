@@ -105,7 +105,7 @@ In this lab, I will complete the post-deployment configuration for Active Direct
 <br>
  <br>
 
-   <div class="myImg">
+ <div class="myImg">
 
 ![](/assets/blog/dns-server-setup-7.png)
 
@@ -117,9 +117,9 @@ In this lab, I will complete the post-deployment configuration for Active Direct
 8. Click "Next".
    
 <br>
-   <br>
+<br>
 
-   <div class="myImg">
+ <div class="myImg">
 
 ![](/assets/blog/dns-server-setup-8.png)
 
@@ -135,7 +135,7 @@ In this lab, I will complete the post-deployment configuration for Active Direct
 
 <div class="myImg">
 
-   ![](/assets/blog/dns-server-setup-9.png)
+![](/assets/blog/dns-server-setup-9.png)
 
 </div>
 
@@ -150,7 +150,7 @@ In this lab, I will complete the post-deployment configuration for Active Direct
 11. After your computer has finished restarting, go to 'Other User' and check if 'Sign in to: (Your Domain Name)' is displayed. If it is, that means your domain is up and running. It also indicates that the user you create will be part of your domain.
 
 <br>
-    <br>
+ <br>
 
 <div class="myImg">
 
