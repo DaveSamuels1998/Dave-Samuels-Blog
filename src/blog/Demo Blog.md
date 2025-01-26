@@ -1,13 +1,3 @@
----
-title: Demo
-description: Demo Lab
-author: Dave Samuels
-date: 2025-01-26T10:17:00.000Z
-tags:
-  - post
-image: /assets/blog/blog-1-hero-pic.jpg
-imageAlt: Demo
----
 ## Introduction
 
 <br>
@@ -63,7 +53,7 @@ I will use Windows Server 2022 as my server to manage various PCs and virtual ma
 <br>
 
 <div class="myImg">
-![](/assets/blog/winserver-2022-1.png){.myIMG}
+![](/assets/blog/winserver-2022-1.png)
 </div>
 
 <br>
@@ -77,7 +67,7 @@ I will use Windows Server 2022 as my server to manage various PCs and virtual ma
 <br>
 
 <div class="myImg">
-![](/assets/blog/winserver-2022-2.png){.myIMG}
+![](/assets/blog/winserver-2022-2.png)
 </div>
 
 <br>
@@ -91,7 +81,7 @@ I will use Windows Server 2022 as my server to manage various PCs and virtual ma
 <br>
 
 <div class="myImg">
-![](/assets/blog/winserver-2022-3.png){.myIMG}
+![](/assets/blog/winserver-2022-3.png)
 </div>
 
 <br>
@@ -111,7 +101,7 @@ I will use Windows Server 2022 as my server to manage various PCs and virtual ma
 <br>
 
 <div class="myImg">
-![](/assets/blog/blog-1-installation-method-1.png){.myIMG}
+![](/assets/blog/blog-1-installation-method-1.png)
 </div>
 
 <br>
@@ -125,7 +115,7 @@ I will use Windows Server 2022 as my server to manage various PCs and virtual ma
 <br>
 
 <div class="myImg">
-![](/assets/blog/vmware-easy-installation-method-1.png){.myIMG}
+![](/assets/blog/vmware-easy-installation-method-1.png)
 </div>
 
 <br>
@@ -139,7 +129,7 @@ I will use Windows Server 2022 as my server to manage various PCs and virtual ma
 <br>
 
 <div class="myImg">
-![](/assets/blog/winserver-2022-4.png){.myIMG}
+![](/assets/blog/winserver-2022-4.png)
 </div>
 
 <br>
@@ -153,7 +143,7 @@ I will use Windows Server 2022 as my server to manage various PCs and virtual ma
 <br>
 
 <div class="myImg">
-![](/assets/blog/winserver2022-5.png){.myIMG}
+![](/assets/blog/winserver2022-5.png)
 </div>
 
 <br>
@@ -167,7 +157,7 @@ I will use Windows Server 2022 as my server to manage various PCs and virtual ma
 <br>
 
 <div class="myImg">
-![](/assets/blog/winserver2022-07.png){.myIMG}
+![](/assets/blog/winserver2022-07.png)
 </div>
 
 <br>
@@ -181,7 +171,7 @@ I will use Windows Server 2022 as my server to manage various PCs and virtual ma
 <br>
 
 <div class="myImg">
-![](/assets/blog/winserver2022-08-edit.png){.myIMG}
+![](/assets/blog/winserver2022-08-edit.png)
 </div>
 
 <br>
@@ -195,7 +185,7 @@ I will use Windows Server 2022 as my server to manage various PCs and virtual ma
 <br>
 
 <div class="myImg">
-![](/assets/blog/winserver2022-09-edit.png){.myIMG}
+![](/assets/blog/winserver2022-09-edit.png)
 </div>
 
 <br>
@@ -221,7 +211,7 @@ I will use Windows Server 2022 as my server to manage various PCs and virtual ma
 <br>
 
 <div class="myImg">
-![](/assets/blog/winserver2022-10-edit.png){.myIMG}
+![](/assets/blog/winserver2022-10-edit.png)
 </div>
 
 <br>
@@ -235,7 +225,7 @@ I will use Windows Server 2022 as my server to manage various PCs and virtual ma
 <br>
 
 <div class="myImg">
-![](/assets/blog/winserver2022-11-edit.png){.myIMG}
+![](/assets/blog/winserver2022-11-edit.png)
 </div>
 
 <br>
@@ -249,7 +239,7 @@ I will use Windows Server 2022 as my server to manage various PCs and virtual ma
 <br>
 
 <div class="myImg">
-![](/assets/blog/winserver2022-12-edit.png){.myIMG}
+![](/assets/blog/winserver2022-12-edit.png)
 </div>
 
 <br>
@@ -263,7 +253,7 @@ I will use Windows Server 2022 as my server to manage various PCs and virtual ma
 <br>
 
 <div class="myImg">
-![](/assets/blog/winserver2022-13-edit.png){.myIMG}
+![](/assets/blog/winserver2022-13-edit.png)
 </div>
 
 <br>
@@ -277,7 +267,7 @@ I will use Windows Server 2022 as my server to manage various PCs and virtual ma
 <br>
 
 <div class="myImg">
-![](/assets/blog/winserver2022-14-edit.png){.myIMG}
+![](/assets/blog/winserver2022-14-edit.png)
 </div>
 
 <br>
@@ -291,7 +281,7 @@ I will use Windows Server 2022 as my server to manage various PCs and virtual ma
 <br>
 
 <div class="myImg">
-![](/assets/blog/winserver2022-15-edit.png){.myIMG}
+![](/assets/blog/winserver2022-15-edit.png)
 </div>
 
 <br>
@@ -305,7 +295,7 @@ I will use Windows Server 2022 as my server to manage various PCs and virtual ma
 <br>
 
 <div class="myImg">
-![](/assets/blog/winserver2022-16-edit.png){.myIMG}
+![](/assets/blog/winserver2022-16-edit.png
 </div>
 
 <br>
@@ -319,7 +309,7 @@ I will use Windows Server 2022 as my server to manage various PCs and virtual ma
 <br>
 
 <div class="myImg">
-![](/assets/blog/winserver2022-17-edit.png){.myIMG}
+![](/assets/blog/winserver2022-17-edit.png)
 </div>
 
 <br>
@@ -339,7 +329,7 @@ I will use Windows Server 2022 as my server to manage various PCs and virtual ma
 <br>
 
 <div class="myImg">
-![](/assets/blog/winserver2022-setup-01-edit.png){.myIMG}
+![](/assets/blog/winserver2022-setup-01-edit.png)
 </div>
 
 <br>
@@ -353,7 +343,7 @@ I will use Windows Server 2022 as my server to manage various PCs and virtual ma
 <br>
 
 <div class="myImg">
-![](/assets/blog/winserver2022-setup-02-edited.png){.myIMG}
+![](/assets/blog/winserver2022-setup-02-edited.png)
 </div>
 
 <br>
@@ -367,7 +357,7 @@ I will use Windows Server 2022 as my server to manage various PCs and virtual ma
 <br>
 
 <div class="myImg">
-![](/assets/blog/winserver2022-setup-03-edited.png){.myIMG}
+![](/assets/blog/winserver2022-setup-03-edited.png)
 </div>
 
 <br>
@@ -381,7 +371,7 @@ I will use Windows Server 2022 as my server to manage various PCs and virtual ma
 <br>
 
 <div class="myImg">
-![](/assets/blog/winserver2022-setup-04-edited.png){.myIMG}
+![](/assets/blog/winserver2022-setup-04-edited.png)
 </div>
 
 <br>
@@ -401,7 +391,7 @@ I will use Windows Server 2022 as my server to manage various PCs and virtual ma
 <br>
 
 <div class="myImg">
-![](/assets/blog/winserver2022-setup-05-edit.png){.myIMG}
+![](/assets/blog/winserver2022-setup-05-edit.png)
 </div>
 
 <br>
@@ -415,7 +405,7 @@ I will use Windows Server 2022 as my server to manage various PCs and virtual ma
 <br>
 
 <div class="myImg">
-![](/assets/blog/winserver2022-setup-06-edit.png){.myIMG}
+![](/assets/blog/winserver2022-setup-06-edit.png)
 </div>
 
 <br>
@@ -429,7 +419,7 @@ I will use Windows Server 2022 as my server to manage various PCs and virtual ma
 <br>
 
 <div class="myImg">
-![](/assets/blog/winserver2022-setup-07-edit.png){.myIMG}
+![](/assets/blog/winserver2022-setup-07-edit.png)
 </div>
 
 <br>
@@ -449,7 +439,7 @@ I will use Windows Server 2022 as my server to manage various PCs and virtual ma
 <br>
 
 <div class="myImg">
-![](/assets/blog/ad-install_01-edit.png){.myIMG}
+![](/assets/blog/ad-install_01-edit.png)
 </div>
 
 <br>
@@ -463,7 +453,7 @@ I will use Windows Server 2022 as my server to manage various PCs and virtual ma
 <br>
 
 <div class="myImg">
-![](/assets/blog/ad-install_02-edit.png){.myIMG}
+![](/assets/blog/ad-install_02-edit.png)
 </div>
 
 <br>
@@ -477,7 +467,7 @@ I will use Windows Server 2022 as my server to manage various PCs and virtual ma
 <br>
 
 <div class="myImg">
-![](/assets/blog/ad-install_03-edit.png){.myIMG}
+![](/assets/blog/ad-install_03-edit.png)
 </div>
 
 <br>
@@ -491,7 +481,7 @@ I will use Windows Server 2022 as my server to manage various PCs and virtual ma
 <br>
 
 <div class="myImg">
-![](/assets/blog/ad-install_04-edit.png){.myIMG}
+![](/assets/blog/ad-install_04-edit.png)
 </div>
 
 <br>
@@ -505,7 +495,7 @@ I will use Windows Server 2022 as my server to manage various PCs and virtual ma
 <br>
 
 <div class="myImg">
-![](/assets/blog/ad-install_05-edit.png){.myIMG}
+![](/assets/blog/ad-install_05-edit.png)
 </div>
 
 <br>
@@ -519,7 +509,7 @@ I will use Windows Server 2022 as my server to manage various PCs and virtual ma
 <br>
 
 <div class="myImg">
-![](/assets/blog/ad-install_06-edit.png){.myIMG}
+![](/assets/blog/ad-install_06-edit.png
 </div>
 
 <br>
@@ -533,7 +523,7 @@ I will use Windows Server 2022 as my server to manage various PCs and virtual ma
 <br>
 
 <div class="myImg">
-![](/assets/blog/ad-install_07-edit.png){.myIMG}
+![](/assets/blog/ad-install_07-edit.png)
 </div>
 
 <br>
@@ -547,7 +537,7 @@ I will use Windows Server 2022 as my server to manage various PCs and virtual ma
 <br>
 
 <div class="myImg">
-![](/assets/blog/ad-install_08-edit.png){.myIMG}
+![](/assets/blog/ad-install_08-edit.png)
 </div>
 
 <br>
@@ -561,7 +551,7 @@ I will use Windows Server 2022 as my server to manage various PCs and virtual ma
 <br>
 
 <div class="myImg">
-![](/assets/blog/ad-install_09-edit.png){.myIMG}
+![](/assets/blog/ad-install_09-edit.png)
 </div>
 
 <br>
