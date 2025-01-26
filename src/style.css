@@ -486,7 +486,7 @@ aside {
   }
   .myImg img{
     max-width: 100%;
-    object-fit: contain;
+    object-fit: cover;
   }
   .modal {
     display: none;
