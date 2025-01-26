@@ -115,7 +115,8 @@ In this lab, I will complete the post-deployment configuration for Active Direct
 <br>
 
 8. Click "Next".
-   <br>
+   
+<br>
    <br>
 
    <div class="myImg">
