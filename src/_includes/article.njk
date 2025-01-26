@@ -38,28 +38,29 @@ layout: 'base.njk'
     </div>
 
     <script>
+      const updateButton = document.getElementById("updateDetails");
+      const cancelButton = document.getElementById("cancel");
+      const dialog = document.getElementById("modal");
+      dialog.returnValue = "favAnimal";
 
-      var modal = document.getElementById('myModal');
-      // to all images -- note I'm using a class!
-      var images = document.getElementsByClassName('myImg');
-      // the image in the modal
-      var modalImg = document.getElementById("img01");
-      // and the caption in the modal
-      var captionText = document.getElementsByClassName("text");
-      // Go through all of the images with our custom class
-      for (var i = 0; i < images.length; i++) {
-        var img = images[i];
-        // and attach our click listener for this image.
-        img.onclick = function (evt) {
-          modal.style.display = "block";
-          // modalImg.src = this.src;
-          modalImg.innerHTML = this.innerHTML;
-          captionText.innerHTML = this.alt;
+      function openCheck(dialog) {
+        if (dialog.open) {
+          console.log("Dialog open");
+        } else {
+          console.log("Dialog closed");
         }
       }
-      var span = document.getElementsByClassName("close")[0];
-      span.onclick = function () {
-        modal.style.display = "none";
-      }
+
+      // Update button opens a modal dialog
+      updateButton.addEventListener("click", () => {
+        dialog.showModal();
+        openCheck(dialog);
+      });
+
+      // Form cancel button closes the dialog box
+      cancelButton.addEventListener("click", () => {
+        dialog.close("animalNotChosen");
+        openCheck(dialog);
+      });
     </script>
   </article>
