@@ -1,0 +1,499 @@
+## Introduction
+
+<br>
+
+<br>
+
+This is my journey in diving into Active Directory and learning about the vast possibilities that this service has to offer.
+
+<br>
+
+<br>
+
+## Virtualization Setup Process
+
+<br>
+
+<br>
+
+Setting up a virtual machine is, in my opinion, the most practical way to learn about various Windows settings. A virtual machine offers a sandbox environment, allowing me to experiment freely. If I make mistakes with Windows settings or within the virtual machine itself, I can simply discard it and create a new one, ensuring my host PC remains unaffected. Since my host PC is a Mac, I have chosen VMware Fusion 13 as my virtual machine manager.
+
+<br>
+
+<br>
+
+### Installing VMware Fusion 13 on Mac
+
+<br>
+
+<br>
+
+Navigate to the directory where the installer was downloaded, and run the file.
+
+<br>
+
+<br>
+
+![](/assets/blog/blog-1-figure-01.png){.myIMG}
+
+<br>
+
+<br>
+
+### Installing Windows Server 2022 iso file
+
+<br>
+
+<br>
+
+I will use Windows Server 2022 as my server to manage various PCs and virtual machines through Active Directory. Visit the <a href="https://www.microsoft.com/en-us/evalcenter" target="_blank"> Microsoft Evaluation Center<a/> site and select **Windows Server**, then choose **Windows Server 2022**.
+
+<br>
+
+<br>
+
+![](/assets/blog/winserver-2022-1.png){.myIMG}
+
+<br>
+
+<br>
+
+1. Click "Download the ISO".
+
+<br>
+
+<br>
+
+![](/assets/blog/winserver-2022-2.png){.myIMG}
+
+<br>
+
+<br>
+
+2. Complete the registration form to begin your free trial.
+
+<br>
+
+<br>
+
+![](/assets/blog/winserver-2022-3.png){.myIMG}
+
+<br>
+
+<br>
+
+### Installing Windows Server 2022 onto VMware
+
+<br>
+
+<br>
+
+1. Open VMware and you'll be greeted with the installation method page. In this example, I will install from a disc or image, as I have manually downloaded the Windows Server 2022 ISO file.
+
+<br>
+
+<br>
+
+![](/assets/blog/blog-1-installation-method-1.png){.myIMG}
+
+<br>
+
+<br>
+
+2. In this example, I will not use the Easy Install method. Instead, I have chosen to fill in the password text field manually.
+
+<br>
+
+<br>
+
+![](/assets/blog/vmware-easy-installation-method-1.png){.myIMG}
+
+<br>
+
+<br>
+
+3. Select the type of firmware to boot your virtual machine. I chose UEFI boot firmware.
+
+<br>
+
+<br>
+
+![](/assets/blog/winserver-2022-4.png){.myIMG}
+
+<br>
+
+<br>
+
+4. Click **Finish**, name the virtual machine as desired, and save it.
+
+<br>
+
+<br>
+
+![](/assets/blog/winserver2022-5.png){.myIMG}
+
+<br>
+
+<br>
+
+5. Go to the VMware navigation bar, click 'Virtual Machine,' and then select 'Settings.
+
+<br>
+
+<br>
+
+![](/assets/blog/winserver2022-07.png){.myIMG}
+
+<br>
+
+<br>
+
+6. Click 'CD/Data (SATA)' and verify that the correct ISO is selected under 'This CD/DVD drive is configured to use the following:' Next, ensure that the checkbox for 'Connect CD/DVD Drive' is checked. This step was not done automatically for me, and I was unable to get my Virtual Machine to run until I clicked the checkbox.
+
+<br>
+
+<br>
+
+![](/assets/blog/winserver2022-08-edit.png){.myIMG}
+
+<br>
+
+<br>
+
+7. Go back to the settings panel and click 'Processors & Memory.' Allocate the appropriate processor cores and memory for your virtual machine. Since I plan to run applications like Zoom, PDQ Deploy, and PDQ Inventory, it’s a good idea to check the system requirements for each application. I determined that 2 processor cores and 4GB of memory would be sufficient for my intended use. You can always modify the specifications of your VM by going back to the 'Processors & Memory' section. However, these settings can only be changed when VMware is shut down.
+
+<br>
+
+<br>
+
+![](/assets/blog/winserver2022-09-edit.png){.myIMG}
+
+<br>
+
+<br>
+
+8. Click the play button in your VMware window, or click 'Virtual Machine' in the navbar and select 'Start Up'.
+
+<br>
+
+<br>
+
+#### Microsoft Server Operating System Setup
+
+<br>
+
+<br>
+
+1. Select the appropriate options for 'Language to install,' 'Time and currency format,' and 'Keyboard or input method' that apply to you.
+
+<br>
+
+<br>
+
+![](/assets/blog/winserver2022-10-edit.png){.myIMG}
+
+<br>
+
+<br>
+
+2. Click "Install now".
+
+<br>
+
+<br>
+
+![](/assets/blog/winserver2022-11-edit.png){.myIMG}
+
+<br>
+
+<br>
+
+3. I chose the Windows Server 2022 Standard Evaluation with Desktop Experience. If you select the 'Windows Server 2022 Evaluation' without the Desktop Experience, you will not have access to the user interface. Instead, you will need to use console commands to navigate your system.
+
+<br>
+
+<br>
+
+![](/assets/blog/winserver2022-12-edit.png){.myIMG}
+
+<br>
+
+<br>
+
+4. Agree to the terms of the Microsoft Software License.
+
+<br>
+
+<br>
+
+![](/assets/blog/winserver2022-13-edit.png){.myIMG}
+
+<br>
+
+<br>
+
+5. Select 'Custom Install' as this is our first time setting up Windows Server. We don't have any existing installations to use the upgrade method.
+
+<br>
+
+<br>
+
+![](/assets/blog/winserver2022-14-edit.png){.myIMG}
+
+<br>
+
+<br>
+
+6. Click "Next".
+
+<br>
+
+<br>
+
+![](/assets/blog/winserver2022-15-edit.png){.myIMG}
+
+<br>
+
+<br>
+
+7. Wait until the operating system has finished installing.
+
+<br>
+
+<br>
+
+![](/assets/blog/winserver2022-16-edit.png){.myIMG}
+
+<br>
+
+<br>
+
+8. Set a password for your Administrator account.
+
+<br>
+
+<br>
+
+![](/assets/blog/winserver2022-17-edit.png){.myIMG}
+
+<br>
+
+<br>
+
+### Renaming your PC on Windows Server 2022
+
+<br>
+
+<br>
+
+1. When setting up a new virtual machine, it’s a good idea to change the PC name to something memorable. This will help reduce confusion, especially when working with multiple VMs. To do this, open File Explorer, right-click 'This PC,' and select 'Properties.'
+
+<br>
+
+<br>
+
+![](/assets/blog/winserver2022-setup-01-edit.png){.myIMG}
+
+<br>
+
+<br>
+
+2. Click "Rename this PC (advanced)"
+
+<br>
+
+<br>
+
+![](/assets/blog/winserver2022-setup-02-edited.png){.myIMG}
+
+<br>
+
+<br>
+
+3. Click "Change".
+
+<br>
+
+<br>
+
+![](/assets/blog/winserver2022-setup-03-edited.png){.myIMG}
+
+<br>
+
+<br>
+
+4. Rename your PC into something you can remember. Server2022 is easier to remember than WIN-09C2HTAM7SC
+
+<br>
+
+<br>
+
+![](/assets/blog/winserver2022-setup-04-edited.png){.myIMG}
+
+<br>
+
+<br>
+
+### Adjusting Windows Server 2022 for the best performance
+
+<br>
+
+<br>
+
+1. When setting up a new Virtual Machine environment, it is also a good idea to adjust your PC for the best performance. By doing this the PC on your VM will download things faster and run smoother. Go into the Properties settings for "This PC" and click "Advanced system settings".
+
+<br>
+
+<br>
+
+![](/assets/blog/winserver2022-setup-05-edit.png){.myIMG}
+
+<br>
+
+<br>
+
+2. Click Settings under Performance.
+
+<br>
+
+<br>
+
+![](/assets/blog/winserver2022-setup-06-edit.png){.myIMG}
+
+<br>
+
+<br>
+
+3. Click the "Adjust for best performance" button. Then click "Apply" then "Ok".
+
+<br>
+
+<br>
+
+![](/assets/blog/winserver2022-setup-07-edit.png){.myIMG}
+
+<br>
+
+<br>
+
+### Active Directory Domain Services Installation
+
+<br>
+
+<br>
+
+1. Navigate to 'Manage' in the Server Manager navbar and click 'Add Roles and Features'.
+
+<br>
+
+<br>
+
+![](/assets/blog/ad-install_01-edit.png){.myIMG}
+
+<br>
+
+<br>
+
+3. Click "Next"
+
+<br>
+
+<br>
+
+![](/assets/blog/ad-install_02-edit.png){.myIMG}
+
+<br>
+
+<br>
+
+3. Choose an installation type. I selected 'Role-based or feature-based installation.'.
+
+<br>
+
+<br>
+
+![](/assets/blog/ad-install_03-edit.png){.myIMG}
+
+<br>
+
+<br>
+
+4. We will be installing Active Directory Services on our server, so please choose 'Select a server from the server pool.'
+
+<br>
+
+<br>
+
+![](/assets/blog/ad-install_04-edit.png){.myIMG}
+
+<br>
+
+<br>
+
+5. Select "Active Directory Domain Services".
+
+<br>
+
+<br>
+
+![](/assets/blog/ad-install_05-edit.png){.myIMG}
+
+<br>
+
+<br>
+
+6. Click "Add Features".
+
+<br>
+
+<br>
+
+![](/assets/blog/ad-install_06-edit.png){.myIMG}
+
+<br>
+
+<br>
+
+7. Click "Next".
+
+<br>
+
+<br>
+
+![](/assets/blog/ad-install_07-edit.png){.myIMG}
+
+<br>
+
+<br>
+
+8. Click "Next".
+
+<br>
+
+<br>
+
+![](/assets/blog/ad-install_08-edit.png){.myIMG}
+
+<br>
+
+<br>
+
+9. Click "Install"
+
+<br>
+
+<br>
+
+![](/assets/blog/ad-install_09-edit.png){.myIMG}
+
+<br>
+
+<br>
+
+## Summary
+
+<br>
+
+<br>
+
+In this lab, I installed a virtual machine using VMware running Windows Server 2022. I also set up an administrator account on Windows Server 2022 and installed Active Directory Domain Services, enabling me to manage user accounts on my network, including adding or removing users and resetting passwords. Additionally, I renamed my PC to something relevant and memorable to distinguish it when working with other virtual machines running Windows 10 or 11. Finally, I adjusted the advanced system settings on my PC to optimize performance.
