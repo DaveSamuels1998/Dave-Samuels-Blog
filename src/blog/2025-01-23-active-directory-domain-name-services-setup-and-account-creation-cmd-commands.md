@@ -28,36 +28,53 @@ In this lab, I will complete the post-deployment configuration for Active Direct
 <br>
 <br>
 
-<div class="myImg">
+<div>
 
-![](/assets/blog/dns-server-setup-1.png)
+<button class="updateDetails">
 
-<br>
-<br>
+![](/assets/blog/dns-server-setup-1.png){.myImg}
+
+</button>
 
 </div>
+
+<br>
+<br>
+
+
 
 2. Toggle 'Add a new forest' because this is a new environment setup, meaning we don't have any existing domains or forests.
 
 <br>
 <br>
 
-<div class="myImg">
+<div>
 
-   ![](/assets/blog/dns-server-setup-2.png)
-<br>
-<br>
+<button class="updateDetails">
+
+   ![](/assets/blog/dns-server-setup-2.png){.myImg}
+
+</button>
 
 </div>
+
+<br>
+<br>
+
+
 
 3. Fill in the 'Root domain name' text field. Since I will be hosting my domain on a static IP, I can choose any name I like. If your domain is hosted on the internet, you may need to change the name if it is already taken by someone else.
 
 <br>
 <br>
 
-<div class="myImg">
+<div>
 
-   ![](/assets/blog/dns-server-setup-3.png)
+<button class="updateDetails">
+
+   ![](/assets/blog/dns-server-setup-3.png){.myImg}
+
+</button>
 
 </div>
 
@@ -69,31 +86,46 @@ In this lab, I will complete the post-deployment configuration for Active Direct
 <br>
 <br>
 
-<div class="myImg">
+<div>
 
-   ![](/assets/blog/dns-server-setup-4.png)
+<button class="updateDetails">
+
+   ![](/assets/blog/dns-server-setup-4.png){.myImg}
+
+</button>
 
 </div>
+
 
 <br>
 <br>
 
 5. Click "Next".
 
-<div class="myImg">
+<div>
 
-   ![](/assets/blog/dns-server-setup-5.png)
+<button class="updateDetails">
+
+   ![](/assets/blog/dns-server-setup-5.png){.myImg}
+
+
+</button>
 
 </div>
+
 
 <br>
 <br>
 
 6. Verify that the NetBIOS domain name is correct.
 
-<div class="myImg">
+<div>
 
-   ![](/assets/blog/dns-server-setup-6.png)
+<button class="updateDetails">
+
+   ![](/assets/blog/dns-server-setup-6.png){.myImg}
+
+</button>
 
 </div>
 
@@ -105,11 +137,16 @@ In this lab, I will complete the post-deployment configuration for Active Direct
 <br>
  <br>
 
- <div class="myImg">
+<div>
 
-![](/assets/blog/dns-server-setup-7.png)
+<button class="updateDetails">
+
+![](/assets/blog/dns-server-setup-7.png){.myImg}
+
+</button>
 
 </div>
+
 
 <br>
 <br>
@@ -119,9 +156,13 @@ In this lab, I will complete the post-deployment configuration for Active Direct
 <br>
 <br>
 
- <div class="myImg">
+<div>
 
-![](/assets/blog/dns-server-setup-8.png)
+<button class="updateDetails">
+
+![](/assets/blog/dns-server-setup-8.png){.myImg}
+
+</button>
 
 </div>
 
@@ -133,9 +174,13 @@ In this lab, I will complete the post-deployment configuration for Active Direct
 <br>
 <br>
 
-<div class="myImg">
+<div>
 
-![](/assets/blog/dns-server-setup-9.png)
+<button class="updateDetails">
+
+![](/assets/blog/dns-server-setup-9.png){.myImg}
+
+</button>
 
 </div>
 
@@ -152,9 +197,13 @@ In this lab, I will complete the post-deployment configuration for Active Direct
 <br>
  <br>
 
-<div class="myImg">
+<div>
 
-![](/assets/blog/dns-button.png)
+<button class="updateDetails">
+
+![](/assets/blog/dns-button.png){.myImg}
+
+</button>
 
 </div>
 
@@ -172,12 +221,17 @@ With Server Manager, we can containerize and manage user computers and Organizat
 <br>
 
 1. In Server Manger, navigate to Tools > Active Directory Users and Computers
-   <br>
-    <br>
+   
+<br>
+ <br>
 
-<div class="myImg">
+<div>
 
-   ![](/assets/blog/ad-find-user-1.png)
+<button class="updateDetails">
+
+   ![](/assets/blog/ad-find-user-1.png){.myImg}
+
+</button>
 
 </div>
 
@@ -186,12 +240,16 @@ With Server Manager, we can containerize and manage user computers and Organizat
 
 2. Right-click your domain name and click 'find'. My domain name is 'davesworld.com'
 
- <br>
+<br>
 <br>
 
-<div class="myImg">
+<div>
 
-   ![](/assets/blog/ad-find-user-2.png)
+<button class="updateDetails">
+
+   ![](/assets/blog/ad-find-user-2.png){.myImg}
+
+</button>
 
 </div>
 
@@ -201,11 +259,15 @@ With Server Manager, we can containerize and manage user computers and Organizat
 3. Click on the directory navigation and select 'Entire Directory.' It is best practice to search the 'Entire Directory' as it will search everything. Since the user may not be in the domain or a specific directory, it is important to perform a search across the entire directory.
 
 <br>
-   <br>
+ <br>
 
-<div class="myImg">
+<div>
 
-![](/assets/blog/ad-find-user-3.png)
+<button class="updateDetails">
+
+![](/assets/blog/ad-find-user-3.png){.myImg}
+
+</button>
 
 </div>
 
@@ -215,11 +277,15 @@ With Server Manager, we can containerize and manage user computers and Organizat
 4. Fill in the 'Name:' text field, search for the desired user, and click the 'Find Now' button.
 
 <br>
-   <br>
+ <br>
 
-<div class="myImg">
+<div>
 
-![](/assets/blog/ad-find-user-4.png)
+<button class="updateDetails">
+
+![](/assets/blog/ad-find-user-4.png){.myImg}
+
+</button>
 
 </div>
 
@@ -231,9 +297,13 @@ With Server Manager, we can containerize and manage user computers and Organizat
 <br>
  <br>
 
-<div class="myImg">
+<div>
 
-   ![](/assets/blog/ad-find-user-5.png)
+<button class="updateDetails">
+
+   ![](/assets/blog/ad-find-user-5.png){.myImg}
+
+</button>
 
 </div>
 
@@ -245,9 +315,13 @@ With Server Manager, we can containerize and manage user computers and Organizat
 <br>
 <br>
 
-<div class="myImg">
+<div>
 
-   ![](/assets/blog/ad-find-user-6.png)
+<button class="updateDetails">
+
+   ![](/assets/blog/ad-find-user-6.png){.myImg}
+
+</button>
 
 </div>
 
@@ -257,11 +331,15 @@ With Server Manager, we can containerize and manage user computers and Organizat
 7. Repeat the steps to find a user within the Active Directory, and then double-click the user.
 
  <br>
-   <br>
+ <br>
 
-<div class="myImg">
+<div>
 
-![](/assets/blog/ad-find-user-7.png)
+<button class="updateDetails">
+
+![](/assets/blog/ad-find-user-7.png){.myImg}
+
+</button>
 
 </div>
 
@@ -271,11 +349,15 @@ With Server Manager, we can containerize and manage user computers and Organizat
 8. Click "Object" in the Properties settings.
 
 <br>
-   <br>
+<br>
 
-<div class="myImg">
+<div>
 
-![](/assets/blog/ad-find-user-8.png)
+<button class="updateDetails">
+
+![](/assets/blog/ad-find-user-8.png){.myImg}
+
+</button>
 
 </div>
 
@@ -287,11 +369,17 @@ With Server Manager, we can containerize and manage user computers and Organizat
 <br>
 <br>
 
-<div class="myImg">
+<div>
 
-![](/assets/blog/ad-find-user-9.png)
+<button class="updateDetails">
+
+![](/assets/blog/ad-find-user-9.png){.myImg}
+
+
+</button>
 
 </div>
+
 
 <br>
 <br>
@@ -321,12 +409,17 @@ Enabling the recycle bin is useful because it allows you to retrieve items if yo
 <br>
 
 1. Click the Windows Start button, search for 'Windows Administrative Tools,' and then select 'Active Directory Administrative Center.'
-   <br>
-   <br>
 
-<div class="myImg">
+<br>
+<br>
 
-   ![](/assets/blog/ad-enable-recycle-bin-1.png)
+<div>
+
+<button class="updateDetails">
+
+   ![](/assets/blog/ad-enable-recycle-bin-1.png){.myImg}
+
+</button>
 
 </div>
 
@@ -334,12 +427,17 @@ Enabling the recycle bin is useful because it allows you to retrieve items if yo
 <br>
 
 2. Click on your local domain name
-   <br>
-   <br>
+   
+<br>
+<br>
 
-<div class="myImg">
+<div>
 
-![](/assets/blog/ad-enable-recycle-bin-2.png)
+<button class="updateDetails">
+
+![](/assets/blog/ad-enable-recycle-bin-2.png){.myImg}
+
+</button>
 
 </div>
 
@@ -347,39 +445,56 @@ Enabling the recycle bin is useful because it allows you to retrieve items if yo
 <br>
 
 3. Enable the Recycle bin (located on the right sidebar).
-      <br>
-      <br>
+      
+<br>
+<br>
 
-<div class="myImg">
+<div>
 
-  ![](/assets/blog/ad-enable-recycle-bin-3.png)
+<button class="updateDetails">
+
+  ![](/assets/blog/ad-enable-recycle-bin-3.png){.myImg}
+
+</button>
 
 </div>
 
-   <br>
-   <br>
+
+<br>
+<br>
 
 4. Click "ok".
    
 <br>
-   <br>
+<br>
 
-<div class="myImg">
+<div>
 
-![](/assets/blog/ad-enable-recycle-bin-4.png)
+<button class="updateDetails">
+
+![](/assets/blog/ad-enable-recycle-bin-4.png){.myImg}
+
+
+</button>
 
 </div>
+
 
 <br>
 <br>
 
 5. Click the refresh icon in the navigation bar.
+
 <br>
 <br>
 
-<div class="myImg">
+<div>
 
-![](/assets/blog/ad-enable-recycle-bin-5.png)
+<button class="updateDetails">
+
+![](/assets/blog/ad-enable-recycle-bin-5.png){.myImg}
+
+</button>
 
 </div>
 
@@ -391,9 +506,13 @@ Enabling the recycle bin is useful because it allows you to retrieve items if yo
 <br>
 <br>
 
-<div class="myImg">
+<div>
 
-![](/assets/blog/ad-enable-recycle-bin-6.png)
+<button class="updateDetails">
+
+![](/assets/blog/ad-enable-recycle-bin-6.png){.myImg}
+
+</button>
 
 </div>
 
@@ -419,11 +538,16 @@ It is best practice to create a user with roles that can be copied, rather than 
    <br>
    <br>
 
-<div class="myImg">
+<div>
 
-   ![](/assets/blog/account-creation-copy-1.png)
+<button class="updateDetails">
+
+   ![](/assets/blog/account-creation-copy-1.png){.myImg}
+
+</button>
 
 </div>
+
 
 <br>
 <br>
@@ -433,9 +557,13 @@ It is best practice to create a user with roles that can be copied, rather than 
 <br>
 <br>
 
-<div class="myImg">
+<div>
 
-![](/assets/blog/account-creation-copy-2.png)
+<button class="updateDetails">
+
+![](/assets/blog/account-creation-copy-2.png){.myImg}
+
+</button>
 
 </div>
 
@@ -446,10 +574,13 @@ It is best practice to create a user with roles that can be copied, rather than 
 
 <br>
 <br>
+<div>
 
-<div class="myImg">
+<button class="updateDetails">
 
-![](/assets/blog/account-creation-copy-3.png)
+![](/assets/blog/account-creation-copy-3.png){.myImg}
+
+</button>
 
 </div>
 
@@ -457,14 +588,20 @@ It is best practice to create a user with roles that can be copied, rather than 
 <br>
 
 4. Click "Finish".
-   <br>
-   <br>
+   
+<br>
+<br>
 
-<div class="myImg">
+<div>
 
-![](/assets/blog/account-creation-copy-4.png)
+<button class="updateDetails">
+
+![](/assets/blog/account-creation-copy-4.png){.myImg}
+
+</button>
 
 </div>
+
 
 <br>
 <br>
@@ -472,11 +609,15 @@ It is best practice to create a user with roles that can be copied, rather than 
 5. You should see the user you created in the directory where you created it.
    
 <br>
-   <br>
+<br>
 
-<div class="myImg">
+<div>
 
-![](/assets/blog/account-creation-copy-5.png)
+<button class="updateDetails">
+
+![](/assets/blog/account-creation-copy-5.png){.myImg}
+
+</button>
 
 </div>
 
@@ -484,12 +625,17 @@ It is best practice to create a user with roles that can be copied, rather than 
 <br>
 
 6. Right-click the created user and select 'Properties' to view the directories they belong to. Since the user was created by copying an existing one, they should be part of the same directories as the original user. In my case, the 'helpdesk' user should be part of the same directories as the 'Administrator'.
-   <br>
-   <br>
+   
+<br>
+<br>
 
-<div class="myImg">
+<div>
 
-![](/assets/blog/account-creation-copy-6.png)
+<button class="updateDetails">
+
+![](/assets/blog/account-creation-copy-6.png){.myImg}
+
+</button>
 
 </div>
 
@@ -497,12 +643,17 @@ It is best practice to create a user with roles that can be copied, rather than 
 <br>
 
 7. Click "Member Of"
-   <br>
-   <br>
+  
+ <br>
+ <br>
 
-<div class="myImg">
+<div>
 
-![](/assets/blog/account-creation-copy-7.png)
+<button class="updateDetails">
+
+![](/assets/blog/account-creation-copy-7.png){.myImg}
+
+</button>
 
 </div>
 
@@ -510,12 +661,17 @@ It is best practice to create a user with roles that can be copied, rather than 
 <br>
 
 8. Here, you can see which directories the user is a part of. I did a side-by-side comparison to show that the user I created by copying the 'Administrator' user is identical.
-   <br>
-   <br>
+   
+<br>
+<br>
 
-<div class="myImg">
+<div>
 
-![](/assets/blog/account-creation-copy-8.png)
+<button class="updateDetails">
+
+![](/assets/blog/account-creation-copy-8.png){.myImg}
+
+</button>
 
 </div>
 
@@ -532,9 +688,13 @@ It is best practice to create a user with roles that can be copied, rather than 
 <br>
 <br>
 
-<div class="myImg">
+<div>
 
-![](/assets/blog/account-creation-new-1.png)
+<button class="updateDetails">
+
+![](/assets/blog/account-creation-new-1.png){.myImg}
+
+</button>
 
 </div>
 
@@ -542,38 +702,57 @@ It is best practice to create a user with roles that can be copied, rather than 
 <br>
 
 2. Fill in the information for the user.
-   <br>
-   <br>
+   
+<br>
+<br>
 
-<div class="myImg">
+<div>
 
-![](/assets/blog/account-creation-new-2.png)
+<button class="updateDetails">
+
+![](/assets/blog/account-creation-new-2.png){.myImg}
+
+
+</button>
 
 </div>
+
 
 <br>
 <br>
 
 3. Create a password for the user and give them the permissions that you want them to have.
-   <br>
-   <br>
+   
+<br>
+<br>
 
-<div class="myImg">
+<div>
 
-![](/assets/blog/account-creation-new-3.png)
+<button class="updateDetails">
+
+![](/assets/blog/account-creation-new-3.png){.myImg}
+
+
+</button>
 
 </div>
+
 
 <br>
 <br>
 
 4. When you view the properties of the newly created user, you will notice that they are not part of any directories. You will need to assign them to the desired directories individually.
-   <br>
-   <br>
+   
+<br>
+<br>
 
-<div class="myImg">
+<div>
 
-![](/assets/blog/account-creation-new-4.png)
+<button class="updateDetails">
+
+![](/assets/blog/account-creation-new-4.png){.myImg}
+
+</button>
 
 </div>
 
@@ -586,12 +765,17 @@ It is best practice to create a user with roles that can be copied, rather than 
 <br>
 
 1. `ipconfig` 
-   <br>
-   <br>
+  
+ <br>
+ <br>
 
-<div class="myImg">
+<div>
 
-   ![](/assets/blog/cmd-1-ipconfig.png)
+<button class="updateDetails">
+
+   ![](/assets/blog/cmd-1-ipconfig.png){.myImg}
+
+</button>
 
 </div>
 
@@ -601,15 +785,20 @@ It is best practice to create a user with roles that can be copied, rather than 
    The `ipconfig` command provides the IP address of the computer you are using.
 
 <br>
-   <br>
+<br>
 
 2. `ipconfig/all`
-   <br>
-   <br>
+   
+<br>
+<br>
 
-<div class="myImg">
+<div>
 
-   ![](/assets/blog/cmd-2-ipconfig-all.png)
+<button class="updateDetails">
+
+   ![](/assets/blog/cmd-2-ipconfig-all.png){.myImg}
+
+</button>
 
 </div>
 
@@ -651,9 +840,13 @@ Answer: A real-world use case for static IPs would be assigning a printer a stat
 <br>
 <br>
 
-<div class="myImg">
+<div>
 
-   ![](/assets/blog/cmd-3-net-user-domain-name-domain.png)
+<button class="updateDetails">
+
+   ![](/assets/blog/cmd-3-net-user-domain-name-domain.png){.myImg}
+
+</button>
 
 </div>
 
