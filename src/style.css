@@ -470,7 +470,11 @@ aside {
     color: var(--clr-neutral-500);
   }
 
-
+  .main-article img:not(figure *) {
+    max-height: 34.375rem;
+   
+  }
+  
   .cancel {
     position: fixed;
     top: 15px;
