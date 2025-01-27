@@ -642,7 +642,8 @@ For Windows 11 right-click "This PC" in File-Explorer and click Properties > "Do
   
 
 <button class="updateDetails">
-![](){.myImg}
+
+![](/assets/blog/enabling-administrator-account-9.png){.myImg}
 
 <br>
 
