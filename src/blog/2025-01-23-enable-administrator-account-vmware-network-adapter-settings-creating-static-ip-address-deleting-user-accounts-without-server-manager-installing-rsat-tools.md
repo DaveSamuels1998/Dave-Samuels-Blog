@@ -389,7 +389,9 @@ Today, I will be installing Windows 10 and Windows 11 on two separate virtual ma
 
 <button class="updateDetails">
 
-![](/assets/blog/win10-vm-user-14.png)
+![](/assets/blog/win10-vm-user-14.png){.myImg}
+
+</button>
 
 </div>
 
