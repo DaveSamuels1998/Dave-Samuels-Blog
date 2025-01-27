@@ -637,13 +637,18 @@ For Windows 11 right-click "This PC" in File-Explorer and click Properties > "Do
 
 <br>
 
-8. Set the password for the Administrator then click<div>
+8. Set the password for the Administrator then click
 
-  
+<div>
 
 <button class="updateDetails">
 
 ![](/assets/blog/enabling-administrator-account-9.png){.myImg}
+
+</button>
+
+  
+</div>
 
 <br>
 
