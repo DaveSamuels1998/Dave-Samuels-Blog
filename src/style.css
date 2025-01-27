@@ -471,10 +471,17 @@ aside {
     color: var(--clr-neutral-500);
   }
 
-  .main-article img:not(figure *) {
+  .myImg {
     max-height: 34.375rem;
-   
+    object-fit: cover;
+    width: auto;
   }
+  
+ .dialog-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+ }
 
   .cancel {
     position: fixed;
