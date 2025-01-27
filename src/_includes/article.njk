@@ -33,29 +33,54 @@ layout: 'base.njk'
     {{ content | safe}}
 
     <script>
-      const updateButton = document.querySelector(".updateDetails");
-      const cancelButton = document.querySelector(".cancel");
-      const dialog = document.querySelector(".modal");
-      dialog.returnValue = "favAnimal";
+      const updateButtons = document.querySelectorAll(".updateDetails");
+      const cancelButtons = document.querySelectorAll(".cancel");
+      const dialogs = document.querySelectorAll(".modal");
+
+      dialogs.forEach((dialog) => {
+        // When the dialog closes
+        dialog.addEventListener("close", () => {
+          dialog.returnValue = "favAnimal";
+          // You can use this value to determine what to do next
+          if (dialog.returnValue === "favAnimal") {
+            console.log(dialog.returnValue);
+            // Do something specific to the 'favAnimal' case
+          }
+        });
+      });
 
       function openCheck(dialog) {
         if (dialog.open) {
+          // using this check on open buttons won't return true,   see comment below in the updateButtons event listener about the .showModal method
           console.log("Dialog open");
+          return true;
         } else {
-          console.log("Dialog closed");
+          console.log("Dialog was closed, now opening");
+          return false;
         }
       }
 
       // Update button opens a modal dialog
-      updateButton.addEventListener("click", () => {
-        dialog.showModal();
-        openCheck(dialog);
+      updateButtons.forEach((btn) => {
+        btn.addEventListener("click", () => {
+          const dialog = document.querySelector(`#${btn.getAttribute("data-dialog")}`);
+          // we are checking if the dialog exists and is open, however if it is open, since we are using .showModal() method not .show() we cant click on the update buttons anyway;
+          //the dialog is in the top layer and you cant interact with the rest of the page (e.g. cant click on either updateBtn if any dialog is open so check is only necessary if using .show() method).
+          if (dialog && !openCheck(dialog)) {
+            dialog.showModal();
+          }
+        });
       });
 
-      // Form cancel button closes the dialog box
-      cancelButton.addEventListener("click", () => {
-        dialog.close("animalNotChosen");
-        openCheck(dialog);
+      // cancel button closes the dialog box (not inside a form)
+      cancelButtons.forEach((btn) => {
+        btn.addEventListener("click", () => {
+          const dialog = btn.closest("dialog");
+          if (dialog) 
+            dialog.close();
+            //dont need to check if its open because if we can see/click on the cancel button, the dialog is open
+          }
+        );
       });
     </script>
   </article>
