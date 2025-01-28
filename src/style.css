@@ -474,9 +474,14 @@ aside {
   }
 
  
-  .flow:has(dialog[open]) > * {
-    margin-top: 0;
-  }
+  /* Prevent .flow rule from affecting the dialog's default behavior */
+dialog[open] {
+  display: revert; /* Reverts to the browser's default styles */
+}
+
+dialog[open] > * {
+  margin-top: revert; /* Reset margin for dialog children */
+}
 
  .dialog-img {
   max-width: 100%;
