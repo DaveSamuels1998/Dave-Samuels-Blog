@@ -474,10 +474,10 @@ aside {
   }
 
  
-  dialog[open] ~ .flow > *:where(:not(:first-child)) {
-    margin-top: 0 !important;
+  .flow:has(dialog[open]) > * {
+    margin-top: 0;
   }
-  
+
  .dialog-img {
   max-width: 100%;
   max-height: 50rem;
