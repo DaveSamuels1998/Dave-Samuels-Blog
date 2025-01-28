@@ -27,13 +27,13 @@ Today, I will be demonstrating how to create Organizational Units (OUs) and then
 
 <br>
 
-OUs are directories(folders) within the active directory and their purpose is to keep the AD organized. For example you can have an IT OU or an HR OU folder.
+Organizational Units (OUs) are directories (folders) within Active Directory designed to keep it organized. For example, you can create an IT OU or an HR OU to group related resources.
 
 <br>
 
 <br>
 
-1. To create a new OU, right click on your domain controller and then click New > Organizational Unit.
+1. To create a new OU, right-click on your domain controller, then click New > Organizational Unit.
 
 <br>
 
@@ -55,7 +55,7 @@ OUs are directories(folders) within the active directory and their purpose is to
 
 <br>
 
-2. Fill out the "Name: " textfield with the whatever you want the OU to be called.
+2. Fill out the "Name:" text field with the desired name for the OU.
 
 <br>
 
@@ -99,7 +99,7 @@ OUs are directories(folders) within the active directory and their purpose is to
 
 <br>
 
-1. Right click on the directory you want to create the user in and click on "New".
+1. Right-click on the directory you want to create the user in, thenn click "New".
 
 <br>
 
@@ -121,7 +121,7 @@ OUs are directories(folders) within the active directory and their purpose is to
 
 <br>
 
-2. Fill out textfields with the appropriate information
+2. Fill the text fields with the appropriate information
 
 <br>
 
@@ -165,7 +165,7 @@ OUs are directories(folders) within the active directory and their purpose is to
 
 <br>
 
-4. Click on "Finish".
+4. Click "Finish".
 
 <br>
 
@@ -209,7 +209,7 @@ OUs are directories(folders) within the active directory and their purpose is to
 
 <br>
 
-6. A error message will pop up. In this case it is fine. Just click "Yes".
+6. An error message will pop up. In this case, it is fine. Just click "Yes".
 
 <br>
 
@@ -231,7 +231,7 @@ OUs are directories(folders) within the active directory and their purpose is to
 
 <br>
 
-7. I will be dragging my helpdesk user account in the "IT" OU.
+7. I will drag my helpdesk user account in the "IT" OU.
 
 <br>
 
@@ -259,7 +259,7 @@ OUs are directories(folders) within the active directory and their purpose is to
 
 <br>
 
-If you wanted to see a user's information such as their user account, what group they are apart of, when their password is expiring, etc, you would type in the command `net user [domain name] /domain` . Let's see the account information the user "maddy" that we just created.
+To view a user's information, such as their user account details, group memberships, password expiration date, and more, you can use the command net user [domain name] /domain. For example, let's check the account information for the user "maddy" that we just created.
 
 <br>
 
@@ -281,19 +281,19 @@ If you wanted to see a user's information such as their user account, what group
 
 <br>
 
-## Seeing a users information through Active Directory Users and Computers
+## Seeing user information through Active Directory Users and Computers
 
 <br>
 
 <br>
 
-If we wanted to find Maddy's information using another method we could do that by finding Maddy's profile through Active Directory Users and Computers. To see the full information of the account we have to go into the settings called "Attribute Editor". To get to the settings "Attribute Editor" you have to physically go into the OU that the user is apart of.
+To find Maddy's information using an alternative method, we can locate her profile through Active Directory Users and Computers. To view the full details of the account, we need to access the "Attribute Editor" settings. To do this, you must navigate to the Organizational Unit (OU) that the user belongs to.
 
 <br>
 
 <br>
 
-1. Click on "View" in the navbar and click on advanced settings.
+1. Click on "View" in the navbar and click on "Advanced settings".
 
 <br>
 
@@ -315,7 +315,7 @@ If we wanted to find Maddy's information using another method we could do that b
 
 <br>
 
-2. If you don't know which OU a user is located in, right click on the domain controller and click on "Find"
+2. If you're unsure which OU a user is located in, right-click on the domain controller and select "Find."
 
 <br>
 
@@ -359,7 +359,7 @@ If we wanted to find Maddy's information using another method we could do that b
 
 <br>
 
-4. Double click on the user you found in the search results.
+4. Double-click on the user you found in the search results.
 
 <br>
 
@@ -403,7 +403,7 @@ If we wanted to find Maddy's information using another method we could do that b
 
 <br>
 
-6. Here you will see the organizational unit the User is apart of. In my case the user Maddy is in the HR OU.
+6. Here you will see the organizational unit the User is a part of. In my case, the user Maddy is in the HR OU.
 
 <br>
 
@@ -425,7 +425,7 @@ If we wanted to find Maddy's information using another method we could do that b
 
 <br>
 
-7. Navigate to the OU the user is located in and double click on them.
+7. Navigate to the OU where the user is located, and double-click on their name.
 
 <br>
 
@@ -447,7 +447,7 @@ If we wanted to find Maddy's information using another method we could do that b
 
 <br>
 
-8. You will see the "Attribute Editor" in the user properties now. Click on it.
+8. The "Attribute Editor" tab will now be visible in the user properties. Click on it to proceed.
 
 <br>
 
@@ -469,7 +469,7 @@ If we wanted to find Maddy's information using another method we could do that b
 
 <br>
 
-9. In the Attribute Editor you can see additional information about the user. Here I can see the password for Maddy was set on 1/12/2025.
+9. In the Attribute Editor, you can view additional information about the user. For example, it shows that Maddy's password was set on January 12, 2025.
 
 <br>
 
@@ -497,7 +497,7 @@ If we wanted to find Maddy's information using another method we could do that b
 
 <br>
 
-1. You can access the Group Policy in Server Manager from the "Tools" navbar.
+1. The Group Policy can be accessed in Server Manager through the "Tools" menu in the navigation bar.
 
 <br>
 
@@ -519,7 +519,7 @@ If we wanted to find Maddy's information using another method we could do that b
 
 <br>
 
-2. You then navigate through the domain controller and then double click on "Default Domain Policy". You can change a variety of windows settings in the Default Domain Policy" such as changing how long the users password expire, how many login attempts a user can get, etc.
+2. Next, navigate to the domain controller and double-click on the "Default Domain Policy." Within this policy, you can modify various Windows settings, such as the duration before a user's password expires, the number of login attempts allowed, and more.
 
 <br>
 
@@ -563,7 +563,7 @@ If we wanted to find Maddy's information using another method we could do that b
 
 <br>
 
-4. Here you can see information about the Domain Policy of your domain controller. Under "Account Policies/Account Lockout Policy" I see that the account lockout threshold is set to 0 invalid logon attempts. I am going to change this setting in the following steps.
+4. This section provides information about the Domain Policy of your domain controller. Under "Account Policies/Account Lockout Policy," I noticed that the account lockout threshold is set to 0 invalid logon attempts. I will change this setting in the following steps.
 
 <br>
 
@@ -591,7 +591,7 @@ If we wanted to find Maddy's information using another method we could do that b
 
 <br>
 
-1. Right click on "Default Domain" and click on "Edit".
+1. Right-click on "Default Domain" and click on "Edit".
 
 <br>
 
@@ -613,7 +613,7 @@ If we wanted to find Maddy's information using another method we could do that b
 
 <br>
 
-2. Navigate to Computer Configuration > Policies > Windows Settings > Security Settings. Then double click on "Account Policies".
+2. Navigate to Computer Configuration > Policies > Windows Settings > Security Settings, and then double-click on Account Policies.
 
 <br>
 
@@ -635,7 +635,7 @@ If we wanted to find Maddy's information using another method we could do that b
 
 <br>
 
-3. Double click on "Account Lockout Policy".
+3. Double-click on "Account Lockout Policy".
 
 <br>
 
@@ -657,7 +657,7 @@ If we wanted to find Maddy's information using another method we could do that b
 
 <br>
 
-4. Double click on "Account lockout duration". By default it is set to "Not Defined" and we need to change that in order to change anything else.
+4. Double-click on "Account Lockout Duration." By default, it is set to "Not Defined." We need to change this setting in order to modify any other options.
 
 <br>
 
@@ -679,7 +679,7 @@ If we wanted to find Maddy's information using another method we could do that b
 
 <br>
 
-5. Click the checkbox that says "Define this policy settings". It will then set the value for "Account is locked out for: " to 30 minutes. I opted to leave it at thirty minutes. Click apply and then "Ok" once you set the values that you want.
+5. Click the checkbox labeled "Define this policy setting." This will set the value for "Account is locked out for:" to 30 minutes. I chose to leave it at 30 minutes. After setting your desired values, click "Apply" and then "OK."
 
 <br>
 
@@ -701,8 +701,7 @@ If we wanted to find Maddy's information using another method we could do that b
 
 <br>
 
-6. When setting an "account lockout threshold" you will get suggested value changes.
-
+6. When setting the "account lockout threshold," suggested value changes will be provided.
 <br>
 
 <br>
@@ -723,7 +722,7 @@ If we wanted to find Maddy's information using another method we could do that b
 
 <br>
 
-7. I will be changing my account lockout threshold settings from 5 invalid logon attempts. Double click on "Account lockout threshold"
+7. I will change my account lockout threshold setting from 5 invalid login attempts. To do this, double-click on "Account lockout threshold."
 
 <br>
 
@@ -745,8 +744,7 @@ If we wanted to find Maddy's information using another method we could do that b
 
 <br>
 
-8. Set the invalid logon attempts to whatever value you want it to be.
-
+8. Set the number of invalid logon attempts to your desired value.
 <br>
 
 <br>
@@ -767,11 +765,11 @@ If we wanted to find Maddy's information using another method we could do that b
 
 <br>
 
-7. If you navigate to Security Setting > Account Policies > Password Policy, you can see that you are able to change settings under "Policy".
+7. By navigating to Security Settings > Account Policies > Password Policy, you can view and modify the settings under "Policy."
+
 <div>
 
   
-
 <button class="updateDetails">
 
 ![](/assets/blog/group-policy-managment-14.png){.myImg}
@@ -807,7 +805,7 @@ If we wanted to find Maddy's information using another method we could do that b
 
 <br>
 
-9. Once you are finished changing setting in the Domain Policy, right-click on "Default Domain Policy" and click on "Enforced."
+9. Once you have finished changing the settings in the Domain Policy, right-click on "Default Domain Policy" and select "Enforced."
 
 <br>
 
@@ -829,7 +827,7 @@ If we wanted to find Maddy's information using another method we could do that b
 
 <br>
 
-10. Navigate to "Account Policies/Password Policy" in the "Settings" tab with the Default Domain Policy and you should see the changes that you made.
+10. Navigate to "Account Policies" > "Password Policy" under the "Settings" tab in the Default Domain Policy, and you should see the changes you made.
 
 <br>
 
@@ -857,4 +855,4 @@ If we wanted to find Maddy's information using another method we could do that b
 
 <br>
 
-In this lab, I explored how Organizational Units (OUs) are used to organize directories within Active Directory. I created some OUs and added users to them. I logged into one of the newly created user accounts, '"Maddy", and used command-line tools like `net user maddy /domain` to view her information. Additionally, I reviewed Group Policy, including how to access it and set an account lockout threshold. The account lockout threshold specifies the number of failed login attempts allowed before an account is locked. This process also allowed me to modify several Group Policy settings, such as password expiration policies, minimum password length, and more.
+In this lab, I explored how Organizational Units (OUs) are used to organize directories within Active Directory. I created some OUs and added users to them. I logged into one of the newly created user accounts, '"Maddy", and used command-line tools like `net user maddy /domain` to view her information. Additionally, I reviewed the Group Policy, including how to access it and set an account lockout threshold. The account lockout threshold specifies the number of failed login attempts allowed before an account is locked. This process also allowed me to modify several Group Policy settings, such as password expiration policies, minimum password length, and more.
