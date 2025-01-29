@@ -5,9 +5,8 @@
   --fs-600: 1.875rem;
   --fs-700: 2rem;
   --fs-900: 4rem;
-  --ff-body: "Roboto", sans-serif;
-  --ff-heading: "Playfair Display", serif;
-
+  --ff-family: sans-serif;
+  
   --fw-400: 400;
   --fw-700: 700;
   --fw-900: 900;
@@ -126,7 +125,7 @@ select {
   /////////////////////// */
 
 body {
-  font-family: var(--ff-body);
+  font-family: var(--ff-family);
   font-size: var(--fs-400);
   color: var(--clr-neutral-900);
 }
@@ -134,7 +133,7 @@ body {
 h1,
 h2,
 h3 {
-  font-family: var(--ff-heading);
+  font-family: var(--ff-family);
   font-weight: var(--fw-900);
   line-height: 1.1;
 }
@@ -474,14 +473,7 @@ aside {
   }
 
  
-  /* Prevent .flow rule from affecting the dialog's default behavior */
-dialog[open] {
-  display: revert; /* Reverts to the browser's default styles */
-}
 
-dialog[open] > * {
-  margin-top: revert; /* Reset margin for dialog children */
-}
 
  .dialog-img {
   max-width: 100%;
