@@ -1,6 +1,12 @@
 ---
 layout: 'base.njk'
 ---
+<dialog class="modal" id="image-dialog">
+  <img src="" alt="" class="dialog-img">
+  <div>
+    <button class="cancel" type="button">&times;</button>
+  </div>
+</dialog>
 
 <article class="main-article">
 
@@ -29,13 +35,6 @@ layout: 'base.njk'
         {{ imageAlt}}
       </figcaption>
     </figure>
-
-    <dialog class="modal" id="image-dialog">
-      <img src="" alt="" class="dialog-img">
-      <div>
-        <button class="cancel" type="button">&times;</button>
-      </div>
-    </dialog>
 
     {{ content | safe}}
 
